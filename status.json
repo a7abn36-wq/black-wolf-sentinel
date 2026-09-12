@@ -2,56 +2,56 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-12T07:11:21.273Z",
- "uptimeSec": 2707,
+ "uptimeSec": 2784,
  "ws": true,
- "trades": 220,
+ "trades": 228,
  "weight1m": 3000,
- "lastEventAt": 1789199536521,
+ "lastEventAt": 1789199861665,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 50,
-   "cols1": 901,
-   "cols60": 31,
-   "pools": 6,
+   "cols1": 902,
+   "cols60": 32,
+   "pools": 5,
    "mid": 4355.98,
-   "cvd": 4.45,
+   "cvd": 6.72,
    "liveSince": 1789197100,
    "activeSigs": 0,
-   "alerts": 0,
+   "alerts": 1,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4319.360000000001,
      "side": "bid",
-     "usd": 250100,
+     "usd": 220977,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4390.08,
      "side": "ask",
-     "usd": 225989,
+     "usd": 199720,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4328.200000000001,
      "side": "bid",
-     "usd": 150261,
+     "usd": 132786,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.95
     },
     {
      "price": 4323.780000000001,
      "side": "bid",
-     "usd": 150034,
+     "usd": 132560,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.95
     }
    ]
   },
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
    "cover": 67,
-   "cols1": 901,
-   "cols60": 31,
+   "cols1": 902,
+   "cols60": 32,
    "pools": 6,
    "mid": 4350.39,
-   "cvd": 0.66,
+   "cvd": 0.48,
    "liveSince": 1789197108,
    "activeSigs": 0,
    "alerts": 12,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4302.900000000001,
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789199861665,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4381.58 اتسحبت من الكتاب"
+  },
   {
    "t": 1789199536521,
    "sym": "XAUTUSDT",
@@ -181,12 +187,12 @@
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 14,
+  "sent": 15,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789199537996,
+  "lastOk": 1789199862322,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789199789000
+ "fetchedAt": 1789199865000
 }
