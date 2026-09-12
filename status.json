@@ -2,17 +2,17 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-12T07:11:21.273Z",
- "uptimeSec": 12558,
+ "uptimeSec": 12619,
  "ws": true,
- "trades": 1005,
+ "trades": 1007,
  "weight1m": 3000,
- "lastEventAt": 1789209396303,
+ "lastEventAt": 1789209696457,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 49,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
    "mid": 4356.28,
@@ -23,7 +23,7 @@
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4320.72,
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 67,
-   "cols1": 902,
+   "cover": 68,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
    "mid": 4350.82,
-   "cvd": -18,
+   "cvd": -18.01,
    "liveSince": 1789197108,
    "activeSigs": 0,
-   "alerts": 74,
+   "alerts": 75,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4302.900000000001,
@@ -96,7 +96,7 @@
     {
      "price": 4321.8,
      "side": "bid",
-     "usd": 212562,
+     "usd": 212916,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789209696457,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4351.05 ($153k) — راقب رد الفعل"
+  },
   {
    "t": 1789209396303,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4322.25 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789207544394,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4368.15 · $122k · قوة 0.9"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 100,
+  "sent": 101,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789209396526,
+  "lastOk": 1789209696654,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789209639000
+ "fetchedAt": 1789209701000
 }
