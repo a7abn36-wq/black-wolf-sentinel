@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-12T18:22:08.030Z",
- "uptimeSec": 10032,
+ "uptimeSec": 10093,
  "ws": true,
- "trades": 803,
+ "trades": 817,
  "weight1m": 3000,
- "lastEventAt": 1789247115795,
+ "lastEventAt": 1789247415940,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 50,
-   "cols1": 900,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
    "mid": 4354.68,
-   "cvd": 0.09,
+   "cvd": 0.19,
    "liveSince": 1789237335,
    "activeSigs": 0,
    "alerts": 34,
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
    "cover": 69,
-   "cols1": 899,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
-   "mid": 4349.43,
-   "cvd": 9.35,
+   "mid": 4349.68,
+   "cvd": 9.51,
    "liveSince": 1789237357,
    "activeSigs": 0,
-   "alerts": 66,
+   "alerts": 67,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -96,7 +96,7 @@
     {
      "price": 4377.56,
      "side": "ask",
-     "usd": 215359,
+     "usd": 215358,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789247415940,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4351.16 ($164k) — راقب رد الفعل"
+  },
   {
    "t": 1789247115795,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4377.56 · $173k · قوة 1.0"
-  },
-  {
-   "t": 1789244992758,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4389.66 · $121k · قوة 0.7"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 100,
+  "sent": 101,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1789247118670,
+  "lastOk": 1789247416178,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1789247360000
+ "fetchedAt": 1789247421000
 }
