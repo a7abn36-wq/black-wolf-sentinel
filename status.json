@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-12T07:11:21.273Z",
- "uptimeSec": 1254,
+ "uptimeSec": 1466,
  "ws": true,
- "trades": 114,
+ "trades": 119,
  "weight1m": 3000,
- "lastEventAt": 1789198335916,
+ "lastEventAt": 1789198536015,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 50,
-   "cols1": 899,
-   "cols60": 7,
+   "cols1": 900,
+   "cols60": 10,
    "pools": 6,
    "mid": 4355.55,
-   "cvd": 2.4,
+   "cvd": 2.43,
    "liveSince": 1789197100,
    "activeSigs": 0,
    "alerts": 0,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4319.360000000001,
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 67,
-   "cols1": 899,
-   "cols60": 7,
-   "pools": 6,
-   "mid": 4350.36,
-   "cvd": 0.56,
+   "cover": 66,
+   "cols1": 900,
+   "cols60": 10,
+   "pools": 5,
+   "mid": 4350.39,
+   "cvd": 0.93,
    "liveSince": 1789197108,
    "activeSigs": 0,
-   "alerts": 6,
+   "alerts": 7,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4302.900000000001,
@@ -96,7 +96,7 @@
     {
      "price": 4322.7,
      "side": "bid",
-     "usd": 217121,
+     "usd": 217118,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789198536015,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4368.15 اتسحبت من الكتاب"
+  },
   {
    "t": 1789198335916,
    "sym": "XAUTUSDT",
@@ -144,13 +150,13 @@
  "tg": {
   "configured": true,
   "dryRun": false,
-  "queue": 1,
-  "sent": 6,
+  "queue": 0,
+  "sent": 9,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789197370903,
+  "lastOk": 1789198536550,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789198336000
+ "fetchedAt": 1789198547000
 }
