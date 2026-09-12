@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-12T18:22:08.030Z",
- "uptimeSec": 8894,
+ "uptimeSec": 8925,
  "ws": true,
- "trades": 706,
+ "trades": 707,
  "weight1m": 3000,
- "lastEventAt": 1789246214352,
+ "lastEventAt": 1789246250369,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 49,
-   "cols1": 904,
+   "cols1": 901,
    "cols60": 105,
-   "pools": 2,
+   "pools": 3,
    "mid": 4354.48,
    "cvd": -8.86,
    "liveSince": 1789237335,
    "activeSigs": 0,
-   "alerts": 28,
+   "alerts": 29,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4318.71,
@@ -38,6 +38,13 @@
      "usd": 210036,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4389.66,
+     "side": "ask",
+     "usd": 120729,
+     "durSec": 600,
+     "strength": 0.81
     }
    ]
   },
@@ -45,18 +52,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
    "cover": 69,
-   "cols1": 904,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
    "mid": 4349.4,
-   "cvd": 6.56,
+   "cvd": 6.52,
    "liveSince": 1789237357,
    "activeSigs": 0,
    "alerts": 63,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4303.2,
@@ -82,7 +89,7 @@
     {
      "price": 4320.8,
      "side": "bid",
-     "usd": 212869,
+     "usd": 213224,
      "durSec": 600,
      "strength": 1
     }
@@ -90,6 +97,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789246250369,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4389.66 · $121k · قوة 0.8"
+  },
   {
    "t": 1789246214352,
    "sym": "PAXGUSDT",
@@ -203,24 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4351.16 ($194k) — راقب رد الفعل"
-  },
-  {
-   "t": 1789244347448,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4385.04 · $120k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 91,
+  "sent": 92,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1789246214905,
+  "lastOk": 1789246250584,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1789246222000
+ "fetchedAt": 1789246253000
 }
