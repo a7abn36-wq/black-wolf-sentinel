@@ -1,0 +1,116 @@
+name: 🐺 Black Wolf Sentinel
+
+on:
+  schedule:
+    # شبكة أمان كل 30 دقيقة — الوضع الطبيعي: خطوة السلسلة بتعيد الوردية فوراً
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: sentinel-run
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: 📥 سحب كود السنتينل من الريبو الخاص
+        uses: actions/checkout@v4
+        with:
+          repository: a7abn36-wq/black-wolf
+          ref: main
+          token: ${{ secrets.REPO_PAT }}
+          path: code
+          persist-credentials: false
+
+      - name: 📦 تجهيز ريبو النشر (نفس الريبو ده)
+        uses: actions/checkout@v4
+        with:
+          path: pub
+
+      - name: 🟢 Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 🔑 بوابة التوكنات
+        id: gate
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: |
+          if [ -n "$BOT_TOKEN" ] && [ -n "$CHAT_ID" ]; then
+            echo "active=true" >> "$GITHUB_OUTPUT"
+            echo "التوكنات موجودة — الوردية هتبدأ"
+          else
+            echo "active=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::BOT_TOKEN/CHAT_ID مش متظبطين في Secrets لسه — الوردية معطلة. حطهم من Settings ثم Secrets ثم Actions"
+          fi
+
+      - name: 🐺 تشغيل الحارس + نشر الحالة
+        id: run
+        if: steps.gate.outputs.active == 'true'
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          PORT: '8787'
+          MAX_LIFETIME_MS: '20100000'
+        run: |
+          git -C pub config user.name "bw-sentinel-bot"
+          git -C pub config user.email "github-actions[bot]@users.noreply.github.com"
+          echo "chained=false" >> "$GITHUB_OUTPUT"
+          START=$(date +%s)
+          ( cd code && node sentinel/sentinel.js ) &
+          PID=$!
+          PREVKEY="__init__"
+          LAST_FORCE=0
+          publish() {
+            python3 -c 'import json,sys;d=json.load(open("/tmp/st.json"));d["fetchedAt"]=int(sys.argv[1])*1000;open("pub/status.json","w").write(json.dumps(d,ensure_ascii=False,indent=1))' "$1" || return 1
+            git -C pub add status.json || return 1
+            git -C pub commit -q -m "status $(date -u '+%m-%d %H:%M:%S')" || return 0
+            git -C pub push -q origin HEAD:main || { git -C pub pull --rebase -q origin main || true; git -C pub push -q origin HEAD:main || true; }
+          }
+          while kill -0 "$PID" 2>/dev/null; do
+            sleep 15
+            curl -sf --max-time 8 "http://127.0.0.1:${PORT}/status" -o /tmp/st.json || continue
+            NOW=$(date +%s)
+            KEY=$(python3 -c 'import json;d=json.load(open("/tmp/st.json"));r=d.get("recent") or [];print(int(bool(d.get("ok"))),d.get("ws"),r[0]["t"] if r else 0,(d.get("tg") or {}).get("failed"),(d.get("tg") or {}).get("mutedUntil"))' 2>/dev/null || echo "x")
+            if [ "$KEY" != "$PREVKEY" ] || [ $((NOW - LAST_FORCE)) -ge 240 ]; then
+              publish "$NOW" || true
+              PREVKEY="$KEY"
+              LAST_FORCE=$NOW
+            fi
+          done
+          wait "$PID" || true
+          END=$(date +%s)
+          echo "الوردية خلصت بعد $(( (END - START) / 60 )) دقيقة"
+          if curl -sf --max-time 5 "http://127.0.0.1:${PORT}/status" -o /tmp/st.json; then
+            publish "$END" || true
+          fi
+          if [ $((END - START)) -ge 600 ]; then
+            echo "chained=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 💓 نبضة نشاط الريبو (تمنع تعطيل الكرون بعد 60 يوم سكون)
+        if: steps.gate.outputs.active == 'true'
+        run: |
+          cd pub
+          git config user.name "bw-sentinel-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > .heartbeat
+          git add .heartbeat
+          git commit -q -m "heartbeat $(date -u +%Y-%m-%d)" || exit 0
+          git push -q origin HEAD:main || { git pull --rebase -q origin main || true; git push -q origin HEAD:main || true; }
+
+      - name: 🔗 سلسلة الوردية اللي بعدها فوراً
+        if: steps.run.outputs.chained == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X POST "repos/${{ github.repository }}/actions/workflows/sentinel.yml/dispatches" -f ref="${{ github.ref_name }}" \
+            && echo "الوردية الجاية اتشينت — هتقوم أول ما دي تقفل ✅"
