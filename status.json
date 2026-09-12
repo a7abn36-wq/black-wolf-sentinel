@@ -2,36 +2,29 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-12T18:22:08.030Z",
- "uptimeSec": 5806,
+ "uptimeSec": 5837,
  "ws": true,
  "trades": 500,
- "weight1m": 3000,
- "lastEventAt": 1789242891749,
+ "weight1m": 2950,
+ "lastEventAt": 1789243163870,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 49,
-   "cols1": 903,
-   "cols60": 82,
-   "pools": 5,
+   "cols1": 904,
+   "cols60": 83,
+   "pools": 4,
    "mid": 4356.11,
    "cvd": -1.43,
    "liveSince": 1789237335,
    "activeSigs": 0,
-   "alerts": 1,
+   "alerts": 2,
    "signals": 0,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 1,
    "poolsList": [
-    {
-     "price": 4320.6900000000005,
-     "side": "bid",
-     "usd": 232323,
-     "durSec": 600,
-     "strength": 1
-    },
     {
      "price": 4391.31,
      "side": "ask",
@@ -40,18 +33,25 @@
      "strength": 1
     },
     {
+     "price": 4320.6900000000005,
+     "side": "bid",
+     "usd": 219840,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
      "price": 4324.9800000000005,
      "side": "bid",
-     "usd": 142187,
+     "usd": 134698,
      "durSec": 600,
-     "strength": 0.9
+     "strength": 0.85
     },
     {
      "price": 4329.27,
      "side": "bid",
-     "usd": 139418,
+     "usd": 131928,
      "durSec": 600,
-     "strength": 0.88
+     "strength": 0.83
     }
    ]
   },
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
    "cover": 68,
-   "cols1": 903,
-   "cols60": 82,
+   "cols1": 904,
+   "cols60": 83,
    "pools": 6,
    "mid": 4350.78,
    "cvd": 8.36,
    "liveSince": 1789237357,
    "activeSigs": 0,
-   "alerts": 38,
+   "alerts": 39,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -104,6 +104,18 @@
   }
  },
  "recent": [
+  {
+   "t": 1789243163870,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4351.16 ($179k) — راقب رد الفعل"
+  },
+  {
+   "t": 1789243161873,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4387.02 اتسحبت من الكتاب"
+  },
   {
    "t": 1789242891749,
    "sym": "PAXGUSDT",
@@ -211,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4351.16 ($164k) — راقب رد الفعل"
-  },
-  {
-   "t": 1789240463552,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4351.16 ($164k) — راقب رد الفعل"
-  },
-  {
-   "t": 1789240190435,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4367.88 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 40,
+  "sent": 42,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789242892281,
+  "lastOk": 1789243165125,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789243134000
+ "fetchedAt": 1789243165000
 }
