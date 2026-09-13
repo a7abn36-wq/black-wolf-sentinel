@@ -2,17 +2,17 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T16:43:59.048Z",
- "uptimeSec": 16640,
+ "uptimeSec": 16686,
  "ws": true,
- "trades": 3568,
+ "trades": 3570,
  "weight1m": 3000,
- "lastEventAt": 1789334466154,
+ "lastEventAt": 1789334521188,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 54,
-   "cols1": 901,
+   "cols1": 897,
    "cols60": 105,
    "pools": 2,
    "mid": 4347.35,
@@ -23,19 +23,19 @@
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4311.780000000001,
      "side": "bid",
-     "usd": 154607,
+     "usd": 173333,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4382.400000000001,
      "side": "ask",
-     "usd": 124276,
+     "usd": 139332,
      "durSec": 600,
      "strength": 0.99
     }
@@ -44,19 +44,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 78,
-   "cols1": 898,
+   "cover": 79,
+   "cols1": 899,
    "cols60": 105,
-   "pools": 6,
+   "pools": 5,
    "mid": 4343.36,
-   "cvd": -66.15,
+   "cvd": -66.14,
    "liveSince": 1789317842,
    "activeSigs": 0,
-   "alerts": 129,
+   "alerts": 130,
    "signals": 3,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4303.01,
@@ -83,13 +83,19 @@
      "price": 4317.2,
      "side": "bid",
      "usd": 213009,
-     "durSec": 519,
+     "durSec": 474,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789334521188,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4362.78 اتسحبت من الكتاب"
+  },
   {
    "t": 1789334466154,
    "sym": "PAXGUSDT",
@@ -203,24 +209,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4364.50 · $121k · قوة 1.0"
-  },
-  {
-   "t": 1789333489714,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4329.67 · $121k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 216,
+  "sent": 217,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789334466308,
+  "lastOk": 1789334521640,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789334479000
+ "fetchedAt": 1789334525000
 }
