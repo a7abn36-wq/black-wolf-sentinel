@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T16:43:59.048Z",
- "uptimeSec": 8441,
+ "uptimeSec": 8608,
  "ws": true,
- "trades": 1361,
+ "trades": 1608,
  "weight1m": 3000,
- "lastEventAt": 1789326277309,
+ "lastEventAt": 1789326437400,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
-   "cover": 49,
-   "cols1": 901,
+   "cover": 47,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4356.93,
-   "cvd": -7.48,
+   "mid": 4357.86,
+   "cvd": -7.56,
    "liveSince": 1789317890,
    "activeSigs": 0,
    "alerts": 28,
-   "signals": 0,
+   "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4319.04,
@@ -49,28 +49,28 @@
     {
      "price": 4323.66,
      "side": "bid",
-     "usd": 154547,
+     "usd": 154549,
      "durSec": 600,
-     "strength": 0.97
+     "strength": 1
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 66,
-   "cols1": 904,
+   "cover": 65,
+   "cols1": 905,
    "cols60": 105,
    "pools": 6,
-   "mid": 4351.18,
-   "cvd": -24.78,
+   "mid": 4351.15,
+   "cvd": -73.25,
    "liveSince": 1789317842,
    "activeSigs": 0,
    "alerts": 65,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4303.01,
@@ -96,7 +96,7 @@
     {
      "price": 4321.93,
      "side": "bid",
-     "usd": 212214,
+     "usd": 168998,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789326437400,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4358.11"
+  },
   {
    "t": 1789326277309,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4381.08 · $120k · قوة 0.7"
-  },
-  {
-   "t": 1789324730534,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4327.62 · $121k · قوة 0.9"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 94,
+  "sent": 95,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789326279009,
+  "lastOk": 1789326437564,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789326280000
+ "fetchedAt": 1789326447000
 }
