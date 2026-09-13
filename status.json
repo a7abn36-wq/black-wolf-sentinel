@@ -2,18 +2,18 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T16:43:59.048Z",
- "uptimeSec": 4797,
+ "uptimeSec": 4859,
  "ws": true,
- "trades": 880,
+ "trades": 883,
  "weight1m": 3000,
- "lastEventAt": 1789322628514,
+ "lastEventAt": 1789322693555,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 49,
-   "cols1": 902,
-   "cols60": 65,
+   "cols1": 903,
+   "cols60": 66,
    "pools": 6,
    "mid": 4353.1,
    "cvd": -8.09,
@@ -44,29 +44,29 @@
      "side": "bid",
      "usd": 150112,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.96
     },
     {
      "price": 4328.610000000001,
      "side": "bid",
      "usd": 150091,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.96
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 65,
-   "cols1": 901,
-   "cols60": 65,
-   "pools": 3,
+   "cover": 66,
+   "cols1": 902,
+   "cols60": 66,
+   "pools": 4,
    "mid": 4349.77,
-   "cvd": -22.77,
+   "cvd": -22.76,
    "liveSince": 1789317842,
    "activeSigs": 0,
-   "alerts": 41,
+   "alerts": 42,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -82,7 +82,7 @@
     {
      "price": 4311.18,
      "side": "bid",
-     "usd": 527210,
+     "usd": 522142,
      "durSec": 600,
      "strength": 1
     },
@@ -92,11 +92,24 @@
      "usd": 502918,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4321.07,
+     "side": "bid",
+     "usd": 120297,
+     "durSec": 600,
+     "strength": 0.85
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789322693555,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4321.07 · $120k · قوة 0.8"
+  },
   {
    "t": 1789322628514,
    "sym": "XAUTUSDT",
@@ -210,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4382.07 · $121k · قوة 0.7"
-  },
-  {
-   "t": 1789320707553,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4386.36 · $121k · قوة 0.7"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 55,
+  "sent": 56,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789322628891,
+  "lastOk": 1789322693874,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789322636000
+ "fetchedAt": 1789322698000
 }
