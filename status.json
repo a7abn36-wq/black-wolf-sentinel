@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T16:43:59.048Z",
- "uptimeSec": 14863,
+ "uptimeSec": 14969,
  "ws": true,
- "trades": 3187,
+ "trades": 3274,
  "weight1m": 3000,
- "lastEventAt": 1789332698398,
+ "lastEventAt": 1789332808443,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
-   "cover": 54,
-   "cols1": 902,
+   "cover": 52,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
-   "mid": 4346.44,
-   "cvd": -19.86,
+   "mid": 4348.77,
+   "cvd": -8.97,
    "liveSince": 1789317890,
    "activeSigs": 0,
    "alerts": 54,
@@ -58,16 +58,16 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 78,
-   "cols1": 904,
+   "cover": 75,
+   "cols1": 905,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4343.86,
-   "cvd": -51.47,
+   "pools": 2,
+   "mid": 4345.39,
+   "cvd": -67.61,
    "liveSince": 1789317842,
    "activeSigs": 0,
-   "alerts": 112,
-   "signals": 2,
+   "alerts": 113,
+   "signals": 3,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 1,
@@ -85,18 +85,23 @@
      "usd": 500090,
      "durSec": 600,
      "strength": 1
-    },
-    {
-     "price": 4367.51,
-     "side": "ask",
-     "usd": 159084,
-     "durSec": 600,
-     "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789332808443,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4367.51 اتسحبت من الكتاب"
+  },
+  {
+   "t": 1789332797428,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4345.39"
+  },
   {
    "t": 1789332698398,
    "sym": "XAUTUSDT",
@@ -204,30 +209,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4324.51 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789331561858,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4380.84 · $122k · قوة 1.0"
-  },
-  {
-   "t": 1789331441796,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4324.51 · $121k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 171,
+  "sent": 172,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789332698535,
+  "lastOk": 1789332797563,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789332702000
+ "fetchedAt": 1789332808000
 }
