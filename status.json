@@ -2,24 +2,24 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T22:19:15.700Z",
- "uptimeSec": 3565,
+ "uptimeSec": 3776,
  "ws": true,
- "trades": 1437,
+ "trades": 1618,
  "weight1m": 3000,
- "lastEventAt": 1789341517457,
+ "lastEventAt": 1789341725548,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.35,
    "cover": 48,
    "cols1": 903,
-   "cols60": 45,
+   "cols60": 49,
    "pools": 4,
-   "mid": 4342.6,
-   "cvd": 7.87,
+   "mid": 4340.35,
+   "cvd": -41.26,
    "liveSince": 1789337959,
    "activeSigs": 0,
-   "alerts": 10,
+   "alerts": 11,
    "signals": 3,
    "wins": 0,
    "losses": 0,
@@ -51,19 +51,19 @@
      "side": "ask",
      "usd": 121164,
      "durSec": 600,
-     "strength": 0.82
+     "strength": 0.89
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.48,
-   "cover": 71,
+   "cover": 70,
    "cols1": 903,
-   "cols60": 45,
+   "cols60": 49,
    "pools": 3,
-   "mid": 4337.35,
-   "cvd": 0.33,
+   "mid": 4335.68,
+   "cvd": -1.17,
    "liveSince": 1789337957,
    "activeSigs": 0,
    "alerts": 29,
@@ -97,6 +97,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789341725548,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $220k"
+  },
   {
    "t": 1789341517457,
    "sym": "XAUTUSDT",
@@ -210,24 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4306.56 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789339606504,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD SHORT @ 4340.73"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 46,
+  "sent": 47,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789341517673,
+  "lastOk": 1789341726022,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789341520000
+ "fetchedAt": 1789341732000
 }
