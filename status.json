@@ -2,24 +2,24 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-12T23:57:34.819Z",
- "uptimeSec": 10543,
+ "uptimeSec": 10620,
  "ws": true,
- "trades": 578,
+ "trades": 586,
  "weight1m": 3000,
- "lastEventAt": 1789267989468,
+ "lastEventAt": 1789268069510,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 49,
-   "cols1": 905,
+   "cols1": 901,
    "cols60": 105,
-   "pools": 3,
+   "pools": 2,
    "mid": 4357.02,
-   "cvd": -19.5,
+   "cvd": -19.34,
    "liveSince": 1789257491,
    "activeSigs": 0,
-   "alerts": 6,
+   "alerts": 7,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -28,23 +28,16 @@
     {
      "price": 4321.35,
      "side": "bid",
-     "usd": 136496,
+     "usd": 169779,
      "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4381.41,
-     "side": "ask",
-     "usd": 135865,
-     "durSec": 600,
-     "strength": 0.98
-    },
-    {
      "price": 4392.3,
      "side": "ask",
-     "usd": 123128,
+     "usd": 153150,
      "durSec": 600,
-     "strength": 0.89
+     "strength": 1
     }
    ]
   },
@@ -52,11 +45,11 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.46,
    "cover": 71,
-   "cols1": 905,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
    "mid": 4351.03,
-   "cvd": -15.28,
+   "cvd": -15.06,
    "liveSince": 1789257509,
    "activeSigs": 0,
    "alerts": 83,
@@ -89,7 +82,7 @@
     {
      "price": 4368.62,
      "side": "ask",
-     "usd": 182493,
+     "usd": 192098,
      "durSec": 600,
      "strength": 1
     }
@@ -97,6 +90,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789268069510,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4381.41 اتسحبت من الكتاب"
+  },
   {
    "t": 1789267989468,
    "sym": "PAXGUSDT",
@@ -210,24 +209,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4351.14 · $161k · قوة 1.0"
-  },
-  {
-   "t": 1789266183486,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4333.20 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 90,
+  "sent": 91,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789267989645,
+  "lastOk": 1789268069939,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789267998000
+ "fetchedAt": 1789268074000
 }
