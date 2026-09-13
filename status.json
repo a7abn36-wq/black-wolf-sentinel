@@ -2,42 +2,49 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T11:08:30.162Z",
- "uptimeSec": 2666,
+ "uptimeSec": 2682,
  "ws": true,
  "trades": 675,
- "weight1m": 2950,
- "lastEventAt": 1789300367474,
+ "weight1m": 3000,
+ "lastEventAt": 1789300388483,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
    "cover": 53,
-   "cols1": 905,
-   "cols60": 30,
-   "pools": 2,
+   "cols1": 902,
+   "cols60": 31,
+   "pools": 3,
    "mid": 4354.02,
    "cvd": 14.42,
    "liveSince": 1789297765,
    "activeSigs": 0,
-   "alerts": 26,
+   "alerts": 27,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4319.01,
      "side": "bid",
-     "usd": 192780,
+     "usd": 199022,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4388.2,
      "side": "ask",
-     "usd": 157050,
+     "usd": 162069,
      "durSec": 600,
      "strength": 0.99
+    },
+    {
+     "price": 4327.89,
+     "side": "bid",
+     "usd": 121218,
+     "durSec": 600,
+     "strength": 0.75
     }
    ]
   },
@@ -45,8 +52,8 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.53,
    "cover": 74,
-   "cols1": 905,
-   "cols60": 30,
+   "cols1": 902,
+   "cols60": 31,
    "pools": 6,
    "mid": 4348.56,
    "cvd": 58.98,
@@ -56,7 +63,7 @@
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4303.070000000001,
@@ -90,6 +97,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789300388483,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4327.89 · $121k · قوة 0.8"
+  },
   {
    "t": 1789300367474,
    "sym": "XAUTUSDT",
@@ -203,24 +216,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4323.82 · $120k · قوة 0.8"
-  },
-  {
-   "t": 1789299366026,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4376.73 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 51,
+  "sent": 52,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789300368952,
+  "lastOk": 1789300388908,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789300376000
+ "fetchedAt": 1789300392000
 }
