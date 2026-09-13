@@ -2,61 +2,68 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T11:08:30.162Z",
- "uptimeSec": 852,
+ "uptimeSec": 913,
  "ws": true,
- "trades": 273,
+ "trades": 292,
  "weight1m": 3000,
- "lastEventAt": 1789298550611,
+ "lastEventAt": 1789298620645,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
    "cover": 54,
-   "cols1": 851,
-   "cols60": 0,
-   "pools": 3,
+   "cols1": 902,
+   "cols60": 1,
+   "pools": 4,
    "mid": 4352.13,
    "cvd": 1.77,
    "liveSince": 1789297765,
    "activeSigs": 0,
-   "alerts": 2,
+   "alerts": 3,
    "signals": 0,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 1,
    "poolsList": [
     {
-     "price": 4354.53,
-     "side": "ask",
-     "usd": 143479,
-     "durSec": 600,
-     "strength": 1
-    },
-    {
      "price": 4376.73,
      "side": "ask",
-     "usd": 141065,
+     "usd": 153149,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4316.42,
      "side": "bid",
-     "usd": 125191,
+     "usd": 150221,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4354.53,
+     "side": "ask",
+     "usd": 143488,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4385.61,
+     "side": "ask",
+     "usd": 121027,
+     "durSec": 600,
+     "strength": 0.98
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.53,
-   "cover": 79,
-   "cols1": 851,
-   "cols60": 0,
+   "cover": 78,
+   "cols1": 902,
+   "cols60": 1,
    "pools": 3,
-   "mid": 4348.11,
-   "cvd": 38.8,
+   "mid": 4347.78,
+   "cvd": 50.63,
    "liveSince": 1789297712,
    "activeSigs": 0,
    "alerts": 11,
@@ -75,7 +82,7 @@
     {
      "price": 4306.780000000001,
      "side": "bid",
-     "usd": 545735,
+     "usd": 547255,
      "durSec": 600,
      "strength": 1
     },
@@ -90,6 +97,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789298620645,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4385.61 · $121k · قوة 1.0"
+  },
   {
    "t": 1789298550611,
    "sym": "PAXGUSDT",
@@ -173,12 +186,12 @@
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 14,
+  "sent": 15,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789298550776,
+  "lastOk": 1789298620863,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789298562000
+ "fetchedAt": 1789298623000
 }
