@@ -2,9 +2,9 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T11:08:30.162Z",
- "uptimeSec": 17113,
+ "uptimeSec": 17355,
  "ws": true,
- "trades": 3775,
+ "trades": 3892,
  "weight1m": 3000,
  "lastEventAt": 1789314812354,
  "symbols": {
@@ -12,23 +12,30 @@
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
    "cover": 53,
-   "cols1": 905,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
-   "mid": 4348.35,
-   "cvd": -14.06,
+   "mid": 4348.41,
+   "cvd": -11.05,
    "liveSince": 1789297765,
    "activeSigs": 0,
    "alerts": 97,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4316.05,
      "side": "bid",
      "usd": 251662,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4324.56,
+     "side": "bid",
+     "usd": 225153,
      "durSec": 600,
      "strength": 1
     },
@@ -40,18 +47,11 @@
      "strength": 1
     },
     {
-     "price": 4324.56,
-     "side": "bid",
-     "usd": 215291,
-     "durSec": 600,
-     "strength": 1
-    },
-    {
      "price": 4320.12,
      "side": "bid",
-     "usd": 161987,
+     "usd": 161850,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.88
     }
    ]
   },
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.53,
    "cover": 79,
-   "cols1": 905,
+   "cols1": 901,
    "cols60": 105,
    "pools": 4,
-   "mid": 4347.98,
-   "cvd": 285.6,
+   "mid": 4347.56,
+   "cvd": 293.93,
    "liveSince": 1789297712,
    "activeSigs": 0,
    "alerts": 128,
    "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4303.070000000001,
@@ -97,7 +97,7 @@
      "price": 4374.62,
      "side": "ask",
      "usd": 215716,
-     "durSec": 194,
+     "durSec": 250,
      "strength": 1
     }
    ]
@@ -236,5 +236,5 @@
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789314823000
+ "fetchedAt": 1789315065000
 }
