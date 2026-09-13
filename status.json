@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T22:19:15.700Z",
- "uptimeSec": 4959,
+ "uptimeSec": 5051,
  "ws": true,
- "trades": 2267,
+ "trades": 2281,
  "weight1m": 3000,
- "lastEventAt": 1789342909093,
+ "lastEventAt": 1789342999129,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.35,
-   "cover": 45,
-   "cols1": 898,
-   "cols60": 68,
-   "pools": 5,
-   "mid": 4342.47,
-   "cvd": -258.89,
+   "cover": 44,
+   "cols1": 899,
+   "cols60": 70,
+   "pools": 4,
+   "mid": 4341.91,
+   "cvd": -258.98,
    "liveSince": 1789337959,
    "activeSigs": 0,
-   "alerts": 15,
+   "alerts": 16,
    "signals": 4,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4365.55,
@@ -47,30 +47,30 @@
      "strength": 1
     },
     {
-     "price": 4300.1,
-     "side": "bid",
-     "usd": 146975,
-     "durSec": 579,
-     "strength": 1
+     "price": 4372.200000000001,
+     "side": "ask",
+     "usd": 121164,
+     "durSec": 600,
+     "strength": 0.82
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.48,
-   "cover": 68,
-   "cols1": 898,
-   "cols60": 68,
+   "cover": 67,
+   "cols1": 899,
+   "cols60": 70,
    "pools": 3,
-   "mid": 4338.69,
-   "cvd": -1.77,
+   "mid": 4338.15,
+   "cvd": -2.02,
    "liveSince": 1789337957,
    "activeSigs": 0,
    "alerts": 29,
    "signals": 3,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4303.2,
@@ -97,6 +97,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789342999129,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4300.10 اتسحبت من الكتاب"
+  },
   {
    "t": 1789342909093,
    "sym": "PAXGUSDT",
@@ -210,24 +216,18 @@
    "sym": "PAXGUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4344.93"
-  },
-  {
-   "t": 1789340304864,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4364.64 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 52,
+  "sent": 53,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789342909305,
+  "lastOk": 1789342999329,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789342915000
+ "fetchedAt": 1789343006000
 }
