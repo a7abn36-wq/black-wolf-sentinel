@@ -2,24 +2,24 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T16:43:59.048Z",
- "uptimeSec": 10834,
+ "uptimeSec": 10865,
  "ws": true,
- "trades": 2288,
+ "trades": 2289,
  "weight1m": 3000,
- "lastEventAt": 1789328659444,
+ "lastEventAt": 1789328704468,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 52,
-   "cols1": 902,
+   "cols1": 903,
    "cols60": 105,
-   "pools": 1,
+   "pools": 2,
    "mid": 4350.27,
    "cvd": -28.72,
    "liveSince": 1789317890,
    "activeSigs": 0,
-   "alerts": 43,
+   "alerts": 44,
    "signals": 1,
    "wins": 0,
    "losses": 0,
@@ -28,17 +28,24 @@
     {
      "price": 4313.76,
      "side": "bid",
-     "usd": 147823,
+     "usd": 133210,
      "durSec": 600,
-     "strength": 0.97
+     "strength": 0.87
+    },
+    {
+     "price": 4315.08,
+     "side": "bid",
+     "usd": 122001,
+     "durSec": 600,
+     "strength": 0.79
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 75,
-   "cols1": 900,
+   "cover": 76,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
    "mid": 4348.1,
@@ -75,7 +82,7 @@
     {
      "price": 4318.92,
      "side": "bid",
-     "usd": 208663,
+     "usd": 221084,
      "durSec": 600,
      "strength": 1
     }
@@ -83,6 +90,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789328704468,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4315.08 · $122k · قوة 0.8"
+  },
   {
    "t": 1789328659444,
    "sym": "PAXGUSDT",
@@ -196,24 +209,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4323.66 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789327783021,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4327.95 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 129,
+  "sent": 130,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789328659583,
+  "lastOk": 1789328704623,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789328673000
+ "fetchedAt": 1789328704000
 }
