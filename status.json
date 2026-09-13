@@ -2,18 +2,18 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T11:08:30.162Z",
- "uptimeSec": 1036,
+ "uptimeSec": 1052,
  "ws": true,
  "trades": 327,
  "weight1m": 3000,
- "lastEventAt": 1789298740714,
+ "lastEventAt": 1789298758721,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
    "cover": 55,
-   "cols1": 905,
-   "cols60": 3,
+   "cols1": 901,
+   "cols60": 4,
    "pools": 6,
    "mid": 4352.13,
    "cvd": 1.74,
@@ -23,35 +23,35 @@
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4316.42,
      "side": "bid",
-     "usd": 202365,
+     "usd": 208623,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4376.73,
      "side": "ask",
-     "usd": 178325,
+     "usd": 181346,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4385.61,
      "side": "ask",
-     "usd": 162850,
+     "usd": 167868,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4354.53,
      "side": "ask",
-     "usd": 143502,
+     "usd": 143453,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.98
     }
    ]
   },
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.53,
    "cover": 78,
-   "cols1": 905,
-   "cols60": 3,
-   "pools": 3,
+   "cols1": 901,
+   "cols60": 4,
+   "pools": 4,
    "mid": 4349.15,
    "cvd": 61.82,
    "liveSince": 1789297712,
    "activeSigs": 0,
-   "alerts": 11,
+   "alerts": 12,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4303.070000000001,
@@ -92,11 +92,24 @@
      "usd": 500173,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4376.74,
+     "side": "ask",
+     "usd": 121377,
+     "durSec": 600,
+     "strength": 0.78
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789298758721,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4376.74 · $121k · قوة 0.8"
+  },
   {
    "t": 1789298740714,
    "sym": "PAXGUSDT",
@@ -198,12 +211,12 @@
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 17,
+  "sent": 18,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789298740879,
+  "lastOk": 1789298758968,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789298746000
+ "fetchedAt": 1789298762000
 }
