@@ -2,71 +2,71 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-14T03:54:40.459Z",
- "uptimeSec": 19838,
+ "uptimeSec": 19885,
  "ws": true,
- "trades": 17652,
+ "trades": 18071,
  "weight1m": 3000,
- "lastEventAt": 1789377907694,
+ "lastEventAt": 1789377962726,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
-   "cover": 58,
-   "cols1": 903,
+   "cover": 59,
+   "cols1": 904,
    "cols60": 105,
    "pools": 4,
-   "mid": 4296.01,
-   "cvd": -153.83,
+   "mid": 4291.93,
+   "cvd": -161.93,
    "liveSince": 1789358090,
-   "activeSigs": 1,
+   "activeSigs": 0,
    "alerts": 52,
    "signals": 25,
    "wins": 0,
-   "losses": 1,
+   "losses": 2,
    "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4299.900000000001,
      "side": "bid",
-     "usd": 366180,
-     "durSec": 359,
+     "usd": 342125,
+     "durSec": 314,
      "strength": 1
     },
     {
      "price": 4278.12,
      "side": "bid",
-     "usd": 353435,
-     "durSec": 493,
+     "usd": 322619,
+     "durSec": 538,
      "strength": 1
     },
     {
      "price": 4273.5,
      "side": "bid",
      "usd": 150080,
-     "durSec": 374,
+     "durSec": 419,
      "strength": 1
     },
     {
      "price": 4330.92,
      "side": "ask",
-     "usd": 124157,
+     "usd": 139148,
      "durSec": 600,
-     "strength": 0.85
+     "strength": 0.94
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.46,
-   "cover": 72,
-   "cols1": 903,
+   "cover": 81,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
-   "mid": 4289.99,
-   "cvd": -877.78,
+   "mid": 4285.82,
+   "cvd": -956.29,
    "liveSince": 1789358086,
    "activeSigs": 0,
-   "alerts": 176,
+   "alerts": 179,
    "signals": 13,
    "wins": 0,
    "losses": 1,
@@ -75,35 +75,59 @@
     {
      "price": 4252.24,
      "side": "bid",
-     "usd": 202994,
-     "durSec": 487,
+     "usd": 228079,
+     "durSec": 532,
      "strength": 1
     },
     {
      "price": 4329.52,
      "side": "ask",
-     "usd": 165663,
+     "usd": 202558,
      "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4266.96,
+     "price": 4256.84,
      "side": "bid",
-     "usd": 150339,
+     "usd": 140675,
      "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4344.7,
+     "price": 4334.12,
      "side": "ask",
-     "usd": 152505,
+     "usd": 140665,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.99
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789377962726,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4344.70 اتسحبت من الكتاب"
+  },
+  {
+   "t": 1789377962726,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4300.08 · $139k · قوة 1.0"
+  },
+  {
+   "t": 1789377962345,
+   "sym": "PAXGUSDT",
+   "kind": "close",
+   "text": "❌ الستوب ضرب (-1R) — 🎣 كسح + استعادة LONG @ 4300.43"
+  },
+  {
+   "t": 1789377961712,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $193k"
+  },
   {
    "t": 1789377907694,
    "sym": "PAXGUSDT",
@@ -199,42 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4334.12 · $140k · قوة 1.0"
-  },
-  {
-   "t": 1789377727601,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "💥 بيرك اتكسرت — السعر عدّى على شراء BID @ 4300.08 ($132k)"
-  },
-  {
-   "t": 1789377727601,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4256.84 · $132k · قوة 1.0"
-  },
-  {
-   "t": 1789377727595,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4273.50 · $150k · قوة 1.0"
-  },
-  {
-   "t": 1789377687572,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4325.84 · $121k · قوة 0.9"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 270,
+  "sent": 273,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789377907844,
+  "lastOk": 1789377964814,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789377919000
+ "fetchedAt": 1789377965000
 }
