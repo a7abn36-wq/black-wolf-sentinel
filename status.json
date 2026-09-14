@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-13T22:19:15.700Z",
- "uptimeSec": 18650,
+ "uptimeSec": 18832,
  "ws": true,
- "trades": 14793,
+ "trades": 14999,
  "weight1m": 3000,
- "lastEventAt": 1789355878406,
+ "lastEventAt": 1789356782854,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.35,
-   "cover": 48,
-   "cols1": 902,
+   "cover": 50,
+   "cols1": 903,
    "cols60": 105,
    "pools": 5,
-   "mid": 4340.93,
-   "cvd": -201.08,
+   "mid": 4337.48,
+   "cvd": -200.8,
    "liveSince": 1789337959,
    "activeSigs": 0,
    "alerts": 55,
-   "signals": 21,
+   "signals": 22,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4312.700000000001,
@@ -42,16 +42,16 @@
     {
      "price": 4303.950000000001,
      "side": "bid",
-     "usd": 156777,
+     "usd": 157283,
      "durSec": 600,
-     "strength": 0.97
+     "strength": 0.99
     },
     {
      "price": 4363.1,
      "side": "ask",
      "usd": 121647,
      "durSec": 600,
-     "strength": 0.74
+     "strength": 0.75
     }
    ]
   },
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.48,
    "cover": 72,
-   "cols1": 904,
+   "cols1": 900,
    "cols60": 105,
    "pools": 3,
-   "mid": 4337.68,
-   "cvd": -32.06,
+   "mid": 4334.55,
+   "cvd": -56.94,
    "liveSince": 1789337957,
    "activeSigs": 0,
    "alerts": 118,
    "signals": 21,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4303.2,
@@ -97,6 +97,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789356782854,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4338.07"
+  },
   {
    "t": 1789355878406,
    "sym": "XAUTUSDT",
@@ -210,24 +216,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4316.90 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789354912929,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4385.76 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 216,
+  "sent": 217,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789355878607,
+  "lastOk": 1789356783052,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789356606000
+ "fetchedAt": 1789356787000
 }
