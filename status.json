@@ -2,17 +2,17 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-14T15:05:15.295Z",
- "uptimeSec": 15489,
+ "uptimeSec": 15521,
  "ws": false,
  "trades": 14099,
  "weight1m": 3000,
- "lastEventAt": 1789413802712,
+ "lastEventAt": 1789413830733,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.35,
    "cover": 52,
-   "cols1": 903,
+   "cols1": 904,
    "cols60": 105,
    "pools": 5,
    "mid": 4304.47,
@@ -35,7 +35,7 @@
     {
      "price": 4286.1,
      "side": "bid",
-     "usd": 212635,
+     "usd": 212806,
      "durSec": 600,
      "strength": 1
     },
@@ -49,7 +49,7 @@
     {
      "price": 4290.650000000001,
      "side": "bid",
-     "usd": 168085,
+     "usd": 161056,
      "durSec": 600,
      "strength": 1
     }
@@ -58,15 +58,15 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.49,
-   "cover": 68,
-   "cols1": 903,
+   "cover": 67,
+   "cols1": 904,
    "cols60": 105,
-   "pools": 3,
+   "pools": 4,
    "mid": 4298.53,
    "cvd": -165.6,
    "liveSince": 1789398317,
    "activeSigs": 0,
-   "alerts": 109,
+   "alerts": 110,
    "signals": 14,
    "wins": 0,
    "losses": 0,
@@ -75,28 +75,41 @@
     {
      "price": 4267.41,
      "side": "bid",
-     "usd": 420839,
+     "usd": 391720,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4345.32,
      "side": "ask",
-     "usd": 307870,
+     "usd": 278750,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4340.91,
      "side": "ask",
-     "usd": 192230,
+     "usd": 221349,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4263,
+     "side": "bid",
+     "usd": 125680,
+     "durSec": 600,
+     "strength": 0.89
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789413830733,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4263.00 · $122k · قوة 0.9"
+  },
   {
    "t": 1789413802712,
    "sym": "PAXGUSDT",
@@ -210,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "⚡ انفجار CVD في دقيقة — بيع صافي $165k"
-  },
-  {
-   "t": 1789412195966,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4334.05 · $216k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 227,
+  "sent": 228,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1789413802892,
+  "lastOk": 1789413831239,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1789413804000
+ "fetchedAt": 1789413836000
 }
