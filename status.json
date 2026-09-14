@@ -2,34 +2,34 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-14T03:54:40.459Z",
- "uptimeSec": 4557,
+ "uptimeSec": 4634,
  "ws": true,
- "trades": 2392,
+ "trades": 2414,
  "weight1m": 3000,
- "lastEventAt": 1789362631870,
+ "lastEventAt": 1789362709900,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
-   "cover": 51,
-   "cols1": 901,
-   "cols60": 62,
+   "cover": 52,
+   "cols1": 897,
+   "cols60": 63,
    "pools": 5,
-   "mid": 4332.4,
-   "cvd": 7.29,
+   "mid": 4331.9,
+   "cvd": 7.56,
    "liveSince": 1789358090,
    "activeSigs": 0,
    "alerts": 8,
    "signals": 3,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4299.900000000001,
      "side": "bid",
-     "usd": 544231,
-     "durSec": 538,
+     "usd": 531653,
+     "durSec": 600,
      "strength": 1
     },
     {
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.46,
-   "cover": 66,
-   "cols1": 896,
-   "cols60": 62,
+   "cover": 68,
+   "cols1": 897,
+   "cols60": 63,
    "pools": 5,
-   "mid": 4329.65,
-   "cvd": -45.47,
+   "mid": 4329.07,
+   "cvd": -45.37,
    "liveSince": 1789358086,
    "activeSigs": 0,
    "alerts": 39,
-   "signals": 1,
+   "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4302.84,
@@ -96,14 +96,20 @@
     {
      "price": 4305.14,
      "side": "bid",
-     "usd": 127327,
+     "usd": 126720,
      "durSec": 600,
-     "strength": 0.88
+     "strength": 0.89
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789362709900,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4329.07"
+  },
   {
    "t": 1789362631870,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4293.18 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789361185117,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4370.92 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 53,
+  "sent": 54,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789362632063,
+  "lastOk": 1789362710084,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789362638000
+ "fetchedAt": 1789362714000
 }
