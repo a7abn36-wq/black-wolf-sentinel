@@ -2,42 +2,35 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-14T15:05:15.295Z",
- "uptimeSec": 17809,
+ "uptimeSec": 17825,
  "ws": false,
  "trades": 14099,
  "weight1m": 3000,
- "lastEventAt": 1789416117848,
+ "lastEventAt": 1789416137858,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.35,
    "cover": 52,
-   "cols1": 902,
+   "cols1": 904,
    "cols60": 105,
-   "pools": 2,
-   "mid": 4289.48,
+   "pools": 1,
+   "mid": 4289.55,
    "cvd": 41.79,
    "liveSince": 1789398339,
    "activeSigs": 0,
-   "alerts": 95,
+   "alerts": 96,
    "signals": 22,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4264.75,
      "side": "bid",
-     "usd": 220324,
+     "usd": 210339,
      "durSec": 600,
      "strength": 1
-    },
-    {
-     "price": 4333,
-     "side": "ask",
-     "usd": 124241,
-     "durSec": 600,
-     "strength": 0.94
     }
    ]
   },
@@ -45,7 +38,7 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.49,
    "cover": 72,
-   "cols1": 902,
+   "cols1": 904,
    "cols60": 105,
    "pools": 3,
    "mid": 4285.72,
@@ -56,12 +49,12 @@
    "signals": 18,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4249.7699999999995,
      "side": "bid",
-     "usd": 556157,
+     "usd": 556159,
      "durSec": 600,
      "strength": 1
     },
@@ -77,12 +70,18 @@
      "side": "bid",
      "usd": 121800,
      "durSec": 476,
-     "strength": 1
+     "strength": 0.99
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789416137858,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4333.00 اتسحبت من الكتاب"
+  },
   {
    "t": 1789416117848,
    "sym": "PAXGUSDT",
@@ -196,24 +195,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD LONG @ 4292.90"
-  },
-  {
-   "t": 1789414856261,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4269.37 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 267,
+  "sent": 268,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1789416118058,
+  "lastOk": 1789416138364,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1789416124000
+ "fetchedAt": 1789416141000
 }
