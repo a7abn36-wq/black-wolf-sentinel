@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-14T03:54:40.459Z",
- "uptimeSec": 9080,
+ "uptimeSec": 9186,
  "ws": true,
- "trades": 4932,
+ "trades": 4968,
  "weight1m": 3000,
- "lastEventAt": 1789366669915,
+ "lastEventAt": 1789367254188,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 49,
-   "cols1": 893,
+   "cols1": 894,
    "cols60": 105,
    "pools": 4,
-   "mid": 4336.32,
-   "cvd": 16.37,
+   "mid": 4337.01,
+   "cvd": 16.8,
    "liveSince": 1789358090,
    "activeSigs": 0,
    "alerts": 15,
@@ -51,23 +51,23 @@
      "side": "ask",
      "usd": 121102,
      "durSec": 600,
-     "strength": 0.93
+     "strength": 0.94
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.46,
-   "cover": 69,
-   "cols1": 895,
+   "cover": 66,
+   "cols1": 896,
    "cols60": 105,
    "pools": 4,
-   "mid": 4331.44,
-   "cvd": -39.58,
+   "mid": 4332.48,
+   "cvd": -40.58,
    "liveSince": 1789358086,
    "activeSigs": 0,
    "alerts": 95,
-   "signals": 6,
+   "signals": 7,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 1,
@@ -96,14 +96,20 @@
     {
      "price": 4300.08,
      "side": "bid",
-     "usd": 121834,
+     "usd": 121777,
      "durSec": 600,
-     "strength": 0.83
+     "strength": 0.84
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789367254188,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4332.88"
+  },
   {
    "t": 1789366669915,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4358.50 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789365206190,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4300.08 · $122k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 126,
+  "sent": 127,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789366670104,
+  "lastOk": 1789367254325,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789367160000
+ "fetchedAt": 1789367267000
 }
