@@ -2,17 +2,17 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-15T13:26:53.434Z",
- "uptimeSec": 8749,
+ "uptimeSec": 8780,
  "ws": true,
- "trades": 12036,
+ "trades": 12041,
  "weight1m": 3000,
- "lastEventAt": 1789487549542,
+ "lastEventAt": 1789487582550,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 47,
-   "cols1": 901,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
    "mid": 4293.45,
@@ -20,15 +20,15 @@
    "liveSince": 1789478828,
    "activeSigs": 0,
    "alerts": 39,
-   "signals": 8,
+   "signals": 9,
    "wins": 0,
    "losses": 1,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4312.1,
      "side": "ask",
-     "usd": 722478,
+     "usd": 722477,
      "durSec": 600,
      "strength": 1
     },
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
    "cover": 67,
-   "cols1": 901,
+   "cols1": 903,
    "cols60": 105,
    "pools": 3,
-   "mid": 4292.02,
-   "cvd": -254,
+   "mid": 4292.01,
+   "cvd": -254.27,
    "liveSince": 1789478818,
    "activeSigs": 0,
    "alerts": 65,
    "signals": 13,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4252.2699999999995,
@@ -97,6 +97,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789487582550,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4293.45"
+  },
   {
    "t": 1789487549542,
    "sym": "XAUTUSDT",
@@ -210,24 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4287.55"
-  },
-  {
-   "t": 1789485271466,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4324.51 · $124k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 127,
+  "sent": 128,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789487549664,
+  "lastOk": 1789487582682,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789487562000
+ "fetchedAt": 1789487593000
 }
