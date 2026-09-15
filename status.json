@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-15T13:26:53.434Z",
- "uptimeSec": 3779,
+ "uptimeSec": 3825,
  "ws": true,
- "trades": 5240,
+ "trades": 5330,
  "weight1m": 3000,
- "lastEventAt": 1789482580231,
+ "lastEventAt": 1789482625256,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
-   "cover": 50,
-   "cols1": 900,
-   "cols60": 49,
+   "cover": 49,
+   "cols1": 904,
+   "cols60": 50,
    "pools": 6,
-   "mid": 4287.6,
-   "cvd": -78.05,
+   "mid": 4288.18,
+   "cvd": -77.7,
    "liveSince": 1789478828,
    "activeSigs": 0,
    "alerts": 12,
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
    "cover": 72,
-   "cols1": 900,
-   "cols60": 49,
-   "pools": 3,
-   "mid": 4285.68,
-   "cvd": -214.49,
+   "cols1": 904,
+   "cols60": 50,
+   "pools": 4,
+   "mid": 4285.52,
+   "cvd": -208.34,
    "liveSince": 1789478818,
    "activeSigs": 0,
-   "alerts": 34,
+   "alerts": 35,
    "signals": 8,
    "wins": 0,
    "losses": 0,
@@ -92,11 +92,24 @@
      "usd": 248976,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4324.94,
+     "side": "ask",
+     "usd": 131866,
+     "durSec": 600,
+     "strength": 0.9
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789482625256,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4324.94 · $124k · قوة 0.8"
+  },
   {
    "t": 1789482580231,
    "sym": "XAUTUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4257.00 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789481162593,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4333.97 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 59,
+  "sent": 60,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789482580365,
+  "lastOk": 1789482625381,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789482593000
+ "fetchedAt": 1789482639000
 }
