@@ -2,36 +2,29 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-15T07:51:35.559Z",
- "uptimeSec": 9333,
+ "uptimeSec": 9349,
  "ws": true,
- "trades": 7135,
- "weight1m": 3000,
- "lastEventAt": 1789468014242,
+ "trades": 7146,
+ "weight1m": 2950,
+ "lastEventAt": 1789468044252,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
    "cover": 50,
-   "cols1": 900,
+   "cols1": 901,
    "cols60": 105,
-   "pools": 6,
-   "mid": 4278.8,
-   "cvd": -190.8,
+   "pools": 5,
+   "mid": 4278.43,
+   "cvd": -191.65,
    "liveSince": 1789458699,
    "activeSigs": 0,
-   "alerts": 56,
+   "alerts": 57,
    "signals": 7,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 1,
    "poolsList": [
-    {
-     "price": 4237.61,
-     "side": "bid",
-     "usd": 500551,
-     "durSec": 358,
-     "strength": 1
-    },
     {
      "price": 4305.69,
      "side": "ask",
@@ -52,18 +45,25 @@
      "usd": 300173,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4301.25,
+     "side": "ask",
+     "usd": 243656,
+     "durSec": 600,
+     "strength": 0.85
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.52,
-   "cover": 71,
-   "cols1": 901,
+   "cover": 70,
+   "cols1": 897,
    "cols60": 105,
    "pools": 4,
-   "mid": 4276.66,
-   "cvd": -86.47,
+   "mid": 4275.9,
+   "cvd": -88.11,
    "liveSince": 1789458698,
    "activeSigs": 0,
    "alerts": 66,
@@ -96,14 +96,20 @@
     {
      "price": 4249.96,
      "side": "bid",
-     "usd": 124519,
+     "usd": 131607,
      "durSec": 600,
-     "strength": 0.73
+     "strength": 0.78
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789468044252,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4237.61 اتسحبت من الكتاب"
+  },
   {
    "t": 1789468014242,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4284.97 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789466905702,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4301.96 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 137,
+  "sent": 138,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789468014405,
+  "lastOk": 1789468044461,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789468028000
+ "fetchedAt": 1789468045000
 }
