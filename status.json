@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-15T07:51:35.559Z",
- "uptimeSec": 16194,
+ "uptimeSec": 16301,
  "ws": true,
- "trades": 11561,
+ "trades": 11612,
  "weight1m": 3000,
- "lastEventAt": 1789474878565,
+ "lastEventAt": 1789474996637,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
    "cover": 51,
-   "cols1": 902,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
-   "mid": 4278.27,
-   "cvd": -264.16,
+   "mid": 4276.27,
+   "cvd": -266.09,
    "liveSince": 1789458699,
    "activeSigs": 0,
    "alerts": 83,
    "signals": 11,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4254.63,
@@ -42,7 +42,7 @@
     {
      "price": 4248.71,
      "side": "bid",
-     "usd": 300506,
+     "usd": 300513,
      "durSec": 600,
      "strength": 1
     },
@@ -59,30 +59,30 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.52,
    "cover": 76,
-   "cols1": 905,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4276.57,
-   "cvd": -165.64,
+   "mid": 4274.51,
+   "cvd": -165.5,
    "liveSince": 1789458698,
-   "activeSigs": 1,
-   "alerts": 114,
+   "activeSigs": 0,
+   "alerts": 115,
    "signals": 14,
    "wins": 0,
-   "losses": 0,
-   "depthAgeSec": 1,
+   "losses": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4272.84,
      "side": "bid",
-     "usd": 558136,
+     "usd": 553643,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4240.08,
      "side": "bid",
-     "usd": 509251,
+     "usd": 509321,
      "durSec": 600,
      "strength": 1
     },
@@ -96,7 +96,7 @@
     {
      "price": 4270.24,
      "side": "bid",
-     "usd": 326316,
+     "usd": 332059,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,18 @@
   }
  },
  "recent": [
+  {
+   "t": 1789474996637,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 جدار شراء مهيمن ±$8 — $1.14M بيد مقابل $283k طلب"
+  },
+  {
+   "t": 1789474995422,
+   "sym": "XAUTUSDT",
+   "kind": "close",
+   "text": "❌ الستوب ضرب (-1R) — 🧱 امتصاص جدار LONG @ 4278.01"
+  },
   {
    "t": 1789474878565,
    "sym": "XAUTUSDT",
@@ -211,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك شراء BID @ 4278.04 ($204k) — راقب رد الفعل"
-  },
-  {
-   "t": 1789474113197,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4284.78"
-  },
-  {
-   "t": 1789473885090,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4244.76 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 225,
+  "sent": 226,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789474879045,
+  "lastOk": 1789474995902,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789474890000
+ "fetchedAt": 1789474996000
 }
