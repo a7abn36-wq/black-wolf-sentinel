@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-15T19:02:16.724Z",
- "uptimeSec": 1874,
+ "uptimeSec": 1906,
  "ws": true,
- "trades": 2173,
+ "trades": 2191,
  "weight1m": 3000,
- "lastEventAt": 1789500806059,
+ "lastEventAt": 1789500841075,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
    "cover": 48,
-   "cols1": 902,
+   "cols1": 903,
    "cols60": 17,
    "pools": 6,
-   "mid": 4303.51,
-   "cvd": -6.33,
+   "mid": 4303.27,
+   "cvd": -6.63,
    "liveSince": 1789498939,
    "activeSigs": 0,
    "alerts": 8,
    "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4262.7699999999995,
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.47,
-   "cover": 68,
-   "cols1": 902,
+   "cover": 67,
+   "cols1": 903,
    "cols60": 17,
-   "pools": 3,
-   "mid": 4299.6,
-   "cvd": -73.37,
+   "pools": 4,
+   "mid": 4299.2,
+   "cvd": -74.46,
    "liveSince": 1789498940,
    "activeSigs": 0,
-   "alerts": 34,
+   "alerts": 35,
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4260.08,
@@ -89,14 +89,27 @@
     {
      "price": 4326.820000000001,
      "side": "ask",
-     "usd": 125081,
+     "usd": 135136,
      "durSec": 600,
-     "strength": 0.98
+     "strength": 1
+    },
+    {
+     "price": 4270.89,
+     "side": "bid",
+     "usd": 121100,
+     "durSec": 600,
+     "strength": 0.93
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789500841075,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4270.89 · $121k · قوة 0.9"
+  },
   {
    "t": 1789500806059,
    "sym": "XAUTUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4273.71 · $213k · قوة 1.0"
-  },
-  {
-   "t": 1789499623467,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4346.56 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 46,
+  "sent": 47,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789500807984,
+  "lastOk": 1789500841672,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789500811000
+ "fetchedAt": 1789500842000
 }
