@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-15T02:16:14.225Z",
- "uptimeSec": 15194,
+ "uptimeSec": 15240,
  "ws": true,
- "trades": 10556,
+ "trades": 10562,
  "weight1m": 3000,
- "lastEventAt": 1789453764919,
+ "lastEventAt": 1789453804939,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 51,
-   "cols1": 896,
+   "cols1": 897,
    "cols60": 105,
    "pools": 5,
-   "mid": 4292.69,
-   "cvd": 73.3,
+   "mid": 4291.89,
+   "cvd": 73.02,
    "liveSince": 1789438582,
    "activeSigs": 0,
    "alerts": 14,
    "signals": 13,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4269.72,
@@ -44,33 +44,33 @@
      "side": "bid",
      "usd": 150207,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.98
     },
     {
      "price": 4320.72,
      "side": "ask",
-     "usd": 135704,
+     "usd": 135701,
      "durSec": 600,
-     "strength": 0.91
+     "strength": 0.87
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 77,
-   "cols1": 899,
+   "cover": 73,
+   "cols1": 900,
    "cols60": 105,
-   "pools": 4,
-   "mid": 4289.82,
+   "pools": 5,
+   "mid": 4289.74,
    "cvd": 84.61,
    "liveSince": 1789438582,
    "activeSigs": 0,
-   "alerts": 101,
+   "alerts": 102,
    "signals": 10,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4252.5,
@@ -87,16 +87,16 @@
      "strength": 1
     },
     {
-     "price": 4249.8,
+     "price": 4262.85,
      "side": "bid",
-     "usd": 128956,
+     "usd": 136978,
      "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4262.85,
+     "price": 4249.8,
      "side": "bid",
-     "usd": 120921,
+     "usd": 132782,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789453804939,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4318.65 · $120k · قوة 1.0"
+  },
   {
    "t": 1789453764919,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD LONG @ 4295.18"
-  },
-  {
-   "t": 1789451872929,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4333.50 · $124k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 140,
+  "sent": 141,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789453765359,
+  "lastOk": 1789453805100,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789453768000
+ "fetchedAt": 1789453814000
 }
