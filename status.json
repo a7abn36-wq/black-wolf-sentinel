@@ -2,18 +2,18 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-15T13:26:53.434Z",
- "uptimeSec": 3717,
+ "uptimeSec": 3733,
  "ws": true,
- "trades": 5102,
+ "trades": 5104,
  "weight1m": 3000,
- "lastEventAt": 1789482530206,
+ "lastEventAt": 1789482545216,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
-   "cover": 50,
-   "cols1": 898,
-   "cols60": 48,
+   "cover": 49,
+   "cols1": 899,
+   "cols60": 49,
    "pools": 6,
    "mid": 4288.11,
    "cvd": -74.25,
@@ -49,7 +49,7 @@
     {
      "price": 4261.26,
      "side": "bid",
-     "usd": 300171,
+     "usd": 300172,
      "durSec": 600,
      "strength": 1
     }
@@ -58,15 +58,15 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 72,
-   "cols1": 898,
-   "cols60": 48,
-   "pools": 6,
+   "cover": 73,
+   "cols1": 899,
+   "cols60": 49,
+   "pools": 5,
    "mid": 4286.52,
    "cvd": -202.72,
    "liveSince": 1789478818,
    "activeSigs": 0,
-   "alerts": 32,
+   "alerts": 33,
    "signals": 8,
    "wins": 0,
    "losses": 0,
@@ -94,16 +94,22 @@
      "strength": 1
     },
     {
-     "price": 4310.32,
-     "side": "ask",
-     "usd": 175487,
-     "durSec": 190,
+     "price": 4256.57,
+     "side": "bid",
+     "usd": 147241,
+     "durSec": 600,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789482545216,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4310.32 اتسحبت من الكتاب"
+  },
   {
    "t": 1789482530206,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD LONG @ 4297.41"
-  },
-  {
-   "t": 1789481127575,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4272.91 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
-  "queue": 1,
-  "sent": 55,
+  "queue": 0,
+  "sent": 58,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789482520629,
+  "lastOk": 1789482545531,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789482530000
+ "fetchedAt": 1789482546000
 }
