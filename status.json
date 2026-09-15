@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-15T13:26:53.434Z",
- "uptimeSec": 3440,
+ "uptimeSec": 3456,
  "ws": true,
- "trades": 4849,
+ "trades": 4875,
  "weight1m": 3000,
- "lastEventAt": 1789482245081,
+ "lastEventAt": 1789482265091,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 48,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 44,
    "pools": 6,
-   "mid": 4290.48,
-   "cvd": -66.35,
+   "mid": 4291.27,
+   "cvd": -65.26,
    "liveSince": 1789478828,
    "activeSigs": 0,
    "alerts": 8,
    "signals": 4,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4254.75,
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 71,
-   "cols1": 901,
+   "cover": 72,
+   "cols1": 902,
    "cols60": 44,
-   "pools": 3,
-   "mid": 4288.93,
-   "cvd": -196.35,
+   "pools": 5,
+   "mid": 4289.66,
+   "cvd": -196.3,
    "liveSince": 1789478818,
    "activeSigs": 0,
-   "alerts": 29,
+   "alerts": 31,
    "signals": 7,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4256.57,
@@ -92,11 +92,30 @@
      "usd": 248976,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4251.84,
+     "side": "bid",
+     "usd": 121655,
+     "durSec": 600,
+     "strength": 0.8
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789482265091,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4329.24 · $122k · قوة 0.8"
+  },
+  {
+   "t": 1789482265090,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4251.84 · $122k · قوة 0.8"
+  },
   {
    "t": 1789482245081,
    "sym": "XAUTUSDT",
@@ -204,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4338.70 · $150k · قوة 1.0"
-  },
-  {
-   "t": 1789480847444,
-   "sym": "XAUTUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD SHORT @ 4299.91"
-  },
-  {
-   "t": 1789480798422,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $266k"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 49,
+  "sent": 51,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789482245394,
+  "lastOk": 1789482266744,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789482253000
+ "fetchedAt": 1789482269000
 }
