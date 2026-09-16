@@ -2,17 +2,17 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T06:13:00.023Z",
- "uptimeSec": 1925,
+ "uptimeSec": 1941,
  "ws": true,
- "trades": 1255,
+ "trades": 1259,
  "weight1m": 3000,
- "lastEventAt": 1789541096080,
+ "lastEventAt": 1789541106075,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
-   "cover": 52,
-   "cols1": 901,
+   "cover": 51,
+   "cols1": 897,
    "cols60": 18,
    "pools": 6,
    "mid": 4331.52,
@@ -20,7 +20,7 @@
    "liveSince": 1789539184,
    "activeSigs": 0,
    "alerts": 6,
-   "signals": 0,
+   "signals": 1,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 0,
@@ -58,12 +58,12 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 65,
-   "cols1": 902,
+   "cover": 64,
+   "cols1": 898,
    "cols60": 18,
    "pools": 5,
    "mid": 4325.28,
-   "cvd": 48.02,
+   "cvd": 48.03,
    "liveSince": 1789539183,
    "activeSigs": 0,
    "alerts": 16,
@@ -82,28 +82,34 @@
     {
      "price": 4363.2,
      "side": "ask",
-     "usd": 484971,
+     "usd": 500021,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4260.150000000001,
      "side": "bid",
-     "usd": 234639,
-     "durSec": 590,
+     "usd": 232218,
+     "durSec": 589,
      "strength": 1
     },
     {
-     "price": 4352.85,
-     "side": "ask",
-     "usd": 141104,
+     "price": 4301.55,
+     "side": "bid",
+     "usd": 139143,
      "durSec": 600,
-     "strength": 0.89
+     "strength": 0.86
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789541106075,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4331.52"
+  },
   {
    "t": 1789541096080,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4297.95 · $213k · قوة 1.0"
-  },
-  {
-   "t": 1789539214086,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4354.20 · $224k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 24,
+  "sent": 25,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789541096305,
+  "lastOk": 1789541106558,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789541105000
+ "fetchedAt": 1789541121000
 }
