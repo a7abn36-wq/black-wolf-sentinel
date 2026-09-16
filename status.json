@@ -2,54 +2,54 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T17:23:49.939Z",
- "uptimeSec": 2292,
+ "uptimeSec": 2308,
  "ws": true,
- "trades": 14397,
+ "trades": 14721,
  "weight1m": 3000,
- "lastEventAt": 1789581717440,
+ "lastEventAt": 1789581730837,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.35,
-   "cover": 62,
-   "cols1": 901,
+   "cover": 61,
+   "cols1": 903,
    "cols60": 25,
    "pools": 6,
-   "mid": 4321.47,
-   "cvd": -2.24,
+   "mid": 4322.09,
+   "cvd": -4.05,
    "liveSince": 1789579440,
    "activeSigs": 0,
-   "alerts": 8,
+   "alerts": 9,
    "signals": 4,
    "wins": 0,
    "losses": 1,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4319.35,
      "side": "bid",
-     "usd": 385588,
-     "durSec": 600,
+     "usd": 374126,
+     "durSec": 599,
      "strength": 1
     },
     {
      "price": 4388.650000000001,
      "side": "ask",
-     "usd": 357406,
-     "durSec": 587,
+     "usd": 354906,
+     "durSec": 572,
      "strength": 1
     },
     {
      "price": 4328.1,
      "side": "bid",
-     "usd": 324148,
-     "durSec": 583,
+     "usd": 320717,
+     "durSec": 568,
      "strength": 1
     },
     {
      "price": 4380.25,
      "side": "ask",
-     "usd": 264257,
+     "usd": 256765,
      "durSec": 600,
      "strength": 1
     }
@@ -58,52 +58,76 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 83,
-   "cols1": 901,
+   "cover": 86,
+   "cols1": 903,
    "cols60": 25,
    "pools": 4,
-   "mid": 4316.9,
-   "cvd": -333.04,
+   "mid": 4318.48,
+   "cvd": -325,
    "liveSince": 1789579441,
    "activeSigs": 0,
-   "alerts": 31,
-   "signals": 3,
-   "wins": 0,
+   "alerts": 32,
+   "signals": 4,
+   "wins": 1,
    "losses": 1,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4320,
      "side": "bid",
-     "usd": 273435,
-     "durSec": 593,
+     "usd": 273356,
+     "durSec": 578,
      "strength": 1
     },
     {
      "price": 4380.75,
      "side": "ask",
-     "usd": 235748,
+     "usd": 223269,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4302.45,
      "side": "bid",
-     "usd": 173794,
+     "usd": 173969,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4324.95,
      "side": "bid",
-     "usd": 157011,
-     "durSec": 572,
+     "usd": 155655,
+     "durSec": 557,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789581730837,
+   "sym": "XAUTUSDT",
+   "kind": "close",
+   "text": "✅ الهدف اتقفل (+2R) — 🧱 امتصاص جدار LONG @ 4317.44"
+  },
+  {
+   "t": 1789581726448,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $501k"
+  },
+  {
+   "t": 1789581726448,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $161k"
+  },
+  {
+   "t": 1789581725444,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🧱 امتصاص جدار LONG @ 4317.44 · ستوب 4316.54 · هدف 4319.25"
+  },
   {
    "t": 1789581717440,
    "sym": "PAXGUSDT",
@@ -199,42 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4302.45 · $174k · قوة 1.0"
-  },
-  {
-   "t": 1789581389286,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4313.25 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789581269226,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4370.40 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789581244208,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $298k"
-  },
-  {
-   "t": 1789581240203,
-   "sym": "XAUTUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD SHORT @ 4343.52"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 49,
+  "sent": 53,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789581717914,
+  "lastOk": 1789581731019,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789581722000
+ "fetchedAt": 1789581738000
 }
