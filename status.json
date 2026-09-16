@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T17:23:49.939Z",
- "uptimeSec": 12828,
+ "uptimeSec": 12994,
  "ws": true,
- "trades": 63284,
+ "trades": 63493,
  "weight1m": 3000,
- "lastEventAt": 1789592246315,
+ "lastEventAt": 1789592412372,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.35,
-   "cover": 54,
-   "cols1": 903,
+   "cover": 56,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
-   "mid": 4273.16,
-   "cvd": 156.9,
+   "mid": 4273.88,
+   "cvd": 163.51,
    "liveSince": 1789579440,
    "activeSigs": 0,
    "alerts": 208,
@@ -35,14 +35,14 @@
     {
      "price": 4307.8,
      "side": "ask",
-     "usd": 496355,
+     "usd": 500519,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4250.05,
      "side": "bid",
-     "usd": 405991,
+     "usd": 406674,
      "durSec": 600,
      "strength": 1
     },
@@ -58,16 +58,16 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.63,
-   "cover": 70,
-   "cols1": 901,
-   "cols60": 93,
+   "cover": 73,
+   "cols1": 902,
+   "cols60": 96,
    "pools": 4,
-   "mid": 4271.01,
-   "cvd": -665.97,
+   "mid": 4272.72,
+   "cvd": -618.93,
    "liveSince": 1789579441,
-   "activeSigs": 1,
-   "alerts": 228,
-   "signals": 29,
+   "activeSigs": 2,
+   "alerts": 229,
+   "signals": 30,
    "wins": 2,
    "losses": 3,
    "depthAgeSec": 1,
@@ -89,21 +89,33 @@
     {
      "price": 4272.66,
      "side": "ask",
-     "usd": 265441,
+     "usd": 272254,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4272.66,
      "side": "bid",
-     "usd": 214807,
-     "durSec": 268,
+     "usd": 193447,
+     "durSec": 600,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789592412372,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🧱 امتصاص جدار SHORT @ 4272.59 · ستوب 4276.08 · هدف 4265.60"
+  },
+  {
+   "t": 1789592412372,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — شراء صافي $200k"
+  },
   {
    "t": 1789592246315,
    "sym": "XAUTUSDT",
@@ -211,30 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4292.40 · $162k · قوة 1.0"
-  },
-  {
-   "t": 1789591219842,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4308.57 · $123k · قوة 0.6"
-  },
-  {
-   "t": 1789591174816,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4260.06 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 516,
+  "sent": 518,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789592246461,
+  "lastOk": 1789592413805,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789592258000
+ "fetchedAt": 1789592424000
 }
