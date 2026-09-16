@@ -2,60 +2,125 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T17:23:49.939Z",
- "uptimeSec": 14,
+ "uptimeSec": 121,
  "ws": true,
- "trades": 75,
- "weight1m": 700,
- "lastEventAt": null,
+ "trades": 296,
+ "weight1m": 3000,
+ "lastEventAt": 1789579540366,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.35,
-   "cover": 52,
-   "cols1": 14,
+   "cover": 54,
+   "cols1": 120,
    "cols60": 0,
-   "pools": 0,
-   "mid": 4346.65,
-   "cvd": -6.16,
+   "pools": 6,
+   "mid": 4348.47,
+   "cvd": -10.36,
    "liveSince": 1789579440,
    "activeSigs": 0,
    "alerts": 0,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
-   "poolsList": []
+   "depthAgeSec": 1,
+   "poolsList": [
+    {
+     "price": 4319.35,
+     "side": "bid",
+     "usd": 572922,
+     "durSec": 118,
+     "strength": 1
+    },
+    {
+     "price": 4328.1,
+     "side": "bid",
+     "usd": 451571,
+     "durSec": 118,
+     "strength": 1
+    },
+    {
+     "price": 4388.650000000001,
+     "side": "ask",
+     "usd": 451424,
+     "durSec": 118,
+     "strength": 1
+    },
+    {
+     "price": 4323.900000000001,
+     "side": "bid",
+     "usd": 300339,
+     "durSec": 118,
+     "strength": 1
+    }
+   ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 66,
-   "cols1": 14,
+   "cover": 64,
+   "cols1": 120,
    "cols60": 0,
-   "pools": 0,
-   "mid": 4341.64,
-   "cvd": 0.37,
+   "pools": 6,
+   "mid": 4342.52,
+   "cvd": -67.67,
    "liveSince": 1789579441,
    "activeSigs": 0,
-   "alerts": 0,
+   "alerts": 1,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
-   "poolsList": []
+   "depthAgeSec": 1,
+   "poolsList": [
+    {
+     "price": 4304.7,
+     "side": "bid",
+     "usd": 500003,
+     "durSec": 115,
+     "strength": 1
+    },
+    {
+     "price": 4383.45,
+     "side": "ask",
+     "usd": 500043,
+     "durSec": 115,
+     "strength": 1
+    },
+    {
+     "price": 4320,
+     "side": "bid",
+     "usd": 269183,
+     "durSec": 115,
+     "strength": 1
+    },
+    {
+     "price": 4314.150000000001,
+     "side": "bid",
+     "usd": 183704,
+     "durSec": 115,
+     "strength": 1
+    }
+   ]
   }
  },
- "recent": [],
+ "recent": [
+  {
+   "t": 1789579540366,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $296k"
+  }
+ ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 1,
+  "sent": 2,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789579431581,
+  "lastOk": 1789579540553,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789579444000
+ "fetchedAt": 1789579551000
 }
