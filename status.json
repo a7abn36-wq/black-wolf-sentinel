@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T22:59:07.734Z",
- "uptimeSec": 1194,
+ "uptimeSec": 1285,
  "ws": true,
- "trades": 1437,
+ "trades": 1478,
  "weight1m": 3000,
- "lastEventAt": 1789600729262,
+ "lastEventAt": 1789600820307,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.38,
-   "cover": 57,
-   "cols1": 902,
-   "cols60": 5,
+   "cover": 56,
+   "cols1": 901,
+   "cols60": 7,
    "pools": 6,
-   "mid": 4274.51,
-   "cvd": -11.7,
+   "mid": 4274.99,
+   "cvd": -8.88,
    "liveSince": 1789599565,
    "activeSigs": 0,
    "alerts": 4,
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4247.64,
      "side": "bid",
-     "usd": 801154,
+     "usd": 801155,
      "durSec": 600,
      "strength": 1
     },
@@ -42,7 +42,7 @@
     {
      "price": 4249.92,
      "side": "bid",
-     "usd": 416904,
+     "usd": 421222,
      "durSec": 600,
      "strength": 1
     },
@@ -58,38 +58,51 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.5,
-   "cover": 77,
+   "cover": 74,
    "cols1": 901,
-   "cols60": 5,
-   "pools": 2,
-   "mid": 4272.07,
-   "cvd": -32.65,
+   "cols60": 7,
+   "pools": 3,
+   "mid": 4272.18,
+   "cvd": -32.11,
    "liveSince": 1789599550,
    "activeSigs": 0,
-   "alerts": 19,
+   "alerts": 20,
    "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4227.5,
      "side": "bid",
-     "usd": 461389,
+     "usd": 386513,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4303.5,
      "side": "ask",
-     "usd": 450122,
+     "usd": 375245,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4308,
+     "side": "ask",
+     "usd": 130381,
+     "durSec": 600,
+     "strength": 0.88
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789600820307,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4308.00 · $122k · قوة 0.8"
+  },
   {
    "t": 1789600729262,
    "sym": "XAUTUSDT",
@@ -203,24 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4253.50 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789599676814,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4307.50 · $156k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 27,
+  "sent": 28,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789600729424,
+  "lastOk": 1789600820510,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789600742000
+ "fetchedAt": 1789600833000
 }
