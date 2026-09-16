@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T22:59:07.734Z",
- "uptimeSec": 645,
+ "uptimeSec": 677,
  "ws": true,
- "trades": 962,
+ "trades": 965,
  "weight1m": 3000,
- "lastEventAt": 1789600179023,
+ "lastEventAt": 1789600217031,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.38,
-   "cover": 53,
-   "cols1": 644,
+   "cover": 54,
+   "cols1": 675,
    "cols60": 0,
    "pools": 6,
    "mid": 4270.18,
-   "cvd": -30.23,
+   "cvd": -30.32,
    "liveSince": 1789599565,
    "activeSigs": 0,
    "alerts": 2,
-   "signals": 0,
+   "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4247.64,
      "side": "bid",
-     "usd": 802138,
+     "usd": 802040,
      "durSec": 600,
      "strength": 1
     },
@@ -42,7 +42,7 @@
     {
      "price": 4249.92,
      "side": "bid",
-     "usd": 411096,
+     "usd": 411046,
      "durSec": 600,
      "strength": 1
     },
@@ -58,8 +58,8 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.5,
-   "cover": 81,
-   "cols1": 643,
+   "cover": 78,
+   "cols1": 674,
    "cols60": 0,
    "pools": 4,
    "mid": 4267.18,
@@ -70,12 +70,12 @@
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4232,
      "side": "bid",
-     "usd": 403251,
+     "usd": 373985,
      "durSec": 600,
      "strength": 1
     },
@@ -89,21 +89,27 @@
     {
      "price": 4227.5,
      "side": "bid",
-     "usd": 140122,
+     "usd": 169387,
      "durSec": 600,
-     "strength": 0.95
+     "strength": 1
     },
     {
      "price": 4303.5,
      "side": "ask",
-     "usd": 129629,
+     "usd": 158894,
      "durSec": 600,
-     "strength": 0.86
+     "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789600217031,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4270.18"
+  },
   {
    "t": 1789600179023,
    "sym": "XAUTUSDT",
@@ -223,12 +229,12 @@
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 20,
+  "sent": 21,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789600179209,
+  "lastOk": 1789600217208,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789600193000
+ "fetchedAt": 1789600224000
 }
