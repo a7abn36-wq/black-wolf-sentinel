@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T17:23:49.939Z",
- "uptimeSec": 1806,
+ "uptimeSec": 1824,
  "ws": true,
- "trades": 5370,
+ "trades": 5503,
  "weight1m": 3000,
- "lastEventAt": 1789581229202,
+ "lastEventAt": 1789581244208,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.35,
    "cover": 51,
-   "cols1": 900,
-   "cols60": 16,
+   "cols1": 902,
+   "cols60": 17,
    "pools": 6,
-   "mid": 4350.56,
-   "cvd": -11.72,
+   "mid": 4351.76,
+   "cvd": -11.44,
    "liveSince": 1789579440,
    "activeSigs": 0,
    "alerts": 4,
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4319.35,
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 69,
-   "cols1": 900,
-   "cols60": 16,
+   "cover": 71,
+   "cols1": 902,
+   "cols60": 17,
    "pools": 6,
-   "mid": 4343.09,
-   "cvd": -228.47,
+   "mid": 4345.01,
+   "cvd": -218.3,
    "liveSince": 1789579441,
    "activeSigs": 0,
-   "alerts": 22,
-   "signals": 0,
+   "alerts": 23,
+   "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4380.75,
@@ -82,7 +82,7 @@
     {
      "price": 4302.900000000001,
      "side": "bid",
-     "usd": 473474,
+     "usd": 462262,
      "durSec": 600,
      "strength": 1
     },
@@ -96,7 +96,7 @@
     {
      "price": 4324.95,
      "side": "bid",
-     "usd": 180733,
+     "usd": 180415,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,18 @@
   }
  },
  "recent": [
+  {
+   "t": 1789581244208,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $298k"
+  },
+  {
+   "t": 1789581240203,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4343.52"
+  },
   {
    "t": 1789581229202,
    "sym": "XAUTUSDT",
@@ -211,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "⚡ انفجار CVD في دقيقة — بيع صافي $197k"
-  },
-  {
-   "t": 1789579667430,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4314.60 · $122k · قوة 0.8"
-  },
-  {
-   "t": 1789579657425,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4371.30 · $121k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 29,
+  "sent": 31,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789581229794,
+  "lastOk": 1789581244360,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789581236000
+ "fetchedAt": 1789581253000
 }
