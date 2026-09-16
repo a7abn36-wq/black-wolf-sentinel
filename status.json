@@ -2,17 +2,17 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T00:37:38.017Z",
- "uptimeSec": 15941,
+ "uptimeSec": 15957,
  "ws": true,
- "trades": 16214,
+ "trades": 16215,
  "weight1m": 3000,
- "lastEventAt": 1789534991851,
+ "lastEventAt": 1789535011858,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.36,
    "cover": 52,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
    "mid": 4325.63,
@@ -58,15 +58,15 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.47,
-   "cover": 65,
-   "cols1": 902,
+   "cover": 64,
+   "cols1": 903,
    "cols60": 105,
-   "pools": 4,
+   "pools": 5,
    "mid": 4320.86,
    "cvd": -168.09,
    "liveSince": 1789519060,
    "activeSigs": 0,
-   "alerts": 139,
+   "alerts": 140,
    "signals": 16,
    "wins": 0,
    "losses": 0,
@@ -89,21 +89,27 @@
     {
      "price": 4260.08,
      "side": "bid",
-     "usd": 264470,
+     "usd": 264581,
      "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4347.97,
-     "side": "ask",
-     "usd": 125764,
+     "price": 4291.570000000001,
+     "side": "bid",
+     "usd": 212897,
      "durSec": 600,
-     "strength": 0.91
+     "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789535011858,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4291.57 · $213k · قوة 1.0"
+  },
   {
    "t": 1789534991851,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4320.36 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789530998908,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4356.36 · $158k · قوة 0.9"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 276,
+  "sent": 277,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789534992033,
+  "lastOk": 1789535012029,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789534999000
+ "fetchedAt": 1789535015000
 }
