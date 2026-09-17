@@ -2,40 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-17T04:34:33.629Z",
- "uptimeSec": 958,
+ "uptimeSec": 1035,
  "ws": true,
- "trades": 706,
+ "trades": 740,
  "weight1m": 3000,
- "lastEventAt": 1789620387287,
+ "lastEventAt": 1789620699457,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 55,
-   "cols1": 902,
-   "cols60": 2,
+   "cols1": 904,
+   "cols60": 3,
    "pools": 6,
-   "mid": 4300.07,
-   "cvd": 3.69,
+   "mid": 4300.6,
+   "cvd": 3.86,
    "liveSince": 1789619677,
    "activeSigs": 0,
    "alerts": 0,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4264.96,
      "side": "bid",
      "usd": 537241,
-     "durSec": 600,
-     "strength": 1
-    },
-    {
-     "price": 4320.04,
-     "side": "ask",
-     "usd": 312037,
      "durSec": 600,
      "strength": 1
     },
@@ -52,6 +45,13 @@
      "usd": 300492,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4322.76,
+     "side": "ask",
+     "usd": 301008,
+     "durSec": 600,
+     "strength": 1
     }
    ]
   },
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.46,
    "cover": 71,
-   "cols1": 902,
-   "cols60": 2,
-   "pools": 2,
-   "mid": 4297.68,
-   "cvd": -20.61,
+   "cols1": 904,
+   "cols60": 3,
+   "pools": 3,
+   "mid": 4298.05,
+   "cvd": -19.85,
    "liveSince": 1789619687,
    "activeSigs": 0,
-   "alerts": 11,
+   "alerts": 12,
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4258.68,
@@ -85,11 +85,24 @@
      "usd": 500054,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4281.22,
+     "side": "bid",
+     "usd": 121859,
+     "durSec": 600,
+     "strength": 0.88
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789620699457,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4281.22 · $121k · قوة 0.9"
+  },
   {
    "t": 1789620387287,
    "sym": "XAUTUSDT",
@@ -173,12 +186,12 @@
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 14,
+  "sent": 15,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789620387755,
+  "lastOk": 1789620699655,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789620632000
+ "fetchedAt": 1789620708000
 }
