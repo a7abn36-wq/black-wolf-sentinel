@@ -2,17 +2,17 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T22:59:07.734Z",
- "uptimeSec": 10708,
+ "uptimeSec": 10725,
  "ws": true,
  "trades": 14347,
  "weight1m": 3000,
- "lastEventAt": 1789610248290,
+ "lastEventAt": 1789610268299,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.38,
    "cover": 52,
-   "cols1": 903,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
    "mid": 4305.06,
@@ -49,7 +49,7 @@
     {
      "price": 4290.2,
      "side": "bid",
-     "usd": 248289,
+     "usd": 240896,
      "durSec": 600,
      "strength": 1
     }
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.5,
    "cover": 71,
-   "cols1": 903,
+   "cols1": 904,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4303.63,
+   "pools": 4,
+   "mid": 4303.55,
    "cvd": -733.21,
    "liveSince": 1789599550,
    "activeSigs": 0,
-   "alerts": 134,
+   "alerts": 135,
    "signals": 19,
    "wins": 1,
    "losses": 1,
@@ -76,27 +76,40 @@
      "price": 4350.5,
      "side": "ask",
      "usd": 499993,
-     "durSec": 470,
+     "durSec": 455,
      "strength": 1
     },
     {
      "price": 4272.5,
      "side": "bid",
-     "usd": 392885,
+     "usd": 380406,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4268.5,
      "side": "bid",
-     "usd": 125087,
+     "usd": 137567,
      "durSec": 600,
-     "strength": 0.95
+     "strength": 1
+    },
+    {
+     "price": 4346,
+     "side": "ask",
+     "usd": 120661,
+     "durSec": 600,
+     "strength": 0.89
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789610268299,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4346.00 · $121k · قوة 0.9"
+  },
   {
    "t": 1789610248290,
    "sym": "XAUTUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4342.50 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789609276861,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4343.02 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 250,
+  "sent": 251,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789610248476,
+  "lastOk": 1789610268831,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789610256000
+ "fetchedAt": 1789610272000
 }
