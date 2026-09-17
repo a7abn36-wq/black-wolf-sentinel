@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-17T15:45:21.345Z",
- "uptimeSec": 6165,
+ "uptimeSec": 6272,
  "ws": true,
- "trades": 3978,
+ "trades": 4003,
  "weight1m": 3000,
- "lastEventAt": 1789666082879,
+ "lastEventAt": 1789666190920,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 50,
-   "cols1": 905,
-   "cols60": 89,
+   "cols1": 898,
+   "cols60": 90,
    "pools": 6,
-   "mid": 4359.03,
-   "cvd": 28.53,
+   "mid": 4359.18,
+   "cvd": 28.24,
    "liveSince": 1789659926,
    "activeSigs": 0,
    "alerts": 11,
    "signals": 8,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4375.12,
      "side": "ask",
-     "usd": 555029,
+     "usd": 554979,
      "durSec": 600,
      "strength": 1
     },
@@ -49,7 +49,7 @@
     {
      "price": 4329.22,
      "side": "bid",
-     "usd": 300354,
+     "usd": 300287,
      "durSec": 600,
      "strength": 1
     }
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.48,
-   "cover": 67,
-   "cols1": 903,
-   "cols60": 89,
-   "pools": 6,
-   "mid": 4359.18,
-   "cvd": -100.94,
+   "cover": 68,
+   "cols1": 902,
+   "cols60": 90,
+   "pools": 5,
+   "mid": 4358.82,
+   "cvd": -99.07,
    "liveSince": 1789659942,
    "activeSigs": 2,
-   "alerts": 94,
+   "alerts": 96,
    "signals": 7,
    "wins": 0,
    "losses": 1,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4399.68,
@@ -89,21 +89,33 @@
     {
      "price": 4356,
      "side": "bid",
-     "usd": 461583,
+     "usd": 462291,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4359.84,
      "side": "bid",
-     "usd": 163249,
-     "durSec": 423,
+     "usd": 162915,
+     "durSec": 424,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789666190920,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 جدار شراء مهيمن ±$8 — $1.12M بيد مقابل $271k طلب"
+  },
+  {
+   "t": 1789666188931,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4330.08 اتسحبت من الكتاب"
+  },
   {
    "t": 1789666082879,
    "sym": "XAUTUSDT",
@@ -211,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "close",
    "text": "⌛ انتهت صلاحية الإشارة — 🧱 امتصاص جدار LONG @ 4357.01"
-  },
-  {
-   "t": 1789664907310,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4317.60 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789664862287,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4353.12 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 123,
+  "sent": 125,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789666084735,
+  "lastOk": 1789666191143,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789666087000
+ "fetchedAt": 1789666193000
 }
