@@ -2,40 +2,40 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-17T15:45:21.345Z",
- "uptimeSec": 3474,
+ "uptimeSec": 3505,
  "ws": true,
- "trades": 2389,
+ "trades": 2480,
  "weight1m": 3000,
- "lastEventAt": 1789663381572,
+ "lastEventAt": 1789663420581,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 52,
-   "cols1": 904,
+   "cols1": 905,
    "cols60": 44,
    "pools": 6,
-   "mid": 4357.27,
-   "cvd": -3.99,
+   "mid": 4357.11,
+   "cvd": -4.52,
    "liveSince": 1789659926,
    "activeSigs": 0,
    "alerts": 7,
    "signals": 4,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4375.12,
      "side": "ask",
-     "usd": 577833,
+     "usd": 575585,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4320.38,
      "side": "bid",
-     "usd": 500860,
+     "usd": 500861,
      "durSec": 600,
      "strength": 1
     },
@@ -59,23 +59,23 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.48,
    "cover": 69,
-   "cols1": 903,
+   "cols1": 904,
    "cols60": 44,
    "pools": 5,
    "mid": 4357.01,
-   "cvd": -1.5,
+   "cvd": -4.25,
    "liveSince": 1789659942,
    "activeSigs": 0,
-   "alerts": 60,
+   "alerts": 61,
    "signals": 3,
    "wins": 0,
    "losses": 1,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4355.04,
      "side": "bid",
-     "usd": 526532,
+     "usd": 527545,
      "durSec": 600,
      "strength": 1
     },
@@ -96,7 +96,7 @@
     {
      "price": 4356.96,
      "side": "bid",
-     "usd": 189380,
+     "usd": 182513,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789663420581,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🎯 السعر بيلمس بيرك شراء BID @ 4356.96 ($184k) — راقب رد الفعل"
+  },
   {
    "t": 1789663381572,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك شراء BID @ 4355.04 ($521k) — راقب رد الفعل"
-  },
-  {
-   "t": 1789662848606,
-   "sym": "XAUTUSDT",
-   "kind": "close",
-   "text": "❌ الستوب ضرب (-1R) — 🧱 امتصاص جدار LONG @ 4361.01"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 76,
+  "sent": 77,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789663381825,
+  "lastOk": 1789663420775,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789663395000
+ "fetchedAt": 1789663427000
 }
