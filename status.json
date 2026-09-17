@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-17T15:45:21.345Z",
- "uptimeSec": 11799,
+ "uptimeSec": 11876,
  "ws": true,
- "trades": 6364,
+ "trades": 6373,
  "weight1m": 3000,
- "lastEventAt": 1789671707541,
+ "lastEventAt": 1789671792588,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 52,
-   "cols1": 902,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
-   "mid": 4353.73,
-   "cvd": 25.98,
+   "mid": 4353.39,
+   "cvd": 26.66,
    "liveSince": 1789659926,
    "activeSigs": 0,
    "alerts": 19,
    "signals": 12,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4375.12,
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.48,
    "cover": 67,
-   "cols1": 905,
+   "cols1": 901,
    "cols60": 105,
-   "pools": 4,
-   "mid": 4353.48,
-   "cvd": -190.12,
+   "pools": 5,
+   "mid": 4353.35,
+   "cvd": -190.73,
    "liveSince": 1789659942,
    "activeSigs": 0,
-   "alerts": 131,
+   "alerts": 132,
    "signals": 10,
    "wins": 0,
    "losses": 2,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4313.28,
@@ -89,21 +89,27 @@
     {
      "price": 4380.48,
      "side": "ask",
-     "usd": 138787,
+     "usd": 146693,
      "durSec": 600,
-     "strength": 0.78
+     "strength": 0.89
     },
     {
      "price": 4323.84,
      "side": "bid",
-     "usd": 125239,
+     "usd": 133042,
      "durSec": 600,
-     "strength": 0.72
+     "strength": 0.82
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789671792588,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4322.40 · $120k · قوة 0.7"
+  },
   {
    "t": 1789671707541,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD LONG @ 4352.23"
-  },
-  {
-   "t": 1789669975696,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4393.44 · $120k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 178,
+  "sent": 179,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789671708020,
+  "lastOk": 1789671793077,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789671720000
+ "fetchedAt": 1789671797000
 }
