@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-17T15:45:21.345Z",
- "uptimeSec": 9676,
+ "uptimeSec": 9843,
  "ws": true,
- "trades": 5222,
+ "trades": 5311,
  "weight1m": 3000,
- "lastEventAt": 1789669583483,
+ "lastEventAt": 1789669750585,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 53,
-   "cols1": 905,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
-   "mid": 4356.18,
-   "cvd": 34.91,
+   "mid": 4355.32,
+   "cvd": 35.66,
    "liveSince": 1789659926,
    "activeSigs": 0,
    "alerts": 11,
    "signals": 11,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4375.12,
      "side": "ask",
-     "usd": 555348,
+     "usd": 555211,
      "durSec": 600,
      "strength": 1
     },
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.48,
-   "cover": 69,
-   "cols1": 903,
+   "cover": 70,
+   "cols1": 904,
    "cols60": 105,
    "pools": 4,
-   "mid": 4357.01,
-   "cvd": -90.08,
+   "mid": 4356.73,
+   "cvd": -121.36,
    "liveSince": 1789659942,
-   "activeSigs": 0,
+   "activeSigs": 1,
    "alerts": 116,
-   "signals": 8,
+   "signals": 9,
    "wins": 0,
    "losses": 1,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4399.68,
@@ -82,28 +82,34 @@
     {
      "price": 4321.92,
      "side": "bid",
-     "usd": 500019,
+     "usd": 499187,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4356,
      "side": "bid",
-     "usd": 491756,
+     "usd": 501831,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4330.08,
      "side": "bid",
-     "usd": 132296,
+     "usd": 132320,
      "durSec": 600,
-     "strength": 0.89
+     "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789669750585,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🧱 امتصاص جدار LONG @ 4357.01 · ستوب 4352.52 · هدف 4365.98"
+  },
   {
    "t": 1789669583483,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "close",
    "text": "⌛ انتهت صلاحية الإشارة — 🧱 امتصاص جدار LONG @ 4359.68"
-  },
-  {
-   "t": 1789666949271,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4330.08 · $121k · قوة 0.9"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 151,
+  "sent": 152,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789669583704,
+  "lastOk": 1789669750786,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789669597000
+ "fetchedAt": 1789669764000
 }
