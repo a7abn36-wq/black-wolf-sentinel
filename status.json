@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-17T21:20:46.986Z",
- "uptimeSec": 9048,
+ "uptimeSec": 9290,
  "ws": true,
- "trades": 2878,
+ "trades": 3145,
  "weight1m": 3000,
- "lastEventAt": 1789689092896,
+ "lastEventAt": 1789689327013,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
    "cover": 49,
-   "cols1": 898,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
-   "mid": 4345.93,
-   "cvd": 31.18,
+   "mid": 4348.44,
+   "cvd": 31.04,
    "liveSince": 1789680103,
    "activeSigs": 0,
    "alerts": 57,
    "signals": 5,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4311.24,
@@ -58,31 +58,31 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 62,
-   "cols1": 896,
+   "cover": 61,
+   "cols1": 898,
    "cols60": 105,
    "pools": 2,
-   "mid": 4347.52,
-   "cvd": -11.93,
+   "mid": 4350.22,
+   "cvd": -15.58,
    "liveSince": 1789680067,
    "activeSigs": 0,
    "alerts": 48,
-   "signals": 4,
+   "signals": 5,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
-     "price": 4384.8,
-     "side": "ask",
-     "usd": 525521,
+     "price": 4308.75,
+     "side": "bid",
+     "usd": 508064,
      "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4308.75,
-     "side": "bid",
-     "usd": 500044,
+     "price": 4384.8,
+     "side": "ask",
+     "usd": 466697,
      "durSec": 600,
      "strength": 1
     }
@@ -90,6 +90,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789689327013,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4350.72"
+  },
   {
    "t": 1789689092896,
    "sym": "XAUTUSDT",
@@ -203,24 +209,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4384.80 · $123k · قوة 0.9"
-  },
-  {
-   "t": 1789685222029,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4384.80 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 115,
+  "sent": 116,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789689093044,
+  "lastOk": 1789689327184,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789689095000
+ "fetchedAt": 1789689337000
 }
