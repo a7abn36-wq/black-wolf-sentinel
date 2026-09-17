@@ -2,17 +2,17 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-17T04:34:33.629Z",
- "uptimeSec": 9514,
+ "uptimeSec": 9530,
  "ws": true,
- "trades": 6740,
+ "trades": 6742,
  "weight1m": 3000,
- "lastEventAt": 1789629173302,
+ "lastEventAt": 1789629198325,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 61,
-   "cols1": 900,
+   "cols1": 896,
    "cols60": 105,
    "pools": 6,
    "mid": 4321.8,
@@ -28,7 +28,14 @@
     {
      "price": 4337.72,
      "side": "ask",
-     "usd": 334770,
+     "usd": 319747,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4281.96,
+     "side": "bid",
+     "usd": 313280,
      "durSec": 600,
      "strength": 1
     },
@@ -36,13 +43,6 @@
      "price": 4280.6,
      "side": "bid",
      "usd": 300297,
-     "durSec": 600,
-     "strength": 1
-    },
-    {
-     "price": 4281.96,
-     "side": "bid",
-     "usd": 296625,
      "durSec": 600,
      "strength": 1
     },
@@ -58,15 +58,15 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.46,
-   "cover": 80,
-   "cols1": 897,
+   "cover": 79,
+   "cols1": 898,
    "cols60": 105,
-   "pools": 5,
+   "pools": 6,
    "mid": 4318.49,
-   "cvd": -36.11,
+   "cvd": -36.22,
    "liveSince": 1789619687,
    "activeSigs": 0,
-   "alerts": 82,
+   "alerts": 83,
    "signals": 14,
    "wins": 0,
    "losses": 0,
@@ -89,14 +89,14 @@
     {
      "price": 4271.56,
      "side": "bid",
-     "usd": 203828,
+     "usd": 187190,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4348.38,
      "side": "ask",
-     "usd": 168043,
+     "usd": 150565,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789629198325,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4357.12 · $122k · قوة 1.0"
+  },
   {
    "t": 1789629173302,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4267.42 · $122k · قوة 1.0"
-  },
-  {
-   "t": 1789627223413,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4308.15"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 127,
+  "sent": 128,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789629173788,
+  "lastOk": 1789629198784,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789629188000
+ "fetchedAt": 1789629204000
 }
