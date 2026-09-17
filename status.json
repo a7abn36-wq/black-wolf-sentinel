@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-16T22:59:07.734Z",
- "uptimeSec": 18108,
+ "uptimeSec": 18140,
  "ws": true,
- "trades": 20592,
+ "trades": 20618,
  "weight1m": 3000,
- "lastEventAt": 1789617644481,
+ "lastEventAt": 1789617679492,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.38,
-   "cover": 55,
-   "cols1": 903,
+   "cover": 56,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
-   "mid": 4299.43,
-   "cvd": 15.44,
+   "mid": 4298.72,
+   "cvd": 15.57,
    "liveSince": 1789599565,
    "activeSigs": 0,
    "alerts": 123,
@@ -58,15 +58,15 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.5,
-   "cover": 72,
-   "cols1": 903,
+   "cover": 70,
+   "cols1": 904,
    "cols60": 105,
-   "pools": 6,
-   "mid": 4296.85,
-   "cvd": -959.53,
+   "pools": 5,
+   "mid": 4295.82,
+   "cvd": -959.95,
    "liveSince": 1789599550,
    "activeSigs": 0,
-   "alerts": 213,
+   "alerts": 214,
    "signals": 29,
    "wins": 1,
    "losses": 1,
@@ -87,23 +87,29 @@
      "strength": 1
     },
     {
-     "price": 4269.5,
-     "side": "bid",
-     "usd": 212962,
-     "durSec": 201,
-     "strength": 1
-    },
-    {
      "price": 4281.5,
      "side": "bid",
-     "usd": 133568,
+     "usd": 139385,
      "durSec": 600,
-     "strength": 0.92
+     "strength": 0.96
+    },
+    {
+     "price": 4316,
+     "side": "ask",
+     "usd": 132107,
+     "durSec": 600,
+     "strength": 0.9
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789617679492,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4269.50 اتسحبت من الكتاب"
+  },
   {
    "t": 1789617644481,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4299.80"
-  },
-  {
-   "t": 1789616663024,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4335.00 · $121k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 394,
+  "sent": 395,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789617644670,
+  "lastOk": 1789617679668,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789617656000
+ "fetchedAt": 1789617687000
 }
