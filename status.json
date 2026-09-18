@@ -2,20 +2,20 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T02:56:18.249Z",
- "uptimeSec": 4131,
+ "uptimeSec": 4192,
  "ws": true,
- "trades": 4200,
+ "trades": 4241,
  "weight1m": 3000,
- "lastEventAt": 1789704305779,
+ "lastEventAt": 1789704364818,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 50,
-   "cols1": 904,
-   "cols60": 55,
+   "cols1": 900,
+   "cols60": 56,
    "pools": 6,
-   "mid": 4358.39,
+   "mid": 4358.26,
    "cvd": 67.22,
    "liveSince": 1789700186,
    "activeSigs": 0,
@@ -23,7 +23,7 @@
    "signals": 8,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4380.3,
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
-   "cover": 63,
-   "cols1": 904,
-   "cols60": 55,
-   "pools": 4,
-   "mid": 4361.43,
-   "cvd": -91.71,
+   "cover": 64,
+   "cols1": 900,
+   "cols60": 56,
+   "pools": 3,
+   "mid": 4360.28,
+   "cvd": -99.96,
    "liveSince": 1789700192,
    "activeSigs": 0,
-   "alerts": 50,
+   "alerts": 51,
    "signals": 5,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4320.96,
@@ -89,21 +89,20 @@
     {
      "price": 4376.82,
      "side": "ask",
-     "usd": 147952,
+     "usd": 131635,
      "durSec": 600,
-     "strength": 0.99
-    },
-    {
-     "price": 4341.96,
-     "side": "bid",
-     "usd": 134489,
-     "durSec": 600,
-     "strength": 0.9
+     "strength": 0.93
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789704364818,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4341.96 اتسحبت من الكتاب"
+  },
   {
    "t": 1789704305779,
    "sym": "PAXGUSDT",
@@ -217,24 +216,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4371.31 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789703224246,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4384.64 · $137k · قوة 0.7"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 85,
+  "sent": 86,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789704305949,
+  "lastOk": 1789704364983,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789704309000
+ "fetchedAt": 1789704370000
 }
