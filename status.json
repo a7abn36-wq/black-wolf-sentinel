@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T02:56:18.249Z",
- "uptimeSec": 19731,
+ "uptimeSec": 19762,
  "ws": true,
- "trades": 17284,
+ "trades": 17290,
  "weight1m": 3000,
- "lastEventAt": 1789719898463,
+ "lastEventAt": 1789719927484,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 48,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
    "mid": 4386.98,
-   "cvd": 2.87,
+   "cvd": 6.88,
    "liveSince": 1789700186,
    "activeSigs": 0,
    "alerts": 89,
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
    "cover": 63,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4388.15,
-   "cvd": 60.67,
+   "pools": 2,
+   "mid": 4388.01,
+   "cvd": 60.66,
    "liveSince": 1789700192,
    "activeSigs": 0,
-   "alerts": 153,
+   "alerts": 154,
    "signals": 22,
    "wins": 0,
    "losses": 1,
@@ -82,21 +82,20 @@
     {
      "price": 4432.26,
      "side": "ask",
-     "usd": 484212,
+     "usd": 459253,
      "durSec": 600,
      "strength": 1
-    },
-    {
-     "price": 4362.12,
-     "side": "bid",
-     "usd": 126410,
-     "durSec": 600,
-     "strength": 0.96
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789719927484,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4362.12 اتسحبت من الكتاب"
+  },
   {
    "t": 1789719898463,
    "sym": "PAXGUSDT",
@@ -210,24 +209,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4348.68 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789716757915,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4432.26 · $123k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 295,
+  "sent": 296,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789719898672,
+  "lastOk": 1789719927969,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789719909000
+ "fetchedAt": 1789719941000
 }
