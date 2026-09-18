@@ -2,40 +2,40 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-17T21:20:46.986Z",
- "uptimeSec": 16025,
+ "uptimeSec": 16057,
  "ws": true,
- "trades": 8164,
+ "trades": 8187,
  "weight1m": 3000,
- "lastEventAt": 1789696067315,
+ "lastEventAt": 1789696094322,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
    "cover": 47,
-   "cols1": 901,
+   "cols1": 903,
    "cols60": 105,
-   "pools": 4,
-   "mid": 4349.48,
-   "cvd": -22.69,
+   "pools": 5,
+   "mid": 4349.11,
+   "cvd": -23.71,
    "liveSince": 1789680103,
    "activeSigs": 0,
-   "alerts": 102,
+   "alerts": 103,
    "signals": 13,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4328.63,
      "side": "bid",
-     "usd": 686434,
+     "usd": 646483,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4319.75,
      "side": "bid",
-     "usd": 298087,
+     "usd": 316715,
      "durSec": 600,
      "strength": 1
     },
@@ -44,59 +44,71 @@
      "side": "ask",
      "usd": 272376,
      "durSec": 600,
-     "strength": 0.98
+     "strength": 1
     },
     {
      "price": 4375.62,
      "side": "ask",
-     "usd": 239902,
+     "usd": 254890,
      "durSec": 600,
-     "strength": 0.86
+     "strength": 1
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 65,
-   "cols1": 901,
+   "cover": 64,
+   "cols1": 903,
    "cols60": 105,
    "pools": 3,
-   "mid": 4350.84,
-   "cvd": -43.33,
+   "mid": 4350.77,
+   "cvd": -45.54,
    "liveSince": 1789680067,
    "activeSigs": 0,
    "alerts": 108,
-   "signals": 12,
+   "signals": 13,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4311.900000000001,
      "side": "bid",
-     "usd": 404870,
+     "usd": 429830,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4391.55,
      "side": "ask",
-     "usd": 368070,
+     "usd": 343110,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4387.05,
      "side": "ask",
-     "usd": 132947,
+     "usd": 157907,
      "durSec": 600,
-     "strength": 0.87
+     "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789696094322,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4350.77"
+  },
+  {
+   "t": 1789696092325,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4358.97 · $145k · قوة 0.6"
+  },
   {
    "t": 1789696067315,
    "sym": "XAUTUSDT",
@@ -204,30 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4395.60 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789695732155,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4311.90 · $123k · قوة 0.9"
-  },
-  {
-   "t": 1789695672120,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4400.10 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 236,
+  "sent": 238,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789696068735,
+  "lastOk": 1789696094476,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789696072000
+ "fetchedAt": 1789696104000
 }
