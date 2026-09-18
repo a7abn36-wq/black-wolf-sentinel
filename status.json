@@ -2,33 +2,40 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T02:56:18.249Z",
- "uptimeSec": 18181,
+ "uptimeSec": 18423,
  "ws": true,
- "trades": 15911,
- "weight1m": 3000,
+ "trades": 16188,
+ "weight1m": 2950,
  "lastEventAt": 1789718358712,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 53,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4390.82,
-   "cvd": -42.49,
+   "mid": 4393.93,
+   "cvd": -36.16,
    "liveSince": 1789700186,
    "activeSigs": 0,
    "alerts": 89,
    "signals": 25,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4346.2,
      "side": "bid",
      "usd": 500454,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4420.91,
+     "side": "ask",
+     "usd": 499450,
      "durSec": 600,
      "strength": 1
     },
@@ -45,37 +52,30 @@
      "usd": 300405,
      "durSec": 600,
      "strength": 1
-    },
-    {
-     "price": 4363.25,
-     "side": "bid",
-     "usd": 300266,
-     "durSec": 600,
-     "strength": 1
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
-   "cover": 66,
-   "cols1": 903,
+   "cover": 69,
+   "cols1": 904,
    "cols60": 105,
    "pools": 3,
-   "mid": 4392.15,
-   "cvd": 20.21,
+   "mid": 4395.72,
+   "cvd": 50.18,
    "liveSince": 1789700192,
    "activeSigs": 0,
    "alerts": 145,
    "signals": 22,
    "wins": 0,
    "losses": 1,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4353.3,
      "side": "bid",
-     "usd": 500042,
+     "usd": 506303,
      "durSec": 600,
      "strength": 1
     },
@@ -90,7 +90,7 @@
      "price": 4366.32,
      "side": "bid",
      "usd": 212967,
-     "durSec": 215,
+     "durSec": 183,
      "strength": 1
     }
    ]
@@ -222,12 +222,12 @@
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 283,
+  "sent": 284,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789718359173,
+  "lastOk": 1789718360455,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789718359000
+ "fetchedAt": 1789718601000
 }
