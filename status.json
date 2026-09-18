@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T14:07:22.202Z",
- "uptimeSec": 1030,
+ "uptimeSec": 1046,
  "ws": true,
- "trades": 1503,
+ "trades": 1515,
  "weight1m": 3000,
- "lastEventAt": 1789741465243,
+ "lastEventAt": 1789741478248,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 48,
-   "cols1": 902,
+   "cols1": 898,
    "cols60": 3,
    "pools": 6,
-   "mid": 4351.69,
-   "cvd": -3.97,
+   "mid": 4352.35,
+   "cvd": -5.32,
    "liveSince": 1789740444,
    "activeSigs": 0,
    "alerts": 2,
-   "signals": 2,
+   "signals": 3,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4319.7,
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
    "cover": 67,
-   "cols1": 902,
+   "cols1": 898,
    "cols60": 3,
    "pools": 6,
-   "mid": 4356.94,
-   "cvd": -14.8,
+   "mid": 4356.91,
+   "cvd": -15.61,
    "liveSince": 1789740452,
    "activeSigs": 0,
    "alerts": 0,
-   "signals": 2,
+   "signals": 3,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4305.16,
@@ -82,7 +82,7 @@
     {
      "price": 4339.99,
      "side": "bid",
-     "usd": 1002744,
+     "usd": 1002511,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,18 @@
   }
  },
  "recent": [
+  {
+   "t": 1789741478248,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4356.91"
+  },
+  {
+   "t": 1789741476242,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4351.69"
+  },
   {
    "t": 1789741465243,
    "sym": "PAXGUSDT",
@@ -145,12 +157,12 @@
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 7,
+  "sent": 9,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789741466871,
+  "lastOk": 1789741478450,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789741472000
+ "fetchedAt": 1789741488000
 }
