@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-17T21:20:46.986Z",
- "uptimeSec": 14521,
+ "uptimeSec": 14552,
  "ws": true,
- "trades": 6730,
+ "trades": 6791,
  "weight1m": 3000,
- "lastEventAt": 1789694560571,
+ "lastEventAt": 1789694597583,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.37,
-   "cover": 49,
-   "cols1": 902,
+   "cover": 51,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
-   "mid": 4361.16,
-   "cvd": 25.94,
+   "mid": 4360.65,
+   "cvd": -24.28,
    "liveSince": 1789680103,
    "activeSigs": 0,
-   "alerts": 80,
+   "alerts": 81,
    "signals": 11,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4328.63,
@@ -42,14 +42,14 @@
     {
      "price": 4332.7,
      "side": "bid",
-     "usd": 336048,
+     "usd": 336106,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4388.94,
      "side": "ask",
-     "usd": 272770,
+     "usd": 272772,
      "durSec": 600,
      "strength": 1
     }
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.45,
-   "cover": 67,
-   "cols1": 900,
+   "cover": 66,
+   "cols1": 901,
    "cols60": 105,
    "pools": 5,
-   "mid": 4363.41,
-   "cvd": -16.97,
+   "mid": 4364.03,
+   "cvd": -16.3,
    "liveSince": 1789680067,
    "activeSigs": 0,
    "alerts": 94,
    "signals": 11,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4317.3,
@@ -89,7 +89,7 @@
     {
      "price": 4400.1,
      "side": "ask",
-     "usd": 222743,
+     "usd": 249333,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789694597583,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $239k"
+  },
   {
    "t": 1789694560571,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4380.30 · $121k · قوة 0.9"
-  },
-  {
-   "t": 1789694115353,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4356.81"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 197,
+  "sent": 198,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789694561974,
+  "lastOk": 1789694597739,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789694568000
+ "fetchedAt": 1789694599000
 }
