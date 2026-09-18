@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T08:31:48.229Z",
- "uptimeSec": 4014,
+ "uptimeSec": 4045,
  "ws": true,
- "trades": 3107,
+ "trades": 3134,
  "weight1m": 3000,
- "lastEventAt": 1789724322036,
+ "lastEventAt": 1789724348049,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.3,
-   "cover": 46,
-   "cols1": 900,
-   "cols60": 53,
+   "cover": 45,
+   "cols1": 901,
+   "cols60": 54,
    "pools": 6,
-   "mid": 4380.52,
-   "cvd": 55.17,
+   "mid": 4379.6,
+   "cvd": 53.9,
    "liveSince": 1789720309,
    "activeSigs": 0,
    "alerts": 20,
@@ -49,7 +49,7 @@
     {
      "price": 4354.5,
      "side": "bid",
-     "usd": 296873,
+     "usd": 296875,
      "durSec": 600,
      "strength": 1
     }
@@ -58,16 +58,16 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 69,
-   "cols1": 901,
-   "cols60": 53,
+   "cover": 70,
+   "cols1": 902,
+   "cols60": 54,
    "pools": 4,
-   "mid": 4381.9,
-   "cvd": -145.16,
+   "mid": 4381.27,
+   "cvd": -145.21,
    "liveSince": 1789720313,
-   "activeSigs": 1,
+   "activeSigs": 2,
    "alerts": 55,
-   "signals": 4,
+   "signals": 5,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 1,
@@ -75,7 +75,7 @@
     {
      "price": 4380.85,
      "side": "bid",
-     "usd": 515566,
+     "usd": 516618,
      "durSec": 600,
      "strength": 1
     },
@@ -96,14 +96,20 @@
     {
      "price": 4382.900000000001,
      "side": "bid",
-     "usd": 243081,
-     "durSec": 600,
+     "usd": 242971,
+     "durSec": 567,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789724348049,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🧱 امتصاص جدار LONG @ 4381.51 · ستوب 4377.35 · هدف 4389.82"
+  },
   {
    "t": 1789724322036,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD LONG @ 4390.63"
-  },
-  {
-   "t": 1789722828374,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4348.87 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 82,
+  "sent": 84,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1789724321550,
+  "lastOk": 1789724348428,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1789724322000
+ "fetchedAt": 1789724354000
 }
