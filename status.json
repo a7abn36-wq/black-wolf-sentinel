@@ -2,25 +2,25 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T08:31:48.229Z",
- "uptimeSec": 8936,
+ "uptimeSec": 8982,
  "ws": true,
- "trades": 7516,
+ "trades": 7600,
  "weight1m": 3000,
- "lastEventAt": 1789729238258,
+ "lastEventAt": 1789729277269,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.3,
    "cover": 45,
-   "cols1": 898,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
-   "mid": 4378.28,
-   "cvd": 483.01,
+   "mid": 4379.77,
+   "cvd": 483.83,
    "liveSince": 1789720309,
    "activeSigs": 0,
    "alerts": 56,
-   "signals": 8,
+   "signals": 9,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 0,
@@ -28,14 +28,14 @@
     {
      "price": 4346.099999999999,
      "side": "bid",
-     "usd": 505637,
+     "usd": 505634,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4410.599999999999,
      "side": "ask",
-     "usd": 502815,
+     "usd": 502777,
      "durSec": 600,
      "strength": 1
     },
@@ -58,12 +58,12 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 60,
-   "cols1": 900,
+   "cover": 59,
+   "cols1": 902,
    "cols60": 105,
    "pools": 4,
-   "mid": 4381.32,
-   "cvd": -244.33,
+   "mid": 4383.06,
+   "cvd": -241.89,
    "liveSince": 1789720313,
    "activeSigs": 0,
    "alerts": 80,
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789729277269,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4379.23"
+  },
   {
    "t": 1789729238258,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4403.40 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789727339373,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4377.00 · $244k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 160,
+  "sent": 161,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1789729238432,
+  "lastOk": 1789729277454,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1789729244000
+ "fetchedAt": 1789729290000
 }
