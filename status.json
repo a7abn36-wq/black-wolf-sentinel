@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T14:07:22.202Z",
- "uptimeSec": 9243,
+ "uptimeSec": 9334,
  "ws": true,
- "trades": 12098,
+ "trades": 12147,
  "weight1m": 3000,
- "lastEventAt": 1789749680767,
+ "lastEventAt": 1789749776809,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
    "cover": 50,
-   "cols1": 905,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4375.73,
-   "cvd": 158.52,
+   "mid": 4375.24,
+   "cvd": 159.69,
    "liveSince": 1789740444,
    "activeSigs": 0,
-   "alerts": 40,
+   "alerts": 42,
    "signals": 14,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4337.1900000000005,
      "side": "bid",
-     "usd": 565826,
+     "usd": 518383,
      "durSec": 600,
      "strength": 1
     },
@@ -42,14 +42,14 @@
     {
      "price": 4341.4800000000005,
      "side": "bid",
-     "usd": 316241,
+     "usd": 304852,
      "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4397.91,
-     "side": "ask",
-     "usd": 295346,
+     "price": 4350.39,
+     "side": "bid",
+     "usd": 292276,
      "durSec": 600,
      "strength": 1
     }
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 63,
-   "cols1": 905,
+   "cover": 64,
+   "cols1": 902,
    "cols60": 105,
    "pools": 4,
-   "mid": 4380.77,
-   "cvd": 23.45,
+   "mid": 4380.48,
+   "cvd": 22.31,
    "liveSince": 1789740452,
    "activeSigs": 0,
    "alerts": 53,
    "signals": 13,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4330.1,
@@ -96,7 +96,7 @@
     {
      "price": 4419.54,
      "side": "ask",
-     "usd": 430750,
+     "usd": 511509,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,18 @@
   }
  },
  "recent": [
+  {
+   "t": 1789749776809,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4399.89 اتسحبت من الكتاب"
+  },
+  {
+   "t": 1789749776809,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4365.24 · $154k · قوة 0.9"
+  },
   {
    "t": 1789749680767,
    "sym": "XAUTUSDT",
@@ -211,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4382.28"
-  },
-  {
-   "t": 1789749116452,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4328.61 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789749116452,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4407.15 · $372k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 121,
+  "sent": 122,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789749681385,
+  "lastOk": 1789749777098,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789749685000
+ "fetchedAt": 1789749777000
 }
