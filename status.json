@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T02:56:18.249Z",
- "uptimeSec": 13398,
+ "uptimeSec": 13414,
  "ws": true,
- "trades": 11295,
+ "trades": 11317,
  "weight1m": 3000,
- "lastEventAt": 1789713564358,
+ "lastEventAt": 1789713581774,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 52,
-   "cols1": 904,
+   "cols1": 905,
    "cols60": 105,
    "pools": 6,
    "mid": 4390.94,
-   "cvd": 62.69,
+   "cvd": 62.64,
    "liveSince": 1789700186,
    "activeSigs": 0,
    "alerts": 81,
@@ -58,18 +58,18 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
-   "cover": 68,
-   "cols1": 901,
+   "cover": 67,
+   "cols1": 902,
    "cols60": 105,
    "pools": 4,
-   "mid": 4390.35,
-   "cvd": -0.96,
+   "mid": 4390.77,
+   "cvd": -0.1,
    "liveSince": 1789700192,
-   "activeSigs": 1,
+   "activeSigs": 0,
    "alerts": 127,
    "signals": 18,
    "wins": 0,
-   "losses": 0,
+   "losses": 1,
    "depthAgeSec": 0,
    "poolsList": [
     {
@@ -89,21 +89,27 @@
     {
      "price": 4362.12,
      "side": "bid",
-     "usd": 123694,
+     "usd": 126529,
      "durSec": 600,
-     "strength": 0.91
+     "strength": 0.92
     },
     {
      "price": 4419.24,
      "side": "ask",
-     "usd": 124252,
+     "usd": 127124,
      "durSec": 600,
-     "strength": 0.9
+     "strength": 0.92
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789713581774,
+   "sym": "XAUTUSDT",
+   "kind": "close",
+   "text": "❌ الستوب ضرب (-1R) — 🧱 امتصاص جدار SHORT @ 4386.99"
+  },
   {
    "t": 1789713564358,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4389.40"
-  },
-  {
-   "t": 1789712659893,
-   "sym": "XAUTUSDT",
-   "kind": "signal",
-   "text": "🧱 امتصاص جدار SHORT @ 4386.99 · ستوب 4390.41 · هدف 4380.17"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 250,
+  "sent": 251,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789713565835,
+  "lastOk": 1789713582176,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789713576000
+ "fetchedAt": 1789713592000
 }
