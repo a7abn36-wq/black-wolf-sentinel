@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T02:56:18.249Z",
- "uptimeSec": 7448,
+ "uptimeSec": 7464,
  "ws": true,
- "trades": 6145,
+ "trades": 6153,
  "weight1m": 3000,
- "lastEventAt": 1789707621381,
+ "lastEventAt": 1789707637397,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 49,
-   "cols1": 904,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
-   "mid": 4367.35,
-   "cvd": 105.42,
+   "mid": 4367.55,
+   "cvd": 105.43,
    "liveSince": 1789700186,
    "activeSigs": 0,
    "alerts": 29,
    "signals": 13,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4328.53,
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
    "cover": 63,
-   "cols1": 900,
+   "cols1": 902,
    "cols60": 105,
-   "pools": 3,
+   "pools": 4,
    "mid": 4367.27,
-   "cvd": -81.49,
+   "cvd": -80.81,
    "liveSince": 1789700192,
    "activeSigs": 0,
-   "alerts": 71,
+   "alerts": 72,
    "signals": 9,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4327.26,
@@ -92,11 +92,24 @@
      "usd": 215661,
      "durSec": 255,
      "strength": 1
+    },
+    {
+     "price": 4392.78,
+     "side": "ask",
+     "usd": 123702,
+     "durSec": 600,
+     "strength": 0.85
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1789707637397,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4392.78 · $121k · قوة 0.8"
+  },
   {
    "t": 1789707621381,
    "sym": "PAXGUSDT",
@@ -210,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4389.29 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789706765977,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4397.66 · $278k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 124,
+  "sent": 125,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789707621805,
+  "lastOk": 1789707637564,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789707626000
+ "fetchedAt": 1789707642000
 }
