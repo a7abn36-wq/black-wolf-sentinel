@@ -2,23 +2,23 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T08:31:48.229Z",
- "uptimeSec": 7601,
+ "uptimeSec": 7755,
  "ws": true,
- "trades": 6762,
+ "trades": 6807,
  "weight1m": 3000,
- "lastEventAt": 1789727909650,
+ "lastEventAt": 1789728061239,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.3,
    "cover": 45,
-   "cols1": 902,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
-   "mid": 4378.28,
-   "cvd": 449.33,
+   "mid": 4377.6,
+   "cvd": 448.45,
    "liveSince": 1789720309,
-   "activeSigs": 4,
+   "activeSigs": 3,
    "alerts": 56,
    "signals": 8,
    "wins": 0,
@@ -59,11 +59,11 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
    "cover": 61,
-   "cols1": 902,
+   "cols1": 900,
    "cols60": 105,
    "pools": 4,
-   "mid": 4381.81,
-   "cvd": -234.55,
+   "mid": 4380.43,
+   "cvd": -234.9,
    "liveSince": 1789720313,
    "activeSigs": 0,
    "alerts": 77,
@@ -75,7 +75,14 @@
     {
      "price": 4339.85,
      "side": "bid",
-     "usd": 741990,
+     "usd": 992893,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4355.02,
+     "side": "bid",
+     "usd": 618018,
      "durSec": 600,
      "strength": 1
     },
@@ -87,16 +94,9 @@
      "strength": 1
     },
     {
-     "price": 4355.02,
-     "side": "bid",
-     "usd": 367455,
-     "durSec": 600,
-     "strength": 1
-    },
-    {
      "price": 4330.01,
      "side": "bid",
-     "usd": 221436,
+     "usd": 472307,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789728061239,
+   "sym": "PAXGUSDT",
+   "kind": "close",
+   "text": "⌛ انتهت صلاحية الإشارة — 🧱 امتصاص جدار SHORT @ 4375.99"
+  },
   {
    "t": 1789727909650,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "⚡ انفجار CVD في دقيقة — شراء صافي $656k"
-  },
-  {
-   "t": 1789726855150,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🧱 امتصاص جدار SHORT @ 4375.99 · ستوب 4379.60 · هدف 4368.78"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 152,
+  "sent": 154,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1789727909807,
+  "lastOk": 1789728061685,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1789727909000
+ "fetchedAt": 1789728063000
 }
