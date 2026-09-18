@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T14:07:22.202Z",
- "uptimeSec": 7533,
+ "uptimeSec": 7640,
  "ws": true,
- "trades": 9227,
+ "trades": 9337,
  "weight1m": 3000,
- "lastEventAt": 1789747974845,
+ "lastEventAt": 1789748079891,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
-   "cover": 47,
+   "cover": 46,
    "cols1": 900,
    "cols60": 105,
    "pools": 6,
-   "mid": 4361.24,
-   "cvd": 3.24,
+   "mid": 4358.82,
+   "cvd": 4.92,
    "liveSince": 1789740444,
    "activeSigs": 0,
    "alerts": 16,
    "signals": 12,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4319.7,
@@ -42,7 +42,7 @@
     {
      "price": 4324.320000000001,
      "side": "bid",
-     "usd": 301283,
+     "usd": 301103,
      "durSec": 600,
      "strength": 1
     },
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 60,
+   "cover": 61,
    "cols1": 900,
    "cols60": 105,
-   "pools": 5,
-   "mid": 4367.9,
-   "cvd": 41.56,
+   "pools": 6,
+   "mid": 4365.47,
+   "cvd": 36.3,
    "liveSince": 1789740452,
    "activeSigs": 0,
-   "alerts": 38,
+   "alerts": 39,
    "signals": 9,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4320.21,
@@ -96,7 +96,7 @@
     {
      "price": 4401.05,
      "side": "ask",
-     "usd": 488880,
+     "usd": 392325,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789748079891,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4405.78 · $121k · قوة 0.8"
+  },
   {
    "t": 1789747974845,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4313.76 · $249k · قوة 1.0"
-  },
-  {
-   "t": 1789744357926,
-   "sym": "XAUTUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4352.51"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 76,
+  "sent": 77,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789747975384,
+  "lastOk": 1789748080191,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789747976000
+ "fetchedAt": 1789748082000
 }
