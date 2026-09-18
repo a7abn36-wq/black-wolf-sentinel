@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-18T02:56:18.249Z",
- "uptimeSec": 18681,
+ "uptimeSec": 18697,
  "ws": true,
- "trades": 16458,
+ "trades": 16459,
  "weight1m": 3000,
- "lastEventAt": 1789718604842,
+ "lastEventAt": 1789718864970,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
-   "cover": 52,
-   "cols1": 881,
+   "cover": 53,
+   "cols1": 883,
    "cols60": 105,
    "pools": 6,
    "mid": 4393.65,
-   "cvd": -24.93,
+   "cvd": -24.97,
    "liveSince": 1789700186,
    "activeSigs": 0,
    "alerts": 89,
    "signals": 25,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4420.91,
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
    "cover": 70,
-   "cols1": 880,
+   "cols1": 882,
    "cols60": 105,
-   "pools": 2,
+   "pools": 3,
    "mid": 4395.8,
    "cvd": 91.93,
    "liveSince": 1789700192,
    "activeSigs": 0,
-   "alerts": 146,
+   "alerts": 147,
    "signals": 22,
    "wins": 0,
    "losses": 1,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4353.3,
@@ -82,7 +82,14 @@
     {
      "price": 4432.26,
      "side": "ask",
-     "usd": 386420,
+     "usd": 369208,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4436.46,
+     "side": "ask",
+     "usd": 131430,
      "durSec": 600,
      "strength": 1
     }
@@ -90,6 +97,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789718864970,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4436.46 · $123k · قوة 0.9"
+  },
   {
    "t": 1789718604842,
    "sym": "XAUTUSDT",
@@ -203,24 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4362.12 · $121k · قوة 0.9"
-  },
-  {
-   "t": 1789715231166,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4419.24 · $120k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 285,
+  "sent": 286,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789718605137,
+  "lastOk": 1789718865141,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789718859000
+ "fetchedAt": 1789718876000
 }
