@@ -2,54 +2,54 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-19T06:53:35.710Z",
- "uptimeSec": 12512,
+ "uptimeSec": 12528,
  "ws": true,
- "trades": 1653,
+ "trades": 1655,
  "weight1m": 3000,
- "lastEventAt": 1789813319358,
+ "lastEventAt": 1789813329363,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.34,
    "cover": 49,
-   "cols1": 904,
+   "cols1": 905,
    "cols60": 105,
-   "pools": 5,
+   "pools": 6,
    "mid": 4366.7,
    "cvd": 26.98,
    "liveSince": 1789800856,
    "activeSigs": 0,
-   "alerts": 69,
+   "alerts": 70,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4360.84,
      "side": "bid",
-     "usd": 1094298,
+     "usd": 1094319,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4330.92,
      "side": "bid",
-     "usd": 335419,
+     "usd": 322936,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4400.280000000001,
      "side": "ask",
-     "usd": 269898,
+     "usd": 259861,
      "durSec": 600,
-     "strength": 0.86
+     "strength": 0.85
     },
     {
      "price": 4335.34,
      "side": "bid",
-     "usd": 201613,
+     "usd": 194123,
      "durSec": 600,
      "strength": 0.65
     }
@@ -58,8 +58,8 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
-   "cover": 60,
-   "cols1": 904,
+   "cover": 59,
+   "cols1": 905,
    "cols60": 105,
    "pools": 6,
    "mid": 4374.93,
@@ -70,7 +70,7 @@
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4320.12,
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789813329363,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4331.94 · $169k · قوة 0.6"
+  },
   {
    "t": 1789813319358,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4401.18 · $121k · قوة 0.8"
-  },
-  {
-   "t": 1789812131785,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 جدار شراء مهيمن ±$8 — $2.00M بيد مقابل $489k طلب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 118,
+  "sent": 119,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789813319498,
+  "lastOk": 1789813329736,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789813327000
+ "fetchedAt": 1789813344000
 }
