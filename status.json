@@ -2,24 +2,24 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-19T12:28:55.175Z",
- "uptimeSec": 12682,
+ "uptimeSec": 12713,
  "ws": true,
- "trades": 1468,
+ "trades": 1525,
  "weight1m": 3000,
- "lastEventAt": 1789833132229,
+ "lastEventAt": 1789833648462,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
-   "cover": 49,
-   "cols1": 905,
+   "cover": 50,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
-   "mid": 4367.81,
-   "cvd": -43.45,
+   "mid": 4368.35,
+   "cvd": 2.34,
    "liveSince": 1789820963,
    "activeSigs": 0,
-   "alerts": 14,
+   "alerts": 16,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -28,7 +28,7 @@
     {
      "price": 4360.96,
      "side": "bid",
-     "usd": 1245176,
+     "usd": 1248294,
      "durSec": 600,
      "strength": 1
     },
@@ -59,11 +59,11 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
    "cover": 60,
-   "cols1": 904,
+   "cols1": 905,
    "cols60": 105,
    "pools": 6,
    "mid": 4375.27,
-   "cvd": 0.14,
+   "cvd": -0.23,
    "liveSince": 1789820972,
    "activeSigs": 0,
    "alerts": 34,
@@ -104,6 +104,18 @@
   }
  },
  "recent": [
+  {
+   "t": 1789833648462,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 جدار شراء مهيمن ±$8 — $1.93M بيد مقابل $458k طلب"
+  },
+  {
+   "t": 1789833647454,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — شراء صافي $200k"
+  },
   {
    "t": 1789833132229,
    "sym": "XAUTUSDT",
@@ -211,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4402.58 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789827169322,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 جدار شراء مهيمن ±$8 — $1.80M بيد مقابل $415k طلب"
-  },
-  {
-   "t": 1789826899186,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 جدار شراء مهيمن ±$8 — $2.22M بيد مقابل $534k طلب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 49,
+  "sent": 51,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789833133876,
+  "lastOk": 1789833648888,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789833617000
+ "fetchedAt": 1789833649000
 }
