@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-20T10:50:26.986Z",
- "uptimeSec": 10484,
+ "uptimeSec": 10530,
  "ws": true,
- "trades": 1596,
+ "trades": 1600,
  "weight1m": 3000,
- "lastEventAt": 1789911661943,
+ "lastEventAt": 1789911943089,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.3,
    "cover": 47,
-   "cols1": 898,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
    "mid": 4361.27,
-   "cvd": 5.83,
+   "cvd": 5.57,
    "liveSince": 1789901430,
-   "activeSigs": 0,
+   "activeSigs": 1,
    "alerts": 100,
-   "signals": 0,
+   "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4361.099999999999,
      "side": "bid",
-     "usd": 559089,
+     "usd": 559107,
      "durSec": 600,
      "strength": 1
     },
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
    "cover": 64,
-   "cols1": 897,
+   "cols1": 899,
    "cols60": 105,
    "pools": 6,
    "mid": 4370.48,
-   "cvd": -5.59,
+   "cvd": -5.57,
    "liveSince": 1789901466,
    "activeSigs": 0,
    "alerts": 46,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4320.17,
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789911943089,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🧱 امتصاص جدار LONG @ 4361.27 · ستوب 4357.61 · هدف 4368.57"
+  },
   {
    "t": 1789911661943,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4391.70 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1789910688458,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4326.90 · $270k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 147,
+  "sent": 148,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789911662254,
+  "lastOk": 1789911943428,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789911911000
+ "fetchedAt": 1789911957000
 }
