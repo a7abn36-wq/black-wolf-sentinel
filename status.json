@@ -2,11 +2,11 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-20T10:50:26.986Z",
- "uptimeSec": 7918,
+ "uptimeSec": 7979,
  "ws": true,
- "trades": 1326,
+ "trades": 1336,
  "weight1m": 3000,
- "lastEventAt": 1789909330798,
+ "lastEventAt": 1789909395835,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
@@ -14,12 +14,12 @@
    "cover": 46,
    "cols1": 900,
    "cols60": 105,
-   "pools": 5,
+   "pools": 4,
    "mid": 4361.39,
-   "cvd": -3.36,
+   "cvd": -3,
    "liveSince": 1789901430,
    "activeSigs": 0,
-   "alerts": 75,
+   "alerts": 76,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -28,14 +28,21 @@
     {
      "price": 4361.099999999999,
      "side": "bid",
-     "usd": 579696,
+     "usd": 575252,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4387.2,
      "side": "ask",
-     "usd": 151226,
+     "usd": 180272,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4395.9,
+     "side": "ask",
+     "usd": 176854,
      "durSec": 600,
      "strength": 1
     },
@@ -44,26 +51,19 @@
      "side": "ask",
      "usd": 145951,
      "durSec": 600,
-     "strength": 1
-    },
-    {
-     "price": 4395.9,
-     "side": "ask",
-     "usd": 128516,
-     "durSec": 600,
-     "strength": 1
+     "strength": 0.91
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 64,
-   "cols1": 900,
+   "cover": 63,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
    "mid": 4370.27,
-   "cvd": -6.63,
+   "cvd": -6.39,
    "liveSince": 1789901466,
    "activeSigs": 0,
    "alerts": 38,
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789909395835,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4359.90 اتسحبت من الكتاب"
+  },
   {
    "t": 1789909330798,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك شراء BID @ 4361.10 ($604k) — راقب رد الفعل"
-  },
-  {
-   "t": 1789907662010,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🎯 السعر بيلمس بيرك شراء BID @ 4359.90 ($126k) — راقب رد الفعل"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 114,
+  "sent": 115,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789909331129,
+  "lastOk": 1789909396196,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789909345000
+ "fetchedAt": 1789909406000
 }
