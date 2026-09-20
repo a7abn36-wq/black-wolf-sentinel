@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-20T16:25:53.299Z",
- "uptimeSec": 20061,
+ "uptimeSec": 20093,
  "ws": true,
- "trades": 5091,
+ "trades": 5141,
  "weight1m": 3000,
- "lastEventAt": 1789941610733,
+ "lastEventAt": 1789941644743,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.29,
-   "cover": 46,
-   "cols1": 901,
+   "cover": 44,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4367.44,
-   "cvd": -8.6,
+   "mid": 4368.07,
+   "cvd": -6.38,
    "liveSince": 1789921555,
    "activeSigs": 0,
    "alerts": 222,
    "signals": 4,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4328.54,
@@ -58,16 +58,16 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.4,
-   "cover": 69,
-   "cols1": 902,
+   "cover": 68,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
-   "mid": 4374.89,
-   "cvd": 39.36,
+   "mid": 4374.85,
+   "cvd": 30.7,
    "liveSince": 1789921569,
    "activeSigs": 0,
    "alerts": 106,
-   "signals": 3,
+   "signals": 4,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 0,
@@ -89,7 +89,7 @@
     {
      "price": 4340,
      "side": "bid",
-     "usd": 998375,
+     "usd": 998356,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789941644743,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4374.85"
+  },
   {
    "t": 1789941610733,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4388.00 · $120k · قوة 0.9"
-  },
-  {
-   "t": 1789940081067,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4398.00 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 337,
+  "sent": 338,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789941610895,
+  "lastOk": 1789941644910,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789941615000
+ "fetchedAt": 1789941646000
 }
