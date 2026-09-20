@@ -2,40 +2,40 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-19T23:39:39.302Z",
- "uptimeSec": 14248,
+ "uptimeSec": 14414,
  "ws": true,
- "trades": 3091,
+ "trades": 3109,
  "weight1m": 3000,
- "lastEventAt": 1789875418354,
+ "lastEventAt": 1789875587459,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.3,
    "cover": 48,
-   "cols1": 905,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
    "mid": 4361.63,
-   "cvd": -133.72,
+   "cvd": -133.35,
    "liveSince": 1789861198,
    "activeSigs": 0,
    "alerts": 43,
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4361.099999999999,
      "side": "bid",
-     "usd": 664987,
+     "usd": 691949,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4331.4,
      "side": "bid",
-     "usd": 500244,
+     "usd": 500233,
      "durSec": 600,
      "strength": 1
     },
@@ -51,7 +51,7 @@
      "side": "bid",
      "usd": 317535,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.88
     }
    ]
   },
@@ -59,23 +59,23 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.39,
    "cover": 64,
-   "cols1": 905,
+   "cols1": 900,
    "cols60": 105,
-   "pools": 5,
+   "pools": 6,
    "mid": 4368.64,
-   "cvd": 53.97,
+   "cvd": 54.01,
    "liveSince": 1789861413,
    "activeSigs": 0,
-   "alerts": 56,
+   "alerts": 57,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4339.92,
      "side": "bid",
-     "usd": 1086743,
+     "usd": 1086892,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789875587459,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4386.72 · $121k · قوة 0.9"
+  },
   {
    "t": 1789875418354,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك شراء BID @ 4361.10 ($1.29M) — راقب رد الفعل"
-  },
-  {
-   "t": 1789872983194,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 جدار شراء مهيمن ±$8 — $1.58M بيد مقابل $332k طلب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 104,
+  "sent": 105,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789875418666,
+  "lastOk": 1789875587602,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789875427000
+ "fetchedAt": 1789875594000
 }
