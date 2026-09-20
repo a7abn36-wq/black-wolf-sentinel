@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-20T16:25:53.299Z",
- "uptimeSec": 4801,
+ "uptimeSec": 5012,
  "ws": true,
- "trades": 1963,
+ "trades": 2023,
  "weight1m": 3000,
- "lastEventAt": 1789926339636,
+ "lastEventAt": 1789926555709,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.29,
-   "cover": 49,
-   "cols1": 905,
-   "cols60": 66,
+   "cover": 47,
+   "cols1": 902,
+   "cols60": 70,
    "pools": 1,
-   "mid": 4365.55,
-   "cvd": -81.4,
+   "mid": 4367.99,
+   "cvd": -81.37,
    "liveSince": 1789921555,
    "activeSigs": 1,
    "alerts": 30,
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4399.88,
@@ -37,24 +37,24 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.4,
-   "cover": 66,
-   "cols1": 905,
-   "cols60": 66,
+   "cover": 63,
+   "cols1": 902,
+   "cols60": 70,
    "pools": 6,
-   "mid": 4373.66,
-   "cvd": 33.43,
+   "mid": 4376.65,
+   "cvd": 29.6,
    "liveSince": 1789921569,
    "activeSigs": 0,
    "alerts": 22,
-   "signals": 1,
+   "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4320,
      "side": "bid",
-     "usd": 1011369,
+     "usd": 1010027,
      "durSec": 600,
      "strength": 1
     },
@@ -75,7 +75,7 @@
     {
      "price": 4332,
      "side": "bid",
-     "usd": 500274,
+     "usd": 490291,
      "durSec": 600,
      "strength": 1
     }
@@ -83,6 +83,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789926555709,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4376.65"
+  },
   {
    "t": 1789926339636,
    "sym": "PAXGUSDT",
@@ -196,24 +202,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك شراء BID @ 4361.02 ($505k) — راقب رد الفعل"
-  },
-  {
-   "t": 1789924906972,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4402.40 · $216k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 56,
+  "sent": 57,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789926340129,
+  "lastOk": 1789926556142,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789926354000
+ "fetchedAt": 1789926566000
 }
