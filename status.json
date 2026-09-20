@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-20T16:25:53.299Z",
- "uptimeSec": 4438,
+ "uptimeSec": 4559,
  "ws": true,
- "trades": 1642,
+ "trades": 1736,
  "weight1m": 3000,
- "lastEventAt": 1789925981455,
+ "lastEventAt": 1789926109524,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.29,
-   "cover": 51,
-   "cols1": 902,
-   "cols60": 60,
+   "cover": 49,
+   "cols1": 904,
+   "cols60": 62,
    "pools": 2,
-   "mid": 4360.93,
-   "cvd": -88.48,
+   "mid": 4363.82,
+   "cvd": -88.22,
    "liveSince": 1789921555,
    "activeSigs": 1,
    "alerts": 29,
-   "signals": 1,
+   "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4361.0199999999995,
      "side": "bid",
-     "usd": 407559,
+     "usd": 308406,
      "durSec": 600,
      "strength": 1
     },
@@ -45,18 +45,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.4,
    "cover": 68,
-   "cols1": 902,
-   "cols60": 60,
+   "cols1": 904,
+   "cols60": 62,
    "pools": 6,
-   "mid": 4368.32,
-   "cvd": 18.48,
+   "mid": 4372.15,
+   "cvd": 25.64,
    "liveSince": 1789921569,
    "activeSigs": 0,
    "alerts": 22,
    "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4320,
@@ -90,6 +90,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789926109524,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4363.74"
+  },
   {
    "t": 1789925981455,
    "sym": "PAXGUSDT",
@@ -203,24 +209,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك شراء BID @ 4361.02 ($505k) — راقب رد الفعل"
-  },
-  {
-   "t": 1789924316710,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4402.40 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 54,
+  "sent": 55,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789925981637,
+  "lastOk": 1789926109944,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789925991000
+ "fetchedAt": 1789926112000
 }
