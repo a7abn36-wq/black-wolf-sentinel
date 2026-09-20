@@ -2,34 +2,41 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-20T05:15:01.077Z",
- "uptimeSec": 17020,
+ "uptimeSec": 17112,
  "ws": true,
- "trades": 5532,
+ "trades": 5534,
  "weight1m": 3000,
- "lastEventAt": 1789898067336,
+ "lastEventAt": 1789898408490,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 45,
-   "cols1": 902,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
    "mid": 4364.35,
-   "cvd": -15.32,
+   "cvd": -15.33,
    "liveSince": 1789881318,
    "activeSigs": 0,
-   "alerts": 57,
+   "alerts": 59,
    "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4361.08,
      "side": "bid",
-     "usd": 621448,
+     "usd": 621445,
      "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4328.53,
+     "side": "bid",
+     "usd": 500234,
+     "durSec": 561,
      "strength": 1
     },
     {
@@ -45,21 +52,14 @@
      "usd": 301393,
      "durSec": 600,
      "strength": 0.83
-    },
-    {
-     "price": 4332.87,
-     "side": "bid",
-     "usd": 300404,
-     "durSec": 600,
-     "strength": 0.83
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 62,
-   "cols1": 903,
+   "cover": 64,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
    "mid": 4374.77,
@@ -70,7 +70,7 @@
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4320.17,
@@ -104,6 +104,18 @@
   }
  },
  "recent": [
+  {
+   "t": 1789898408490,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4393.32 اتسحبت من الكتاب"
+  },
+  {
+   "t": 1789898408489,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4328.53 · $500k · قوة 1.0"
+  },
   {
    "t": 1789898067336,
    "sym": "PAXGUSDT",
@@ -211,30 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4328.53 · $177k · قوة 0.7"
-  },
-  {
-   "t": 1789895994435,
-   "sym": "PAXGUSDT",
-   "kind": "close",
-   "text": "⌛ انتهت صلاحية الإشارة — 🧱 امتصاص جدار LONG @ 4362.45"
-  },
-  {
-   "t": 1789895867270,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 جدار شراء مهيمن ±$8 — $922k بيد مقابل $219k طلب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 128,
+  "sent": 130,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1789898068912,
+  "lastOk": 1789898410004,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1789898321000
+ "fetchedAt": 1789898413000
 }
