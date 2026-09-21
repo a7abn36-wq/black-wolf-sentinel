@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-21T03:36:34.798Z",
- "uptimeSec": 15505,
+ "uptimeSec": 15731,
  "ws": true,
- "trades": 10402,
+ "trades": 10501,
  "weight1m": 3000,
- "lastEventAt": 1789977056512,
+ "lastEventAt": 1789977514747,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
-   "cover": 50,
-   "cols1": 901,
+   "cover": 52,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4344.02,
-   "cvd": -107.69,
+   "mid": 4341.01,
+   "cvd": -107.42,
    "liveSince": 1789961805,
    "activeSigs": 0,
    "alerts": 126,
-   "signals": 16,
+   "signals": 17,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4315.2,
@@ -35,14 +35,7 @@
     {
      "price": 4384,
      "side": "ask",
-     "usd": 402235,
-     "durSec": 600,
-     "strength": 1
-    },
-    {
-     "price": 4319.36,
-     "side": "bid",
-     "usd": 315303,
+     "usd": 402184,
      "durSec": 600,
      "strength": 1
     },
@@ -52,30 +45,37 @@
      "usd": 300827,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4319.36,
+     "side": "bid",
+     "usd": 300075,
+     "durSec": 600,
+     "strength": 1
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
-   "cover": 68,
-   "cols1": 901,
+   "cover": 69,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4349.82,
-   "cvd": -137.18,
+   "mid": 4347.32,
+   "cvd": -138.79,
    "liveSince": 1789961804,
    "activeSigs": 0,
    "alerts": 88,
    "signals": 11,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4339.86,
      "side": "bid",
-     "usd": 1037361,
+     "usd": 1033519,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1789977514747,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4341.23"
+  },
   {
    "t": 1789977056512,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4354.02"
-  },
-  {
-   "t": 1789975579781,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4344.32"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 244,
+  "sent": 245,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1789977058120,
+  "lastOk": 1789977515102,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1789977299000
+ "fetchedAt": 1789977526000
 }
