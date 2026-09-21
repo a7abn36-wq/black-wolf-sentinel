@@ -2,18 +2,18 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-21T20:22:45.295Z",
- "uptimeSec": 5999,
+ "uptimeSec": 6030,
  "ws": true,
- "trades": 2443,
+ "trades": 2446,
  "weight1m": 3000,
- "lastEventAt": 1790028155309,
+ "lastEventAt": 1790028186316,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 45,
-   "cols1": 900,
-   "cols60": 86,
+   "cols1": 901,
+   "cols60": 87,
    "pools": 6,
    "mid": 4343.9,
    "cvd": 16.59,
@@ -23,7 +23,7 @@
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4303.73,
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
-   "cover": 65,
-   "cols1": 899,
-   "cols60": 86,
+   "cover": 64,
+   "cols1": 900,
+   "cols60": 87,
    "pools": 6,
    "mid": 4348.38,
-   "cvd": 34.56,
+   "cvd": 34.59,
    "liveSince": 1790022177,
    "activeSigs": 0,
    "alerts": 34,
-   "signals": 2,
+   "signals": 3,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4304.96,
@@ -96,7 +96,7 @@
     {
      "price": 4301.88,
      "side": "bid",
-     "usd": 376290,
+     "usd": 347171,
      "durSec": 600,
      "strength": 1
     }
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790028186316,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4348.38"
+  },
   {
    "t": 1790028155309,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4315.08 · $121k · قوة 0.7"
-  },
-  {
-   "t": 1790026448468,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4370.52 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 57,
+  "sent": 58,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790028155516,
+  "lastOk": 1790028186872,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790028164000
+ "fetchedAt": 1790028195000
 }
