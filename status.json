@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-22T13:08:48.757Z",
- "uptimeSec": 15992,
+ "uptimeSec": 16083,
  "ws": true,
- "trades": 13378,
+ "trades": 13401,
  "weight1m": 3000,
- "lastEventAt": 1790098516114,
+ "lastEventAt": 1790098611158,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 45,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4337.01,
-   "cvd": -128.37,
+   "mid": 4337.02,
+   "cvd": -127.75,
    "liveSince": 1790082534,
    "activeSigs": 0,
    "alerts": 115,
@@ -35,8 +35,8 @@
     {
      "price": 4291.64,
      "side": "bid",
-     "usd": 406727,
-     "durSec": 594,
+     "usd": 384238,
+     "durSec": 505,
      "strength": 1
     },
     {
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
    "cover": 57,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4338.3,
-   "cvd": 136.23,
+   "pools": 5,
+   "mid": 4338.57,
+   "cvd": 137.5,
    "liveSince": 1790082533,
    "activeSigs": 1,
-   "alerts": 189,
+   "alerts": 191,
    "signals": 17,
    "wins": 0,
    "losses": 0,
@@ -82,21 +82,40 @@
     {
      "price": 4303.01,
      "side": "bid",
-     "usd": 458228,
+     "usd": 379402,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4381.2699999999995,
      "side": "ask",
-     "usd": 451608,
+     "usd": 372813,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4376.97,
+     "side": "ask",
+     "usd": 127395,
+     "durSec": 600,
+     "strength": 0.66
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790098611158,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4298.71 · $121k · قوة 0.6"
+  },
+  {
+   "t": 1790098606155,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4376.97 · $123k · قوة 0.7"
+  },
   {
    "t": 1790098516114,
    "sym": "XAUTUSDT",
@@ -204,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4367.94 · $129k · قوة 0.8"
-  },
-  {
-   "t": 1790097610669,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4342.14 ($157k) — راقب رد الفعل"
-  },
-  {
-   "t": 1790097508621,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4342.14 · $122k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 341,
+  "sent": 343,
   "failed": 3,
   "dropped": 0,
-  "lastOk": 1790098516302,
+  "lastOk": 1790098611482,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1790098520000
+ "fetchedAt": 1790098612000
 }
