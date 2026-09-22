@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-22T13:08:48.757Z",
- "uptimeSec": 15621,
+ "uptimeSec": 15668,
  "ws": true,
- "trades": 13041,
+ "trades": 13157,
  "weight1m": 3000,
- "lastEventAt": 1790098139940,
+ "lastEventAt": 1790098195969,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 46,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4337.88,
-   "cvd": -128.46,
+   "mid": 4339.2,
+   "cvd": -128.15,
    "liveSince": 1790082534,
    "activeSigs": 0,
    "alerts": 115,
    "signals": 21,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4363.25,
@@ -35,8 +35,8 @@
     {
      "price": 4291.64,
      "side": "bid",
-     "usd": 400945,
-     "durSec": 597,
+     "usd": 397531,
+     "durSec": 448,
      "strength": 1
     },
     {
@@ -59,18 +59,18 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
    "cover": 58,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
-   "pools": 6,
+   "pools": 5,
    "mid": 4339.49,
-   "cvd": 81.71,
+   "cvd": 92.56,
    "liveSince": 1790082533,
    "activeSigs": 0,
-   "alerts": 181,
+   "alerts": 182,
    "signals": 16,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4290.11,
@@ -94,16 +94,22 @@
      "strength": 1
     },
     {
-     "price": 4311.61,
-     "side": "bid",
-     "usd": 212893,
-     "durSec": 223,
+     "price": 4339.99,
+     "side": "ask",
+     "usd": 170535,
+     "durSec": 600,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790098195969,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4311.61 اتسحبت من الكتاب"
+  },
   {
    "t": 1790098139940,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4303.01 · $172k · قوة 1.0"
-  },
-  {
-   "t": 1790097011377,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4338.30"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 331,
+  "sent": 332,
   "failed": 3,
   "dropped": 0,
-  "lastOk": 1790098140141,
+  "lastOk": 1790098196163,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1790098150000
+ "fetchedAt": 1790098196000
 }
