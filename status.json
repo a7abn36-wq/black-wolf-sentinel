@@ -2,24 +2,24 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-22T13:08:48.757Z",
- "uptimeSec": 17855,
+ "uptimeSec": 17977,
  "ws": true,
- "trades": 16351,
+ "trades": 16541,
  "weight1m": 3000,
- "lastEventAt": 1790100377031,
+ "lastEventAt": 1790100504078,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
-   "cover": 52,
-   "cols1": 899,
+   "cover": 50,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
-   "mid": 4355.55,
-   "cvd": -119.91,
+   "mid": 4355.88,
+   "cvd": -109.45,
    "liveSince": 1790082534,
    "activeSigs": 0,
-   "alerts": 152,
+   "alerts": 154,
    "signals": 24,
    "wins": 0,
    "losses": 0,
@@ -33,13 +33,6 @@
      "strength": 1
     },
     {
-     "price": 4371.31,
-     "side": "ask",
-     "usd": 380669,
-     "durSec": 600,
-     "strength": 1
-    },
-    {
      "price": 4326.36,
      "side": "bid",
      "usd": 339739,
@@ -49,7 +42,14 @@
     {
      "price": 4317.68,
      "side": "bid",
-     "usd": 300030,
+     "usd": 300037,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4371.31,
+     "side": "ask",
+     "usd": 299931,
      "durSec": 600,
      "strength": 1
     }
@@ -58,16 +58,16 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 68,
-   "cols1": 898,
+   "cover": 66,
+   "cols1": 899,
    "cols60": 105,
-   "pools": 3,
+   "pools": 5,
    "mid": 4356.35,
-   "cvd": 205.04,
+   "cvd": 196.78,
    "liveSince": 1790082533,
    "activeSigs": 0,
-   "alerts": 196,
-   "signals": 17,
+   "alerts": 198,
+   "signals": 18,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 1,
@@ -75,28 +75,65 @@
     {
      "price": 4290.11,
      "side": "bid",
-     "usd": 1020016,
+     "usd": 1020078,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4311.61,
      "side": "bid",
-     "usd": 487449,
+     "usd": 386779,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4389.44,
      "side": "ask",
-     "usd": 473192,
+     "usd": 372517,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4393.74,
+     "side": "ask",
+     "usd": 127557,
+     "durSec": 600,
+     "strength": 0.76
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790100504078,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4356.35"
+  },
+  {
+   "t": 1790100502088,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4315.91 · $124k · قوة 0.8"
+  },
+  {
+   "t": 1790100497087,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4393.74 · $123k · قوة 0.7"
+  },
+  {
+   "t": 1790100497082,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4339.07 اتسحبت من الكتاب"
+  },
+  {
+   "t": 1790100497082,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4341.24 · $190k · قوة 1.0"
+  },
   {
    "t": 1790100377031,
    "sym": "PAXGUSDT",
@@ -186,48 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4366.97 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1790099816746,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4380.30 · $196k · قوة 1.0"
-  },
-  {
-   "t": 1790099811747,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4389.44 · $121k · قوة 0.8"
-  },
-  {
-   "t": 1790099761720,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "💥 بيرك اتكسرت — السعر عدّى على بيع ASK @ 4347.75 ($166k)"
-  },
-  {
-   "t": 1790099761720,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4309.00 · $167k · قوة 0.8"
-  },
-  {
-   "t": 1790099696689,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4347.75 ($170k) — راقب رد الفعل"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 388,
+  "sent": 393,
   "failed": 3,
   "dropped": 0,
-  "lastOk": 1790100377364,
+  "lastOk": 1790100504263,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1790100384000
+ "fetchedAt": 1790100506000
 }
