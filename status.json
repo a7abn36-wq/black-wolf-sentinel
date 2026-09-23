@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-23T00:19:17.412Z",
- "uptimeSec": 3390,
+ "uptimeSec": 3527,
  "ws": true,
- "trades": 2525,
+ "trades": 2559,
  "weight1m": 3000,
- "lastEventAt": 1790126139977,
+ "lastEventAt": 1790126284052,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.33,
-   "cover": 46,
-   "cols1": 901,
-   "cols60": 42,
+   "cover": 45,
+   "cols1": 897,
+   "cols60": 45,
    "pools": 6,
-   "mid": 4345.93,
-   "cvd": 57.02,
+   "mid": 4345.74,
+   "cvd": 57.6,
    "liveSince": 1790122760,
    "activeSigs": 0,
    "alerts": 19,
-   "signals": 3,
+   "signals": 4,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4327.62,
@@ -42,7 +42,7 @@
     {
      "price": 4319.04,
      "side": "bid",
-     "usd": 300779,
+     "usd": 300778,
      "durSec": 600,
      "strength": 1
     },
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
-   "cover": 66,
-   "cols1": 897,
-   "cols60": 42,
-   "pools": 3,
-   "mid": 4348.02,
-   "cvd": -96.37,
+   "cover": 65,
+   "cols1": 898,
+   "cols60": 44,
+   "pools": 2,
+   "mid": 4348.01,
+   "cvd": -94.55,
    "liveSince": 1790122760,
    "activeSigs": 3,
-   "alerts": 35,
+   "alerts": 36,
    "signals": 6,
    "wins": 0,
    "losses": 2,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4390.68,
@@ -85,18 +85,23 @@
      "usd": 500050,
      "durSec": 600,
      "strength": 1
-    },
-    {
-     "price": 4349.94,
-     "side": "bid",
-     "usd": 310832,
-     "durSec": 450,
-     "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790126284052,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "💥 بيرك اتكسرت — السعر عدّى على شراء BID @ 4349.94 ($286k)"
+  },
+  {
+   "t": 1790126281041,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4345.74"
+  },
   {
    "t": 1790126139977,
    "sym": "XAUTUSDT",
@@ -204,30 +209,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك شراء BID @ 4352.46 ($226k) — راقب رد الفعل"
-  },
-  {
-   "t": 1790125483691,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4349.40"
-  },
-  {
-   "t": 1790125474686,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🎯 السعر بيلمس بيرك شراء BID @ 4349.94 ($338k) — راقب رد الفعل"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 66,
+  "sent": 68,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790126140115,
+  "lastOk": 1790126284457,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790126148000
+ "fetchedAt": 1790126284000
 }
