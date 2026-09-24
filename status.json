@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-24T04:16:29.590Z",
- "uptimeSec": 12217,
+ "uptimeSec": 12384,
  "ws": true,
- "trades": 12764,
+ "trades": 13058,
  "weight1m": 3000,
- "lastEventAt": 1790235593276,
+ "lastEventAt": 1790235766349,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.28,
-   "cover": 39,
-   "cols1": 905,
+   "cover": 43,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4281.74,
-   "cvd": 227.05,
+   "mid": 4278.35,
+   "cvd": 228.6,
    "liveSince": 1790223396,
    "activeSigs": 0,
    "alerts": 61,
-   "signals": 11,
+   "signals": 12,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4303.88,
      "side": "ask",
-     "usd": 1359902,
+     "usd": 1340004,
      "durSec": 600,
      "strength": 1
     },
@@ -58,24 +58,24 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 61,
-   "cols1": 905,
+   "cover": 65,
+   "cols1": 902,
    "cols60": 105,
    "pools": 4,
-   "mid": 4283.82,
-   "cvd": 66.42,
+   "mid": 4280.68,
+   "cvd": 46.89,
    "liveSince": 1790223402,
    "activeSigs": 0,
    "alerts": 106,
    "signals": 6,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4260.01,
      "side": "bid",
-     "usd": 1086396,
+     "usd": 1086050,
      "durSec": 600,
      "strength": 1
     },
@@ -83,13 +83,13 @@
      "price": 4243.67,
      "side": "bid",
      "usd": 499991,
-     "durSec": 470,
+     "durSec": 600,
      "strength": 1
     },
     {
      "price": 4320.64,
      "side": "ask",
-     "usd": 392677,
+     "usd": 500825,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790235766349,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4278.35"
+  },
   {
    "t": 1790235593276,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4286.59"
-  },
-  {
-   "t": 1790234120589,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4287.08 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 186,
+  "sent": 187,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1790235593595,
+  "lastOk": 1790235766489,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1790235607000
+ "fetchedAt": 1790235773000
 }
