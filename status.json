@@ -2,25 +2,25 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-24T04:16:29.590Z",
- "uptimeSec": 8252,
+ "uptimeSec": 8373,
  "ws": true,
- "trades": 7240,
+ "trades": 7425,
  "weight1m": 3000,
- "lastEventAt": 1790231157215,
+ "lastEventAt": 1790231758491,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.28,
-   "cover": 42,
-   "cols1": 905,
+   "cover": 44,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
-   "mid": 4279.2,
-   "cvd": 161.37,
+   "mid": 4277.38,
+   "cvd": 167.13,
    "liveSince": 1790223396,
    "activeSigs": 0,
    "alerts": 42,
-   "signals": 9,
+   "signals": 10,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 1,
@@ -28,7 +28,7 @@
     {
      "price": 4303.88,
      "side": "ask",
-     "usd": 1154503,
+     "usd": 1126210,
      "durSec": 600,
      "strength": 1
     },
@@ -49,7 +49,7 @@
     {
      "price": 4256.84,
      "side": "bid",
-     "usd": 304633,
+     "usd": 333840,
      "durSec": 600,
      "strength": 1
     }
@@ -58,12 +58,12 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 66,
-   "cols1": 905,
+   "cover": 69,
+   "cols1": 901,
    "cols60": 105,
    "pools": 5,
-   "mid": 4281.03,
-   "cvd": 120.99,
+   "mid": 4279.01,
+   "cvd": 116.61,
    "liveSince": 1790223402,
    "activeSigs": 0,
    "alerts": 73,
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790231758491,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4277.45"
+  },
   {
    "t": 1790231157215,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4305.28 · $210k · قوة 0.9"
-  },
-  {
-   "t": 1790229646542,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4246.68 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 130,
+  "sent": 131,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1790231157525,
+  "lastOk": 1790231758876,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1790231642000
+ "fetchedAt": 1790231763000
 }
