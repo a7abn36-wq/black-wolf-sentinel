@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-24T04:16:29.590Z",
- "uptimeSec": 19626,
+ "uptimeSec": 19672,
  "ws": true,
- "trades": 27436,
+ "trades": 27679,
  "weight1m": 3000,
- "lastEventAt": 1790243003695,
+ "lastEventAt": 1790243061726,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.28,
    "cover": 54,
-   "cols1": 902,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
    "mid": 4250.01,
-   "cvd": 560.57,
+   "cvd": 558.78,
    "liveSince": 1790223396,
    "activeSigs": 0,
    "alerts": 130,
@@ -58,16 +58,16 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 74,
-   "cols1": 903,
+   "cover": 72,
+   "cols1": 904,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4256.2,
-   "cvd": -180.83,
+   "pools": 4,
+   "mid": 4256.34,
+   "cvd": -165.13,
    "liveSince": 1790223402,
    "activeSigs": 0,
-   "alerts": 176,
-   "signals": 14,
+   "alerts": 177,
+   "signals": 15,
    "wins": 0,
    "losses": 2,
    "depthAgeSec": 0,
@@ -83,20 +83,39 @@
      "price": 4299.14,
      "side": "ask",
      "usd": 500012,
-     "durSec": 589,
+     "durSec": 544,
      "strength": 1
     },
     {
      "price": 4250.12,
      "side": "bid",
-     "usd": 364546,
+     "usd": 364965,
      "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4288.39,
+     "side": "ask",
+     "usd": 217641,
+     "durSec": 191,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790243061726,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4255.78"
+  },
+  {
+   "t": 1790243050729,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4288.39 · $216k · قوة 1.0"
+  },
   {
    "t": 1790243003695,
    "sym": "PAXGUSDT",
@@ -204,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4221.74 · $159k · قوة 1.0"
-  },
-  {
-   "t": 1790242150877,
-   "sym": "XAUTUSDT",
-   "kind": "close",
-   "text": "❌ الستوب ضرب (-1R) — 🧱 امتصاص جدار LONG @ 4265.32"
-  },
-  {
-   "t": 1790242150876,
-   "sym": "XAUTUSDT",
-   "kind": "close",
-   "text": "❌ الستوب ضرب (-1R) — 🧱 امتصاص جدار LONG @ 4263.40"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 347,
+  "sent": 349,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1790243003835,
+  "lastOk": 1790243061867,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1790243016000
+ "fetchedAt": 1790243062000
 }
