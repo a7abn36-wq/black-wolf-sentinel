@@ -2,34 +2,34 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-24T15:27:12.738Z",
- "uptimeSec": 14467,
+ "uptimeSec": 14483,
  "ws": true,
- "trades": 13599,
+ "trades": 13742,
  "weight1m": 3000,
- "lastEventAt": 1790278092660,
+ "lastEventAt": 1790278110674,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
    "cover": 42,
-   "cols1": 904,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
-   "mid": 4270.35,
-   "cvd": 166.09,
+   "mid": 4269.57,
+   "cvd": 160.9,
    "liveSince": 1790263636,
    "activeSigs": 0,
    "alerts": 102,
    "signals": 26,
    "wins": 1,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4229.76,
      "side": "bid",
-     "usd": 500193,
-     "durSec": 594,
+     "usd": 500192,
+     "durSec": 600,
      "strength": 1
     },
     {
@@ -59,30 +59,30 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
    "cover": 59,
-   "cols1": 904,
+   "cols1": 900,
    "cols60": 105,
    "pools": 4,
-   "mid": 4272.81,
-   "cvd": -25.42,
+   "mid": 4271.7,
+   "cvd": -55.21,
    "liveSince": 1790263636,
    "activeSigs": 0,
-   "alerts": 118,
+   "alerts": 119,
    "signals": 18,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4235.88,
      "side": "bid",
-     "usd": 501123,
+     "usd": 501124,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4311.56,
      "side": "ask",
-     "usd": 494205,
+     "usd": 481706,
      "durSec": 600,
      "strength": 1
     },
@@ -98,12 +98,18 @@
      "side": "ask",
      "usd": 134244,
      "durSec": 600,
-     "strength": 0.97
+     "strength": 0.99
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790278110674,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 جدار بيع مهيمن ±$8 — $522k طلب مقابل $127k بيد"
+  },
   {
    "t": 1790278092660,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4303.68 · $193k · قوة 1.0"
-  },
-  {
-   "t": 1790275439376,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4267.97"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 267,
+  "sent": 268,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790278092869,
+  "lastOk": 1790278110854,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790278100000
+ "fetchedAt": 1790278116000
 }
