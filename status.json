@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-24T04:16:29.590Z",
- "uptimeSec": 19780,
+ "uptimeSec": 19796,
  "ws": true,
- "trades": 27751,
+ "trades": 27813,
  "weight1m": 3000,
- "lastEventAt": 1790243155775,
+ "lastEventAt": 1790243185797,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.28,
    "cover": 53,
-   "cols1": 905,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
    "mid": 4250.94,
-   "cvd": 562.47,
+   "cvd": 563,
    "liveSince": 1790223396,
    "activeSigs": 0,
    "alerts": 132,
    "signals": 23,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4293.240000000001,
@@ -49,8 +49,8 @@
     {
      "price": 4222.68,
      "side": "bid",
-     "usd": 290842,
-     "durSec": 238,
+     "usd": 291728,
+     "durSec": 258,
      "strength": 1
     }
    ]
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 73,
-   "cols1": 901,
+   "cover": 71,
+   "cols1": 903,
    "cols60": 105,
    "pools": 5,
-   "mid": 4256.99,
-   "cvd": -161.65,
+   "mid": 4256.02,
+   "cvd": -210.78,
    "liveSince": 1790223402,
    "activeSigs": 0,
-   "alerts": 178,
+   "alerts": 179,
    "signals": 15,
    "wins": 0,
    "losses": 2,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4221.74,
@@ -83,13 +83,13 @@
      "price": 4299.14,
      "side": "ask",
      "usd": 500012,
-     "durSec": 439,
+     "durSec": 419,
      "strength": 1
     },
     {
      "price": 4250.12,
      "side": "bid",
-     "usd": 362747,
+     "usd": 362383,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790243185797,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $208k"
+  },
   {
    "t": 1790243155775,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4293.98 · $120k · قوة 0.9"
-  },
-  {
-   "t": 1790242354382,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "💥 بيرك اتكسرت — السعر عدّى على شراء BID @ 4265.17 ($140k)"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 352,
+  "sent": 353,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1790243157485,
+  "lastOk": 1790243185945,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1790243169000
+ "fetchedAt": 1790243186000
 }
