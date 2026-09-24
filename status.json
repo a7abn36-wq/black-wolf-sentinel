@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-24T15:27:12.738Z",
- "uptimeSec": 9101,
+ "uptimeSec": 9163,
  "ws": true,
- "trades": 10322,
+ "trades": 10353,
  "weight1m": 3000,
- "lastEventAt": 1790272723142,
+ "lastEventAt": 1790272781163,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
-   "cover": 48,
-   "cols1": 898,
+   "cover": 47,
+   "cols1": 899,
    "cols60": 105,
    "pools": 6,
-   "mid": 4261.41,
-   "cvd": 168.44,
+   "mid": 4262.18,
+   "cvd": 165.12,
    "liveSince": 1790263636,
    "activeSigs": 0,
    "alerts": 88,
    "signals": 17,
    "wins": 1,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4229.76,
@@ -42,7 +42,7 @@
     {
      "price": 4238.08,
      "side": "bid",
-     "usd": 301983,
+     "usd": 301948,
      "durSec": 600,
      "strength": 1
     },
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
-   "cover": 64,
-   "cols1": 899,
+   "cover": 63,
+   "cols1": 900,
    "cols60": 105,
    "pools": 4,
-   "mid": 4265.97,
-   "cvd": 26.65,
+   "mid": 4266.82,
+   "cvd": 27.15,
    "liveSince": 1790263636,
    "activeSigs": 0,
    "alerts": 81,
-   "signals": 11,
+   "signals": 12,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4226.64,
@@ -96,14 +96,20 @@
     {
      "price": 4286.04,
      "side": "ask",
-     "usd": 130799,
+     "usd": 130901,
      "durSec": 600,
-     "strength": 0.93
+     "strength": 0.89
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790272781163,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4266.82"
+  },
   {
    "t": 1790272723142,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4314.88 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1790270670150,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4233.92 · $205k · قوة 0.9"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 200,
+  "sent": 201,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790272723339,
+  "lastOk": 1790272781352,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790272734000
+ "fetchedAt": 1790272795000
 }
