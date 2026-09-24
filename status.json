@@ -2,24 +2,24 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-24T04:16:29.590Z",
- "uptimeSec": 19764,
+ "uptimeSec": 19780,
  "ws": true,
- "trades": 27747,
+ "trades": 27751,
  "weight1m": 3000,
- "lastEventAt": 1790243150777,
+ "lastEventAt": 1790243155775,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.28,
    "cover": 53,
-   "cols1": 904,
+   "cols1": 905,
    "cols60": 105,
    "pools": 6,
-   "mid": 4251.43,
-   "cvd": 562.51,
+   "mid": 4250.94,
+   "cvd": 562.47,
    "liveSince": 1790223396,
    "activeSigs": 0,
-   "alerts": 130,
+   "alerts": 132,
    "signals": 23,
    "wins": 0,
    "losses": 0,
@@ -47,10 +47,10 @@
      "strength": 1
     },
     {
-     "price": 4282.320000000001,
-     "side": "ask",
-     "usd": 271564,
-     "durSec": 600,
+     "price": 4222.68,
+     "side": "bid",
+     "usd": 290842,
+     "durSec": 238,
      "strength": 1
     }
    ]
@@ -58,12 +58,12 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 72,
-   "cols1": 905,
+   "cover": 73,
+   "cols1": 901,
    "cols60": 105,
    "pools": 5,
-   "mid": 4257.01,
-   "cvd": -161.78,
+   "mid": 4256.99,
+   "cvd": -161.65,
    "liveSince": 1790223402,
    "activeSigs": 0,
    "alerts": 178,
@@ -83,13 +83,13 @@
      "price": 4299.14,
      "side": "ask",
      "usd": 500012,
-     "durSec": 454,
+     "durSec": 439,
      "strength": 1
     },
     {
      "price": 4250.12,
      "side": "bid",
-     "usd": 363034,
+     "usd": 362747,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,18 @@
   }
  },
  "recent": [
+  {
+   "t": 1790243155775,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4263.28 اتسحبت من الكتاب"
+  },
+  {
+   "t": 1790243155775,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4222.68 · $290k · قوة 1.0"
+  },
   {
    "t": 1790243150777,
    "sym": "XAUTUSDT",
@@ -211,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "💥 بيرك اتكسرت — السعر عدّى على شراء BID @ 4265.17 ($140k)"
-  },
-  {
-   "t": 1790242354382,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4299.14 · $500k · قوة 1.0"
-  },
-  {
-   "t": 1790242294349,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4293.98 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 350,
+  "sent": 352,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1790243150918,
+  "lastOk": 1790243157485,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1790243153000
+ "fetchedAt": 1790243169000
 }
