@@ -2,34 +2,34 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-24T15:27:12.738Z",
- "uptimeSec": 13678,
+ "uptimeSec": 13830,
  "ws": true,
- "trades": 13175,
+ "trades": 13208,
  "weight1m": 3000,
- "lastEventAt": 1790277064156,
+ "lastEventAt": 1790277454351,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
-   "cover": 45,
-   "cols1": 898,
+   "cover": 44,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
-   "mid": 4265.07,
-   "cvd": 164.06,
+   "mid": 4267.77,
+   "cvd": 164.14,
    "liveSince": 1790263636,
    "activeSigs": 0,
    "alerts": 102,
    "signals": 25,
    "wins": 1,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4229.76,
      "side": "bid",
      "usd": 500172,
-     "durSec": 600,
+     "durSec": 594,
      "strength": 1
     },
     {
@@ -49,7 +49,7 @@
     {
      "price": 4246.72,
      "side": "bid",
-     "usd": 300183,
+     "usd": 300162,
      "durSec": 600,
      "strength": 1
     }
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
-   "cover": 62,
-   "cols1": 900,
+   "cover": 63,
+   "cols1": 904,
    "cols60": 105,
-   "pools": 4,
-   "mid": 4270.53,
-   "cvd": 55.74,
+   "pools": 5,
+   "mid": 4272.68,
+   "cvd": 55.93,
    "liveSince": 1790263636,
    "activeSigs": 0,
-   "alerts": 115,
+   "alerts": 116,
    "signals": 18,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4235.88,
@@ -94,16 +94,22 @@
      "strength": 1
     },
     {
-     "price": 4286.04,
-     "side": "ask",
-     "usd": 131593,
+     "price": 4243.36,
+     "side": "bid",
+     "usd": 150820,
      "durSec": 600,
-     "strength": 0.86
+     "strength": 0.98
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790277454351,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4243.36 · $149k · قوة 1.0"
+  },
   {
    "t": 1790277064156,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4277.52"
-  },
-  {
-   "t": 1790275271308,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4240.28 · $124k · قوة 0.9"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 263,
+  "sent": 264,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790277065949,
+  "lastOk": 1790277454574,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790277311000
+ "fetchedAt": 1790277463000
 }
