@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-25T19:23:58.890Z",
- "uptimeSec": 14581,
+ "uptimeSec": 14657,
  "ws": true,
- "trades": 6979,
+ "trades": 7002,
  "weight1m": 3000,
- "lastEventAt": 1790378814139,
+ "lastEventAt": 1790378895182,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 43,
-   "cols1": 899,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
    "mid": 4282.55,
-   "cvd": -52.41,
+   "cvd": -52.36,
    "liveSince": 1790364249,
    "activeSigs": 0,
    "alerts": 62,
@@ -58,15 +58,15 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 59,
-   "cols1": 898,
+   "cover": 58,
+   "cols1": 899,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4285.68,
-   "cvd": 137.39,
+   "pools": 4,
+   "mid": 4285.39,
+   "cvd": 130.5,
    "liveSince": 1790364242,
    "activeSigs": 0,
-   "alerts": 131,
+   "alerts": 132,
    "signals": 1,
    "wins": 0,
    "losses": 0,
@@ -89,14 +89,27 @@
     {
      "price": 4302.54,
      "side": "ask",
-     "usd": 150921,
+     "usd": 150668,
      "durSec": 600,
-     "strength": 0.98
+     "strength": 0.96
+    },
+    {
+     "price": 4268.51,
+     "side": "bid",
+     "usd": 120417,
+     "durSec": 600,
+     "strength": 0.77
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790378895182,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4268.51 · $120k · قوة 0.8"
+  },
   {
    "t": 1790378814139,
    "sym": "XAUTUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4287.37 ($133k) — راقب رد الفعل"
-  },
-  {
-   "t": 1790378213796,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4317.99 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 198,
+  "sent": 199,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790378814307,
+  "lastOk": 1790378895610,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790378820000
+ "fetchedAt": 1790378896000
 }
