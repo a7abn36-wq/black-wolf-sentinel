@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-25T19:23:58.890Z",
- "uptimeSec": 5998,
+ "uptimeSec": 6149,
  "ws": true,
- "trades": 4190,
+ "trades": 4211,
  "weight1m": 3000,
- "lastEventAt": 1790370233512,
+ "lastEventAt": 1790370373590,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 45,
-   "cols1": 902,
-   "cols60": 85,
+   "cols1": 903,
+   "cols60": 88,
    "pools": 6,
-   "mid": 4282.07,
-   "cvd": 4.73,
+   "mid": 4282.23,
+   "cvd": 5.03,
    "liveSince": 1790364249,
    "activeSigs": 0,
    "alerts": 14,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4250.1,
      "side": "bid",
-     "usd": 687578,
+     "usd": 687737,
      "durSec": 600,
      "strength": 1
     },
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 66,
-   "cols1": 901,
-   "cols60": 85,
-   "pools": 2,
+   "cover": 65,
+   "cols1": 902,
+   "cols60": 88,
+   "pools": 3,
    "mid": 4286.24,
-   "cvd": 234.69,
+   "cvd": 234.67,
    "liveSince": 1790364242,
    "activeSigs": 0,
-   "alerts": 54,
+   "alerts": 55,
    "signals": 1,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4250.88,
@@ -85,11 +85,24 @@
      "usd": 500572,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4305.410000000001,
+     "side": "ask",
+     "usd": 124069,
+     "durSec": 600,
+     "strength": 0.84
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790370373590,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4305.41 · $121k · قوة 0.8"
+  },
   {
    "t": 1790370233512,
    "sym": "XAUTUSDT",
@@ -203,24 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4261.13 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1790368362435,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4261.13 · $120k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 70,
+  "sent": 71,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790370233676,
+  "lastOk": 1790370373782,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790370237000
+ "fetchedAt": 1790370388000
 }
