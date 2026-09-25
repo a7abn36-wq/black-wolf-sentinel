@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-25T02:37:49.535Z",
- "uptimeSec": 7037,
+ "uptimeSec": 7083,
  "ws": true,
- "trades": 3198,
+ "trades": 3264,
  "weight1m": 3000,
- "lastEventAt": 1790310894152,
+ "lastEventAt": 1790310944175,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 50,
-   "cols1": 900,
+   "cols1": 896,
    "cols60": 104,
    "pools": 6,
-   "mid": 4266.74,
-   "cvd": -6.57,
+   "mid": 4266.45,
+   "cvd": -6.03,
    "liveSince": 1790303872,
    "activeSigs": 0,
    "alerts": 38,
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
    "cover": 72,
-   "cols1": 897,
+   "cols1": 898,
    "cols60": 104,
-   "pools": 5,
-   "mid": 4269.14,
-   "cvd": 1.43,
+   "pools": 4,
+   "mid": 4269.15,
+   "cvd": 15.24,
    "liveSince": 1790303872,
    "activeSigs": 0,
-   "alerts": 47,
+   "alerts": 48,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -94,16 +94,22 @@
      "strength": 1
     },
     {
-     "price": 4251.41,
-     "side": "bid",
-     "usd": 149460,
-     "durSec": 219,
-     "strength": 0.88
+     "price": 4269.04,
+     "side": "ask",
+     "usd": 130323,
+     "durSec": 600,
+     "strength": 0.75
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790310944175,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4251.41 اتسحبت من الكتاب"
+  },
   {
    "t": 1790310894152,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4251.41 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1790309038196,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4240.66 · $121k · قوة 0.7"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 90,
+  "sent": 91,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790310894284,
+  "lastOk": 1790310944308,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790310906000
+ "fetchedAt": 1790310952000
 }
