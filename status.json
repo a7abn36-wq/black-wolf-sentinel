@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-25T19:23:58.890Z",
- "uptimeSec": 13309,
+ "uptimeSec": 13340,
  "ws": true,
- "trades": 6899,
+ "trades": 6902,
  "weight1m": 3000,
- "lastEventAt": 1790377537427,
+ "lastEventAt": 1790377572445,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 43,
-   "cols1": 902,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
    "mid": 4282.23,
-   "cvd": -52.48,
+   "cvd": -52.77,
    "liveSince": 1790364249,
    "activeSigs": 0,
    "alerts": 47,
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
    "cover": 59,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
-   "pools": 3,
+   "pools": 4,
    "mid": 4285.35,
-   "cvd": 137.67,
+   "cvd": 137.68,
    "liveSince": 1790364242,
    "activeSigs": 0,
-   "alerts": 116,
+   "alerts": 117,
    "signals": 1,
    "wins": 0,
    "losses": 0,
@@ -89,14 +89,27 @@
     {
      "price": 4312.79,
      "side": "ask",
-     "usd": 124463,
+     "usd": 135230,
      "durSec": 600,
-     "strength": 0.79
+     "strength": 0.83
+    },
+    {
+     "price": 4257.030000000001,
+     "side": "bid",
+     "usd": 122119,
+     "durSec": 600,
+     "strength": 0.76
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790377572445,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4257.03 · $120k · قوة 0.7"
+  },
   {
    "t": 1790377537427,
    "sym": "XAUTUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4310.74 · $121k · قوة 0.7"
-  },
-  {
-   "t": 1790375511404,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4283.27 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 168,
+  "sent": 169,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790377537577,
+  "lastOk": 1790377572594,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790377548000
+ "fetchedAt": 1790377579000
 }
