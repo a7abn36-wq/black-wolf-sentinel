@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-25T13:48:41.326Z",
- "uptimeSec": 13024,
+ "uptimeSec": 13100,
  "ws": true,
- "trades": 16657,
+ "trades": 16685,
  "weight1m": 3000,
- "lastEventAt": 1790357133866,
+ "lastEventAt": 1790357208913,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.36,
    "cover": 49,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4286.74,
-   "cvd": -158.34,
+   "mid": 4286.16,
+   "cvd": -158.33,
    "liveSince": 1790344130,
    "activeSigs": 0,
    "alerts": 100,
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.47,
    "cover": 60,
-   "cols1": 899,
+   "cols1": 900,
    "cols60": 105,
    "pools": 5,
-   "mid": 4291.53,
-   "cvd": 380.94,
+   "mid": 4290.68,
+   "cvd": 378.28,
    "liveSince": 1790344131,
    "activeSigs": 0,
-   "alerts": 129,
+   "alerts": 130,
    "signals": 19,
    "wins": 0,
    "losses": 0,
@@ -96,14 +96,20 @@
     {
      "price": 4290.63,
      "side": "bid",
-     "usd": 223046,
-     "durSec": 538,
+     "usd": 200809,
+     "durSec": 600,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790357208913,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🎯 السعر بيلمس بيرك شراء BID @ 4290.63 ($201k) — راقب رد الفعل"
+  },
   {
    "t": 1790357133866,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "⚡ انفجار CVD في دقيقة — شراء صافي $209k"
-  },
-  {
-   "t": 1790355402036,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4324.94 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 271,
+  "sent": 272,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790357135341,
+  "lastOk": 1790357209380,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790357145000
+ "fetchedAt": 1790357222000
 }
