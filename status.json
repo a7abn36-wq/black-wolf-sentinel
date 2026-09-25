@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-25T02:37:49.535Z",
- "uptimeSec": 19640,
+ "uptimeSec": 19656,
  "ws": true,
- "trades": 15660,
+ "trades": 15677,
  "weight1m": 3000,
- "lastEventAt": 1790323509386,
+ "lastEventAt": 1790323515384,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 46,
-   "cols1": 905,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
-   "mid": 4272.01,
-   "cvd": 413.25,
+   "mid": 4272.97,
+   "cvd": 413.4,
    "liveSince": 1790303872,
    "activeSigs": 0,
    "alerts": 125,
@@ -42,7 +42,7 @@
     {
      "price": 4250.1,
      "side": "bid",
-     "usd": 342107,
+     "usd": 342148,
      "durSec": 600,
      "strength": 1
     },
@@ -58,16 +58,16 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 67,
-   "cols1": 904,
+   "cover": 66,
+   "cols1": 905,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4271.43,
-   "cvd": 60.82,
+   "pools": 4,
+   "mid": 4272.55,
+   "cvd": 62.63,
    "liveSince": 1790303872,
    "activeSigs": 0,
-   "alerts": 129,
-   "signals": 13,
+   "alerts": 130,
+   "signals": 14,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 0,
@@ -92,11 +92,30 @@
      "usd": 347188,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4233.78,
+     "side": "bid",
+     "usd": 129249,
+     "durSec": 600,
+     "strength": 0.84
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790323515384,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4271.43"
+  },
+  {
+   "t": 1790323514394,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4233.78 · $121k · قوة 0.8"
+  },
   {
    "t": 1790323509386,
    "sym": "XAUTUSDT",
@@ -204,30 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4299.14 · $120k · قوة 0.8"
-  },
-  {
-   "t": 1790321763501,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4233.35 · $123k · قوة 0.8"
-  },
-  {
-   "t": 1790321631422,
-   "sym": "XAUTUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4271.40"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 286,
+  "sent": 288,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790323509596,
+  "lastOk": 1790323515767,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790323509000
+ "fetchedAt": 1790323526000
 }
