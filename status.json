@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-25T19:23:58.890Z",
- "uptimeSec": 9050,
+ "uptimeSec": 9111,
  "ws": true,
- "trades": 5281,
+ "trades": 5282,
  "weight1m": 3000,
- "lastEventAt": 1790373280201,
+ "lastEventAt": 1790373350241,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 47,
-   "cols1": 902,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
    "mid": 4286.9,
-   "cvd": -10.02,
+   "cvd": -10,
    "liveSince": 1790364249,
    "activeSigs": 0,
    "alerts": 26,
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
    "cover": 62,
-   "cols1": 899,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
    "mid": 4286.81,
    "cvd": 143.04,
    "liveSince": 1790364242,
    "activeSigs": 0,
-   "alerts": 84,
+   "alerts": 86,
    "signals": 1,
    "wins": 0,
    "losses": 0,
@@ -89,21 +89,33 @@
     {
      "price": 4270.97,
      "side": "bid",
-     "usd": 177223,
+     "usd": 188427,
      "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4316.070000000001,
+     "price": 4305.410000000001,
      "side": "ask",
-     "usd": 149236,
+     "usd": 138386,
      "durSec": 600,
-     "strength": 0.99
+     "strength": 0.86
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790373350241,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4260.31 اتسحبت من الكتاب"
+  },
+  {
+   "t": 1790373350241,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4259.90 · $125k · قوة 0.8"
+  },
   {
    "t": 1790373280201,
    "sym": "XAUTUSDT",
@@ -211,30 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4312.10 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1790371887425,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4307.76 · $251k · قوة 1.0"
-  },
-  {
-   "t": 1790371877416,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4250.10 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 113,
+  "sent": 114,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790373280579,
+  "lastOk": 1790373350437,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790373289000
+ "fetchedAt": 1790373350000
 }
