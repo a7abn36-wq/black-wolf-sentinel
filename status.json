@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-27T04:56:18.302Z",
- "uptimeSec": 1139,
+ "uptimeSec": 1155,
  "ws": true,
- "trades": 83,
+ "trades": 86,
  "weight1m": 3000,
- "lastEventAt": 1790486102876,
+ "lastEventAt": 1790486123886,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 47,
-   "cols1": 900,
+   "cols1": 901,
    "cols60": 5,
    "pools": 6,
    "mid": 4277.65,
-   "cvd": 0.59,
+   "cvd": 0.63,
    "liveSince": 1790485096,
    "activeSigs": 0,
    "alerts": 6,
@@ -35,7 +35,7 @@
     {
      "price": 4243.9,
      "side": "bid",
-     "usd": 516022,
+     "usd": 516013,
      "durSec": 600,
      "strength": 1
     },
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
    "cover": 64,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 5,
    "pools": 5,
    "mid": 4278.56,
    "cvd": -6.3,
    "liveSince": 1790485012,
    "activeSigs": 0,
-   "alerts": 7,
+   "alerts": 9,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -87,23 +87,35 @@
      "strength": 1
     },
     {
-     "price": 4306.45,
+     "price": 4306.88,
      "side": "ask",
-     "usd": 215709,
+     "usd": 152851,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.89
     },
     {
      "price": 4251.41,
      "side": "bid",
-     "usd": 144922,
+     "usd": 150262,
      "durSec": 600,
-     "strength": 0.83
+     "strength": 0.89
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790486123886,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4306.45 اتسحبت من الكتاب"
+  },
+  {
+   "t": 1790486123886,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4306.88 · $151k · قوة 0.9"
+  },
   {
    "t": 1790486102876,
    "sym": "XAUTUSDT",
@@ -187,12 +199,12 @@
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 15,
+  "sent": 17,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790486103004,
+  "lastOk": 1790486125261,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790486117000
+ "fetchedAt": 1790486133000
 }
