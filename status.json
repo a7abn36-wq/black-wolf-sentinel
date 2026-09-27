@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-27T10:31:45.848Z",
- "uptimeSec": 15955,
+ "uptimeSec": 16001,
  "ws": true,
- "trades": 3803,
+ "trades": 3889,
  "weight1m": 3000,
- "lastEventAt": 1790521052272,
+ "lastEventAt": 1790521097298,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.3,
    "cover": 48,
-   "cols1": 902,
+   "cols1": 898,
    "cols60": 105,
    "pools": 6,
    "mid": 4277.36,
-   "cvd": -0.7,
+   "cvd": -1.8,
    "liveSince": 1790505203,
    "activeSigs": 0,
    "alerts": 93,
@@ -42,7 +42,7 @@
     {
      "price": 4259.099999999999,
      "side": "bid",
-     "usd": 500870,
+     "usd": 500897,
      "durSec": 600,
      "strength": 1
     },
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
    "cover": 63,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4281.48,
-   "cvd": 162.25,
+   "pools": 4,
+   "mid": 4280.57,
+   "cvd": 155.66,
    "liveSince": 1790505108,
    "activeSigs": 0,
-   "alerts": 76,
+   "alerts": 77,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -82,21 +82,34 @@
     {
      "price": 4318.86,
      "side": "ask",
-     "usd": 501765,
+     "usd": 501586,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4308.78,
      "side": "ask",
-     "usd": 139480,
+     "usd": 135534,
      "durSec": 600,
-     "strength": 0.75
+     "strength": 0.73
+    },
+    {
+     "price": 4263.84,
+     "side": "bid",
+     "usd": 121076,
+     "durSec": 600,
+     "strength": 0.66
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790521097298,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4263.84 · $120k · قوة 0.7"
+  },
   {
    "t": 1790521052272,
    "sym": "XAUTUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4262.16 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1790518704177,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4262.16 · $120k · قوة 0.7"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 170,
+  "sent": 171,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790521052457,
+  "lastOk": 1790521097775,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790521061000
+ "fetchedAt": 1790521107000
 }
