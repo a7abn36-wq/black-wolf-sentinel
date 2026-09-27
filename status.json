@@ -2,18 +2,18 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-26T23:20:58.962Z",
- "uptimeSec": 3160,
+ "uptimeSec": 3371,
  "ws": true,
- "trades": 439,
+ "trades": 480,
  "weight1m": 3000,
- "lastEventAt": 1790468007525,
+ "lastEventAt": 1790468217632,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 46,
-   "cols1": 904,
-   "cols60": 38,
+   "cols1": 901,
+   "cols60": 42,
    "pools": 6,
    "mid": 4279.7,
    "cvd": 1.4,
@@ -23,7 +23,7 @@
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4255.06,
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
-   "cover": 65,
-   "cols1": 904,
-   "cols60": 38,
-   "pools": 6,
+   "cover": 66,
+   "cols1": 901,
+   "cols60": 42,
+   "pools": 5,
    "mid": 4280.3,
-   "cvd": 17.58,
+   "cvd": 17.6,
    "liveSince": 1790464861,
    "activeSigs": 0,
-   "alerts": 22,
+   "alerts": 23,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4241.5199999999995,
@@ -89,21 +89,27 @@
     {
      "price": 4252.2699999999995,
      "side": "bid",
-     "usd": 212636,
+     "usd": 212663,
      "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4307.74,
-     "side": "ask",
-     "usd": 190564,
+     "price": 4263.0199999999995,
+     "side": "bid",
+     "usd": 149706,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.99
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790468217632,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4307.74 اتسحبت من الكتاب"
+  },
   {
    "t": 1790468007525,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4264.31 · $121k · قوة 0.8"
-  },
-  {
-   "t": 1790466904999,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4309.03 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 38,
+  "sent": 39,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790468007733,
+  "lastOk": 1790468218251,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790468019000
+ "fetchedAt": 1790468230000
 }
