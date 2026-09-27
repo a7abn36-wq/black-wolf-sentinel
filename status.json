@@ -2,17 +2,17 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-27T16:07:00.736Z",
- "uptimeSec": 18905,
+ "uptimeSec": 18921,
  "ws": true,
- "trades": 5465,
+ "trades": 5466,
  "weight1m": 3000,
- "lastEventAt": 1790544112077,
+ "lastEventAt": 1790544132093,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
    "cover": 48,
-   "cols1": 899,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
    "mid": 4276.44,
@@ -49,7 +49,7 @@
     {
      "price": 4242.24,
      "side": "bid",
-     "usd": 368659,
+     "usd": 351904,
      "durSec": 600,
      "strength": 1
     }
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.43,
    "cover": 64,
-   "cols1": 896,
+   "cols1": 898,
    "cols60": 105,
-   "pools": 3,
+   "pools": 4,
    "mid": 4279.38,
    "cvd": 58.45,
    "liveSince": 1790525224,
    "activeSigs": 0,
-   "alerts": 101,
+   "alerts": 102,
    "signals": 0,
    "wins": 0,
    "losses": 0,
@@ -89,14 +89,27 @@
     {
      "price": 4263.45,
      "side": "bid",
-     "usd": 151163,
+     "usd": 151162,
      "durSec": 600,
-     "strength": 0.76
+     "strength": 0.78
+    },
+    {
+     "price": 4308.17,
+     "side": "ask",
+     "usd": 123782,
+     "durSec": 600,
+     "strength": 0.63
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790544132093,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4308.17 · $120k · قوة 0.6"
+  },
   {
    "t": 1790544112077,
    "sym": "PAXGUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4269.90 · $124k · قوة 0.8"
-  },
-  {
-   "t": 1790542499309,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4250.88 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 228,
+  "sent": 229,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790544113441,
+  "lastOk": 1790544132426,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790544126000
+ "fetchedAt": 1790544142000
 }
