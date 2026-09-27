@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-27T21:42:21.578Z",
- "uptimeSec": 7422,
+ "uptimeSec": 7468,
  "ws": true,
- "trades": 5569,
+ "trades": 5594,
  "weight1m": 3000,
- "lastEventAt": 1790552761290,
+ "lastEventAt": 1790552796307,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
    "cover": 52,
-   "cols1": 903,
+   "cols1": 905,
    "cols60": 105,
    "pools": 6,
-   "mid": 4257.82,
-   "cvd": -111.5,
+   "mid": 4258.11,
+   "cvd": -110.95,
    "liveSince": 1790545347,
    "activeSigs": 0,
    "alerts": 32,
    "signals": 5,
    "wins": 1,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4246.08,
      "side": "bid",
-     "usd": 970609,
+     "usd": 1066204,
      "durSec": 600,
      "strength": 1
     },
@@ -59,23 +59,30 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
    "cover": 61,
-   "cols1": 904,
+   "cols1": 901,
    "cols60": 105,
-   "pools": 1,
-   "mid": 4260.35,
-   "cvd": -32.39,
+   "pools": 2,
+   "mid": 4260.51,
+   "cvd": -32.85,
    "liveSince": 1790545349,
    "activeSigs": 0,
-   "alerts": 48,
+   "alerts": 49,
    "signals": 4,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
+    {
+     "price": 4223.12,
+     "side": "bid",
+     "usd": 443680,
+     "durSec": 501,
+     "strength": 1
+    },
     {
      "price": 4300.12,
      "side": "ask",
-     "usd": 383200,
+     "usd": 420636,
      "durSec": 600,
      "strength": 1
     }
@@ -83,6 +90,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790552796307,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4223.12 · $441k · قوة 1.0"
+  },
   {
    "t": 1790552761290,
    "sym": "XAUTUSDT",
@@ -196,24 +209,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4263.14"
-  },
-  {
-   "t": 1790550145055,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 جدار شراء مهيمن ±$8 — $2.05M بيد مقابل $510k طلب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 92,
+  "sent": 93,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790552761435,
+  "lastOk": 1790552796645,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790552764000
+ "fetchedAt": 1790552810000
 }
