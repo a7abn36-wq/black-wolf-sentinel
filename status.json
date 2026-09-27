@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-27T21:42:21.578Z",
- "uptimeSec": 3179,
+ "uptimeSec": 3240,
  "ws": true,
- "trades": 2856,
- "weight1m": 3000,
- "lastEventAt": 1790548514205,
+ "trades": 2917,
+ "weight1m": 2950,
+ "lastEventAt": 1790548573234,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
-   "cover": 52,
-   "cols1": 899,
-   "cols60": 39,
+   "cover": 53,
+   "cols1": 900,
+   "cols60": 40,
    "pools": 6,
-   "mid": 4260.1,
-   "cvd": 2.64,
+   "mid": 4259.68,
+   "cvd": 6.32,
    "liveSince": 1790545347,
    "activeSigs": 0,
    "alerts": 6,
@@ -28,28 +28,28 @@
     {
      "price": 4252.16,
      "side": "bid",
-     "usd": 1291506,
+     "usd": 1292473,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4247.68,
      "side": "bid",
-     "usd": 651310,
+     "usd": 657785,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4258.88,
      "side": "bid",
-     "usd": 559986,
+     "usd": 550162,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4242.88,
      "side": "bid",
-     "usd": 482593,
+     "usd": 432663,
      "durSec": 600,
      "strength": 1
     }
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
    "cover": 64,
-   "cols1": 900,
-   "cols60": 39,
-   "pools": 1,
-   "mid": 4264.07,
-   "cvd": -22.01,
+   "cols1": 901,
+   "cols60": 40,
+   "pools": 2,
+   "mid": 4263.01,
+   "cvd": -22.03,
    "liveSince": 1790545349,
    "activeSigs": 0,
-   "alerts": 27,
+   "alerts": 28,
    "signals": 3,
    "wins": 0,
    "losses": 0,
@@ -75,14 +75,27 @@
     {
      "price": 4304.52,
      "side": "ask",
-     "usd": 509990,
+     "usd": 515155,
      "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4227.96,
+     "side": "bid",
+     "usd": 485796,
+     "durSec": 187,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790548573234,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4227.96 · $485k · قوة 1.0"
+  },
   {
    "t": 1790548514205,
    "sym": "PAXGUSDT",
@@ -196,24 +209,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4306.72 · $120k · قوة 0.8"
-  },
-  {
-   "t": 1790546631270,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4309.36 · $500k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 40,
+  "sent": 41,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790548514332,
+  "lastOk": 1790548573355,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790548520000
+ "fetchedAt": 1790548582000
 }
