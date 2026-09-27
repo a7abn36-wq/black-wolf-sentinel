@@ -2,23 +2,23 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-27T21:42:21.578Z",
- "uptimeSec": 4985,
+ "uptimeSec": 5001,
  "ws": true,
- "trades": 4589,
+ "trades": 4600,
  "weight1m": 3000,
- "lastEventAt": 1790550319139,
+ "lastEventAt": 1790550337442,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
    "cover": 50,
-   "cols1": 899,
+   "cols1": 900,
    "cols60": 69,
    "pools": 6,
-   "mid": 4262.72,
-   "cvd": -103.79,
+   "mid": 4263.18,
+   "cvd": -103.39,
    "liveSince": 1790545347,
-   "activeSigs": 1,
+   "activeSigs": 0,
    "alerts": 24,
    "signals": 5,
    "wins": 1,
@@ -28,7 +28,7 @@
     {
      "price": 4252.16,
      "side": "bid",
-     "usd": 1296315,
+     "usd": 1296582,
      "durSec": 600,
      "strength": 1
     },
@@ -42,7 +42,7 @@
     {
      "price": 4247.68,
      "side": "bid",
-     "usd": 500882,
+     "usd": 501875,
      "durSec": 600,
      "strength": 1
     },
@@ -59,11 +59,11 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
    "cover": 60,
-   "cols1": 900,
+   "cols1": 901,
    "cols60": 69,
    "pools": 2,
-   "mid": 4265.4,
-   "cvd": -30.6,
+   "mid": 4265.68,
+   "cvd": -30.58,
    "liveSince": 1790545349,
    "activeSigs": 0,
    "alerts": 42,
@@ -76,20 +76,26 @@
      "price": 4300.56,
      "side": "ask",
      "usd": 500106,
-     "durSec": 600,
+     "durSec": 599,
      "strength": 1
     },
     {
      "price": 4249.96,
      "side": "bid",
-     "usd": 125190,
-     "durSec": 600,
-     "strength": 0.65
+     "usd": 123210,
+     "durSec": 599,
+     "strength": 0.64
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790550337442,
+   "sym": "PAXGUSDT",
+   "kind": "close",
+   "text": "⌛ انتهت صلاحية الإشارة — 🧱 امتصاص جدار LONG @ 4259.02"
+  },
   {
    "t": 1790550319139,
    "sym": "XAUTUSDT",
@@ -203,24 +209,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "⚡ انفجار CVD في دقيقة — بيع صافي $198k"
-  },
-  {
-   "t": 1790549134523,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🧱 امتصاص جدار LONG @ 4259.02 · ستوب 4255.47 · هدف 4266.13"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 77,
+  "sent": 78,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790550319437,
+  "lastOk": 1790550337575,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790550327000
+ "fetchedAt": 1790550343000
 }
