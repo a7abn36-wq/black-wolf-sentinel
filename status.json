@@ -2,40 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-27T10:31:45.848Z",
- "uptimeSec": 19613,
+ "uptimeSec": 19734,
  "ws": true,
- "trades": 5553,
+ "trades": 5700,
  "weight1m": 3000,
- "lastEventAt": 1790524712014,
+ "lastEventAt": 1790524837070,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.3,
    "cover": 48,
-   "cols1": 898,
+   "cols1": 900,
    "cols60": 105,
    "pools": 6,
    "mid": 4277.31,
-   "cvd": -3.07,
+   "cvd": -3.62,
    "liveSince": 1790505203,
    "activeSigs": 0,
    "alerts": 121,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4254.9,
      "side": "bid",
      "usd": 1282092,
-     "durSec": 600,
-     "strength": 1
-    },
-    {
-     "price": 4242.9,
-     "side": "bid",
-     "usd": 500030,
      "durSec": 600,
      "strength": 1
     },
@@ -52,25 +45,32 @@
      "usd": 497147,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4242.9,
+     "side": "bid",
+     "usd": 408722,
+     "durSec": 600,
+     "strength": 1
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.42,
-   "cover": 65,
-   "cols1": 897,
+   "cover": 66,
+   "cols1": 899,
    "cols60": 105,
-   "pools": 6,
-   "mid": 4279.98,
-   "cvd": 221.41,
+   "pools": 5,
+   "mid": 4280.23,
+   "cvd": 226.28,
    "liveSince": 1790505108,
    "activeSigs": 0,
-   "alerts": 103,
+   "alerts": 104,
    "signals": 0,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4241.58,
@@ -89,21 +89,27 @@
     {
      "price": 4308.36,
      "side": "ask",
-     "usd": 209375,
+     "usd": 166003,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.99
     },
     {
      "price": 4252.5,
      "side": "bid",
-     "usd": 206560,
+     "usd": 163750,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.99
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790524837070,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — شراء BID @ 4263.42 اتسحبت من الكتاب"
+  },
   {
    "t": 1790524712014,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — شراء BID @ 4252.50 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1790523251335,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4263.00 · $121k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 225,
+  "sent": 226,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790524713733,
+  "lastOk": 1790524837592,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790524719000
+ "fetchedAt": 1790524840000
 }
