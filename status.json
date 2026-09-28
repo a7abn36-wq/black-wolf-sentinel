@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-28T03:17:49.602Z",
- "uptimeSec": 10623,
+ "uptimeSec": 10639,
  "ws": true,
- "trades": 19017,
+ "trades": 19024,
  "weight1m": 3000,
- "lastEventAt": 1790576086199,
+ "lastEventAt": 1790576096203,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.39,
-   "cover": 60,
-   "cols1": 898,
+   "cover": 61,
+   "cols1": 899,
    "cols60": 105,
    "pools": 6,
-   "mid": 4184.59,
-   "cvd": -85.32,
+   "mid": 4184.7,
+   "cvd": -85.28,
    "liveSince": 1790565479,
    "activeSigs": 0,
    "alerts": 53,
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.47,
    "cover": 72,
-   "cols1": 898,
+   "cols1": 899,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4182.89,
-   "cvd": -934.5,
+   "pools": 4,
+   "mid": 4183.52,
+   "cvd": -934.65,
    "liveSince": 1790565474,
    "activeSigs": 0,
-   "alerts": 101,
+   "alerts": 102,
    "signals": 11,
    "wins": 0,
    "losses": 5,
@@ -75,28 +75,41 @@
     {
      "price": 4224.360000000001,
      "side": "ask",
-     "usd": 467469,
+     "usd": 452226,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4149.16,
      "side": "bid",
-     "usd": 387147,
+     "usd": 374668,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4144.46,
      "side": "bid",
-     "usd": 124570,
+     "usd": 135781,
      "durSec": 600,
-     "strength": 0.78
+     "strength": 0.9
+    },
+    {
+     "price": 4220.13,
+     "side": "ask",
+     "usd": 130140,
+     "durSec": 600,
+     "strength": 0.85
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790576096203,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4220.13 · $122k · قوة 0.8"
+  },
   {
    "t": 1790576086199,
    "sym": "XAUTUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4161.38 · $122k · قوة 0.7"
-  },
-  {
-   "t": 1790575201374,
-   "sym": "XAUTUSDT",
-   "kind": "close",
-   "text": "❌ الستوب ضرب (-1R) — 🧱 امتصاص جدار LONG @ 4188.85"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 185,
+  "sent": 186,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790576086349,
+  "lastOk": 1790576096633,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790576092000
+ "fetchedAt": 1790576109000
 }
