@@ -2,33 +2,33 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-28T03:17:49.602Z",
- "uptimeSec": 9127,
+ "uptimeSec": 9278,
  "ws": true,
- "trades": 14603,
+ "trades": 14855,
  "weight1m": 3000,
- "lastEventAt": 1790574584387,
+ "lastEventAt": 1790574744470,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.39,
    "cover": 60,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
    "pools": 6,
-   "mid": 4187.05,
-   "cvd": -91.4,
+   "mid": 4186.32,
+   "cvd": -99.44,
    "liveSince": 1790565479,
    "activeSigs": 0,
    "alerts": 45,
    "signals": 10,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4168.32,
      "side": "bid",
-     "usd": 654775,
+     "usd": 654806,
      "durSec": 600,
      "strength": 1
     },
@@ -59,37 +59,50 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.47,
    "cover": 70,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 105,
-   "pools": 2,
-   "mid": 4188.03,
-   "cvd": -416.23,
+   "pools": 3,
+   "mid": 4187.7,
+   "cvd": -410.37,
    "liveSince": 1790565474,
    "activeSigs": 1,
-   "alerts": 87,
+   "alerts": 88,
    "signals": 10,
    "wins": 0,
    "losses": 4,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
+    {
+     "price": 4149.16,
+     "side": "bid",
+     "usd": 550778,
+     "durSec": 600,
+     "strength": 1
+    },
     {
      "price": 4224.360000000001,
      "side": "ask",
      "usd": 499987,
-     "durSec": 476,
+     "durSec": 600,
      "strength": 1
     },
     {
-     "price": 4149.16,
+     "price": 4161.38,
      "side": "bid",
-     "usd": 436634,
+     "usd": 120960,
      "durSec": 600,
-     "strength": 1
+     "strength": 0.78
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790574744470,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4161.38 · $121k · قوة 0.8"
+  },
   {
    "t": 1790574584387,
    "sym": "XAUTUSDT",
@@ -203,24 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🧱 امتصاص جدار LONG @ 4190.01 · ستوب 4186.70 · هدف 4196.62"
-  },
-  {
-   "t": 1790573984082,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $168k"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 160,
+  "sent": 161,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790574584742,
+  "lastOk": 1790574744592,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790574596000
+ "fetchedAt": 1790574748000
 }
