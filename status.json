@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-27T21:42:21.578Z",
- "uptimeSec": 16759,
+ "uptimeSec": 16775,
  "ws": true,
- "trades": 27456,
+ "trades": 27460,
  "weight1m": 3000,
- "lastEventAt": 1790562092882,
+ "lastEventAt": 1790562102890,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
-   "cover": 55,
-   "cols1": 900,
+   "cover": 54,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
-   "mid": 4218.98,
-   "cvd": -903.38,
+   "mid": 4218.52,
+   "cvd": -903.22,
    "liveSince": 1790545347,
    "activeSigs": 0,
    "alerts": 91,
@@ -35,7 +35,7 @@
     {
      "price": 4200,
      "side": "bid",
-     "usd": 470184,
+     "usd": 470174,
      "durSec": 600,
      "strength": 1
     },
@@ -59,14 +59,14 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.44,
    "cover": 64,
-   "cols1": 899,
+   "cols1": 900,
    "cols60": 105,
-   "pools": 3,
+   "pools": 4,
    "mid": 4221.23,
-   "cvd": -812.78,
+   "cvd": -812.67,
    "liveSince": 1790545349,
    "activeSigs": 0,
-   "alerts": 154,
+   "alerts": 155,
    "signals": 19,
    "wins": 0,
    "losses": 0,
@@ -82,21 +82,34 @@
     {
      "price": 4259.2,
      "side": "ask",
-     "usd": 387930,
+     "usd": 400513,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4199.8,
      "side": "bid",
-     "usd": 195735,
+     "usd": 195756,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4246.88,
+     "side": "ask",
+     "usd": 122315,
+     "durSec": 600,
+     "strength": 0.88
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790562102890,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4246.88 · $121k · قوة 0.9"
+  },
   {
    "t": 1790562092882,
    "sym": "XAUTUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4183.96 · $156k · قوة 1.0"
-  },
-  {
-   "t": 1790560797224,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4188.80 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 291,
+  "sent": 292,
   "failed": 1,
   "dropped": 0,
-  "lastOk": 1790562093017,
+  "lastOk": 1790562103192,
   "lastErr": "fetch failed",
   "mutedUntil": null
  },
- "fetchedAt": 1790562101000
+ "fetchedAt": 1790562117000
 }
