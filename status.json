@@ -2,24 +2,24 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-28T03:17:49.602Z",
- "uptimeSec": 13672,
+ "uptimeSec": 13703,
  "ws": true,
- "trades": 27249,
+ "trades": 27447,
  "weight1m": 3000,
- "lastEventAt": 1790579134763,
+ "lastEventAt": 1790579167773,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.39,
-   "cover": 61,
-   "cols1": 905,
+   "cover": 63,
+   "cols1": 901,
    "cols60": 105,
    "pools": 6,
-   "mid": 4171.19,
-   "cvd": -125.68,
+   "mid": 4170.68,
+   "cvd": -85.42,
    "liveSince": 1790565479,
    "activeSigs": 0,
-   "alerts": 81,
+   "alerts": 82,
    "signals": 17,
    "wins": 0,
    "losses": 1,
@@ -35,7 +35,14 @@
     {
      "price": 4217.85,
      "side": "ask",
-     "usd": 348621,
+     "usd": 328549,
+     "durSec": 600,
+     "strength": 1
+    },
+    {
+     "price": 4201.08,
+     "side": "ask",
+     "usd": 305575,
      "durSec": 600,
      "strength": 1
     },
@@ -45,25 +52,18 @@
      "usd": 300312,
      "durSec": 600,
      "strength": 1
-    },
-    {
-     "price": 4201.08,
-     "side": "ask",
-     "usd": 287947,
-     "durSec": 600,
-     "strength": 1
     }
    ]
   },
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.47,
-   "cover": 74,
-   "cols1": 905,
+   "cover": 72,
+   "cols1": 901,
    "cols60": 105,
    "pools": 3,
-   "mid": 4170.7,
-   "cvd": -1425.17,
+   "mid": 4169.48,
+   "cvd": -1414.88,
    "liveSince": 1790565474,
    "activeSigs": 0,
    "alerts": 135,
@@ -75,7 +75,7 @@
     {
      "price": 4209.320000000001,
      "side": "ask",
-     "usd": 550921,
+     "usd": 553503,
      "durSec": 600,
      "strength": 1
     },
@@ -89,14 +89,20 @@
     {
      "price": 4154.33,
      "side": "bid",
-     "usd": 122249,
+     "usd": 131817,
      "durSec": 600,
-     "strength": 0.75
+     "strength": 0.83
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790579167773,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — شراء صافي $170k"
+  },
   {
    "t": 1790579134763,
    "sym": "XAUTUSDT",
@@ -210,24 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD LONG @ 4176.63"
-  },
-  {
-   "t": 1790578339374,
-   "sym": "PAXGUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD LONG @ 4178.77"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 257,
+  "sent": 258,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790579135091,
+  "lastOk": 1790579168174,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790579142000
+ "fetchedAt": 1790579173000
 }
