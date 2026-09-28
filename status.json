@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-28T03:17:49.602Z",
- "uptimeSec": 4464,
+ "uptimeSec": 4646,
  "ws": true,
- "trades": 6080,
+ "trades": 6187,
  "weight1m": 3000,
- "lastEventAt": 1790569926026,
+ "lastEventAt": 1790570106108,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.39,
    "cover": 54,
-   "cols1": 900,
-   "cols60": 61,
+   "cols1": 902,
+   "cols60": 64,
    "pools": 6,
-   "mid": 4204.57,
-   "cvd": -42.59,
+   "mid": 4203.18,
+   "cvd": -40.51,
    "liveSince": 1790565479,
    "activeSigs": 0,
    "alerts": 29,
-   "signals": 5,
+   "signals": 6,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4235.01,
@@ -49,7 +49,7 @@
     {
      "price": 4226.43,
      "side": "ask",
-     "usd": 266489,
+     "usd": 298995,
      "durSec": 600,
      "strength": 1
     }
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.47,
-   "cover": 58,
-   "cols1": 901,
-   "cols60": 61,
+   "cover": 60,
+   "cols1": 898,
+   "cols60": 64,
    "pools": 3,
-   "mid": 4205.51,
-   "cvd": -272.57,
+   "mid": 4203.82,
+   "cvd": -274.45,
    "liveSince": 1790565474,
    "activeSigs": 0,
    "alerts": 38,
    "signals": 6,
    "wins": 0,
    "losses": 3,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4167.490000000001,
@@ -89,7 +89,7 @@
     {
      "price": 4190.05,
      "side": "bid",
-     "usd": 296237,
+     "usd": 296372,
      "durSec": 600,
      "strength": 1
     }
@@ -97,6 +97,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790570106108,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4202.23"
+  },
   {
    "t": 1790569926026,
    "sym": "XAUTUSDT",
@@ -210,24 +216,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4218.25 · $121k · قوة 0.7"
-  },
-  {
-   "t": 1790568279147,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4184.88 · $120k · قوة 0.7"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 84,
+  "sent": 85,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790569926337,
+  "lastOk": 1790570106521,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790569934000
+ "fetchedAt": 1790570115000
 }
