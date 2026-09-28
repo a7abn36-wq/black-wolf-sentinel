@@ -2,21 +2,21 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-28T08:53:02.438Z",
- "uptimeSec": 3399,
+ "uptimeSec": 3416,
  "ws": true,
- "trades": 8331,
+ "trades": 8372,
  "weight1m": 3000,
- "lastEventAt": 1790588970125,
+ "lastEventAt": 1790588992138,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.39,
    "cover": 55,
-   "cols1": 901,
+   "cols1": 902,
    "cols60": 42,
    "pools": 6,
    "mid": 4163.45,
-   "cvd": 113.06,
+   "cvd": 113.37,
    "liveSince": 1790585588,
    "activeSigs": 0,
    "alerts": 28,
@@ -43,13 +43,13 @@
      "price": 4188.6,
      "side": "ask",
      "usd": 242111,
-     "durSec": 430,
+     "durSec": 445,
      "strength": 1
     },
     {
      "price": 4149.99,
      "side": "bid",
-     "usd": 230877,
+     "usd": 230349,
      "durSec": 600,
      "strength": 1
     }
@@ -58,16 +58,16 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.53,
-   "cover": 69,
-   "cols1": 898,
+   "cover": 65,
+   "cols1": 899,
    "cols60": 42,
    "pools": 4,
-   "mid": 4159.85,
-   "cvd": -693.53,
+   "mid": 4159.48,
+   "cvd": -713.32,
    "liveSince": 1790585587,
    "activeSigs": 0,
    "alerts": 41,
-   "signals": 6,
+   "signals": 7,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 0,
@@ -82,28 +82,34 @@
     {
      "price": 4190.18,
      "side": "ask",
-     "usd": 297909,
+     "usd": 296604,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4120.22,
      "side": "bid",
-     "usd": 255196,
+     "usd": 269082,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4126.58,
      "side": "bid",
-     "usd": 146130,
+     "usd": 148211,
      "durSec": 600,
-     "strength": 0.73
+     "strength": 0.74
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790588992138,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD SHORT @ 4159.99"
+  },
   {
    "t": 1790588970125,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "close",
    "text": "⌛ انتهت صلاحية الإشارة — 🎣 كسح + استعادة LONG @ 4149.11"
-  },
-  {
-   "t": 1790588215751,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4187.53 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 81,
+  "sent": 82,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790588971727,
+  "lastOk": 1790588992268,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790588982000
+ "fetchedAt": 1790588998000
 }
