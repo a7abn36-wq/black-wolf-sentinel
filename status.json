@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-29T12:50:02.256Z",
- "uptimeSec": 3282,
+ "uptimeSec": 3299,
  "ws": true,
- "trades": 3867,
+ "trades": 3920,
  "weight1m": 3000,
- "lastEventAt": 1790689470930,
+ "lastEventAt": 1790689496946,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 48,
-   "cols1": 899,
+   "cols1": 900,
    "cols60": 40,
    "pools": 6,
-   "mid": 4164.94,
-   "cvd": 7.68,
+   "mid": 4164.93,
+   "cvd": 9.7,
    "liveSince": 1790686204,
    "activeSigs": 0,
    "alerts": 10,
-   "signals": 5,
+   "signals": 6,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4130.75,
@@ -49,7 +49,7 @@
     {
      "price": 4135.09,
      "side": "bid",
-     "usd": 226067,
+     "usd": 226066,
      "durSec": 600,
      "strength": 1
     }
@@ -59,30 +59,30 @@
    "symbol": "XAUTUSDT",
    "bucket": 0.39,
    "cover": 62,
-   "cols1": 902,
+   "cols1": 903,
    "cols60": 40,
    "pools": 2,
-   "mid": 4159.16,
-   "cvd": -126.59,
+   "mid": 4158.95,
+   "cvd": -129.6,
    "liveSince": 1790686205,
    "activeSigs": 0,
    "alerts": 34,
    "signals": 4,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4125.03,
      "side": "bid",
-     "usd": 418989,
+     "usd": 423988,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4200.3,
      "side": "ask",
-     "usd": 409907,
+     "usd": 415252,
      "durSec": 600,
      "strength": 1
     }
@@ -90,6 +90,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790689496946,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4164.43"
+  },
   {
    "t": 1790689470930,
    "sym": "XAUTUSDT",
@@ -203,24 +209,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧹 بيرك انشالت — بيع ASK @ 4192.75 اتسحبت من الكتاب"
-  },
-  {
-   "t": 1790688171294,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4162.06 · $184k · قوة 1.0"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 54,
+  "sent": 55,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790689471339,
+  "lastOk": 1790689497385,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790689485000
+ "fetchedAt": 1790689501000
 }
