@@ -2,24 +2,24 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-29T07:14:43.821Z",
- "uptimeSec": 19572,
+ "uptimeSec": 19784,
  "ws": true,
- "trades": 21567,
+ "trades": 21855,
  "weight1m": 3000,
- "lastEventAt": 1790685647185,
+ "lastEventAt": 1790685868288,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
-   "cover": 48,
-   "cols1": 896,
+   "cover": 49,
+   "cols1": 899,
    "cols60": 105,
    "pools": 6,
-   "mid": 4163.68,
-   "cvd": 552.56,
+   "mid": 4165.68,
+   "cvd": 481.97,
    "liveSince": 1790666109,
    "activeSigs": 0,
-   "alerts": 125,
+   "alerts": 126,
    "signals": 19,
    "wins": 0,
    "losses": 1,
@@ -58,12 +58,12 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 62,
-   "cols1": 898,
+   "cover": 61,
+   "cols1": 900,
    "cols60": 105,
    "pools": 4,
-   "mid": 4157.2,
-   "cvd": -772.5,
+   "mid": 4159.82,
+   "cvd": -770.26,
    "liveSince": 1790666087,
    "activeSigs": 0,
    "alerts": 174,
@@ -75,14 +75,14 @@
     {
      "price": 4120.5,
      "side": "bid",
-     "usd": 500198,
+     "usd": 500452,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4195.12,
      "side": "ask",
-     "usd": 501021,
+     "usd": 500968,
      "durSec": 600,
      "strength": 1
     },
@@ -96,14 +96,20 @@
     {
      "price": 4100,
      "side": "bid",
-     "usd": 181335,
-     "durSec": 600,
+     "usd": 168929,
+     "durSec": 593,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790685868288,
+   "sym": "PAXGUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $160k"
+  },
   {
    "t": 1790685647185,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD SHORT @ 4165.27"
-  },
-  {
-   "t": 1790685045865,
-   "sym": "XAUTUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD SHORT @ 4158.60"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 334,
+  "sent": 335,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790685648759,
+  "lastOk": 1790685868428,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790685656000
+ "fetchedAt": 1790685868000
 }
