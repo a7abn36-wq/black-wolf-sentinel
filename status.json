@@ -2,25 +2,25 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-29T07:14:43.821Z",
- "uptimeSec": 6455,
+ "uptimeSec": 6576,
  "ws": true,
- "trades": 8315,
+ "trades": 8657,
  "weight1m": 3000,
- "lastEventAt": 1790672530487,
+ "lastEventAt": 1790672648538,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
    "cover": 52,
-   "cols1": 902,
-   "cols60": 94,
+   "cols1": 903,
+   "cols60": 96,
    "pools": 6,
    "mid": 4151.99,
-   "cvd": 91.58,
+   "cvd": 121.06,
    "liveSince": 1790666109,
-   "activeSigs": 0,
+   "activeSigs": 1,
    "alerts": 25,
-   "signals": 8,
+   "signals": 9,
    "wins": 0,
    "losses": 0,
    "depthAgeSec": 1,
@@ -35,7 +35,7 @@
     {
      "price": 4152,
      "side": "ask",
-     "usd": 749804,
+     "usd": 720323,
      "durSec": 600,
      "strength": 1
     },
@@ -58,12 +58,12 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 60,
-   "cols1": 903,
-   "cols60": 94,
+   "cover": 59,
+   "cols1": 904,
+   "cols60": 96,
    "pools": 4,
-   "mid": 4145.93,
-   "cvd": -451.63,
+   "mid": 4146.27,
+   "cvd": -455.18,
    "liveSince": 1790666087,
    "activeSigs": 0,
    "alerts": 72,
@@ -75,7 +75,7 @@
     {
      "price": 4107.79,
      "side": "bid",
-     "usd": 500043,
+     "usd": 509842,
      "durSec": 600,
      "strength": 1
     },
@@ -89,7 +89,7 @@
     {
      "price": 4100,
      "side": "bid",
-     "usd": 234839,
+     "usd": 234440,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790672648538,
+   "sym": "PAXGUSDT",
+   "kind": "signal",
+   "text": "🧱 امتصاص جدار SHORT @ 4151.99 · ستوب 4155.32 · هدف 4145.34"
+  },
   {
    "t": 1790672530487,
    "sym": "PAXGUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD LONG @ 4151.18"
-  },
-  {
-   "t": 1790670873627,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4118.45 · $122k · قوة 0.8"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 109,
+  "sent": 110,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790672530900,
+  "lastOk": 1790672648683,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790672539000
+ "fetchedAt": 1790672660000
 }
