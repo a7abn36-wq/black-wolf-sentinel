@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-29T07:14:43.821Z",
- "uptimeSec": 18584,
+ "uptimeSec": 18600,
  "ws": true,
- "trades": 20555,
+ "trades": 20560,
  "weight1m": 3000,
- "lastEventAt": 1790684654673,
+ "lastEventAt": 1790684672672,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
    "cover": 52,
-   "cols1": 903,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
-   "mid": 4160.05,
-   "cvd": 606.93,
+   "mid": 4160.18,
+   "cvd": 607.19,
    "liveSince": 1790666109,
    "activeSigs": 0,
    "alerts": 105,
    "signals": 17,
    "wins": 0,
    "losses": 1,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4136.32,
@@ -58,31 +58,31 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 63,
-   "cols1": 903,
+   "cover": 64,
+   "cols1": 904,
    "cols60": 105,
    "pools": 4,
    "mid": 4153.47,
-   "cvd": -754.68,
+   "cvd": -751.7,
    "liveSince": 1790666087,
    "activeSigs": 0,
    "alerts": 168,
-   "signals": 10,
+   "signals": 11,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4120.5,
      "side": "bid",
-     "usd": 500186,
+     "usd": 488504,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4195.12,
      "side": "ask",
-     "usd": 440799,
+     "usd": 428309,
      "durSec": 600,
      "strength": 1
     },
@@ -96,14 +96,20 @@
     {
      "price": 4100,
      "side": "bid",
-     "usd": 207693,
-     "durSec": 600,
+     "usd": 205659,
+     "durSec": 593,
      "strength": 1
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790684672672,
+   "sym": "XAUTUSDT",
+   "kind": "signal",
+   "text": "🔀 دايفرجنس CVD LONG @ 4153.47"
+  },
   {
    "t": 1790684654673,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "PAXGUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4194.24 · $157k · قوة 1.0"
-  },
-  {
-   "t": 1790684135422,
-   "sym": "XAUTUSDT",
-   "kind": "signal",
-   "text": "🔀 دايفرجنس CVD SHORT @ 4158.89"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 304,
+  "sent": 305,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790684654859,
+  "lastOk": 1790684672996,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790684668000
+ "fetchedAt": 1790684684000
 }
