@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-29T12:50:02.256Z",
- "uptimeSec": 2196,
+ "uptimeSec": 2227,
  "ws": true,
- "trades": 2344,
+ "trades": 2419,
  "weight1m": 3000,
- "lastEventAt": 1790688396400,
+ "lastEventAt": 1790688416407,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
    "cover": 49,
-   "cols1": 904,
-   "cols60": 22,
+   "cols1": 901,
+   "cols60": 23,
    "pools": 6,
-   "mid": 4166.01,
-   "cvd": -3.84,
+   "mid": 4165.8,
+   "cvd": -5.12,
    "liveSince": 1790686204,
    "activeSigs": 0,
    "alerts": 10,
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4130.75,
@@ -42,7 +42,7 @@
     {
      "price": 4139.12,
      "side": "bid",
-     "usd": 300158,
+     "usd": 300156,
      "durSec": 600,
      "strength": 1
     },
@@ -58,31 +58,31 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.39,
-   "cover": 60,
-   "cols1": 905,
-   "cols60": 22,
+   "cover": 59,
+   "cols1": 902,
+   "cols60": 23,
    "pools": 2,
-   "mid": 4160.24,
-   "cvd": -108.22,
+   "mid": 4159.18,
+   "cvd": -122.54,
    "liveSince": 1790686205,
    "activeSigs": 0,
-   "alerts": 23,
+   "alerts": 24,
    "signals": 2,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 1,
+   "depthAgeSec": 0,
    "poolsList": [
     {
      "price": 4199.91,
      "side": "ask",
-     "usd": 545052,
+     "usd": 545055,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4125.03,
      "side": "bid",
-     "usd": 507049,
+     "usd": 506914,
      "durSec": 600,
      "strength": 1
     }
@@ -90,6 +90,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790688416407,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "⚡ انفجار CVD في دقيقة — بيع صافي $168k"
+  },
   {
    "t": 1790688396400,
    "sym": "PAXGUSDT",
@@ -203,24 +209,18 @@
    "sym": "PAXGUSDT",
    "kind": "signal",
    "text": "🔀 دايفرجنس CVD LONG @ 4160.24"
-  },
-  {
-   "t": 1790686636509,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — شراء BID @ 4112.94 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 38,
+  "sent": 39,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790688397833,
+  "lastOk": 1790688416572,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790688398000
+ "fetchedAt": 1790688429000
 }
