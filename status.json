@@ -2,27 +2,27 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-29T07:14:43.821Z",
- "uptimeSec": 8952,
+ "uptimeSec": 9013,
  "ws": true,
- "trades": 11474,
+ "trades": 11524,
  "weight1m": 3000,
- "lastEventAt": 1790675028773,
+ "lastEventAt": 1790675085713,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
-   "cover": 51,
-   "cols1": 903,
+   "cover": 50,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
-   "mid": 4154.73,
-   "cvd": 346,
+   "mid": 4156.05,
+   "cvd": 346.89,
    "liveSince": 1790666109,
-   "activeSigs": 1,
+   "activeSigs": 0,
    "alerts": 41,
    "signals": 11,
    "wins": 0,
-   "losses": 0,
+   "losses": 1,
    "depthAgeSec": 0,
    "poolsList": [
     {
@@ -42,14 +42,14 @@
     {
      "price": 4152.96,
      "side": "ask",
-     "usd": 436570,
-     "durSec": 599,
+     "usd": 433032,
+     "durSec": 539,
      "strength": 1
     },
     {
      "price": 4123.84,
      "side": "bid",
-     "usd": 301280,
+     "usd": 301281,
      "durSec": 600,
      "strength": 1
     }
@@ -58,12 +58,12 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 59,
-   "cols1": 905,
+   "cover": 58,
+   "cols1": 901,
    "cols60": 105,
    "pools": 4,
-   "mid": 4148.85,
-   "cvd": -518.73,
+   "mid": 4149.98,
+   "cvd": -518.17,
    "liveSince": 1790666087,
    "activeSigs": 0,
    "alerts": 82,
@@ -75,21 +75,21 @@
     {
      "price": 4108.610000000001,
      "side": "bid",
-     "usd": 504069,
+     "usd": 497413,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4183.2300000000005,
      "side": "ask",
-     "usd": 500805,
+     "usd": 494149,
      "durSec": 600,
      "strength": 1
     },
     {
      "price": 4100,
      "side": "bid",
-     "usd": 232006,
+     "usd": 231489,
      "durSec": 600,
      "strength": 1
     },
@@ -104,6 +104,12 @@
   }
  },
  "recent": [
+  {
+   "t": 1790675085713,
+   "sym": "PAXGUSDT",
+   "kind": "close",
+   "text": "❌ الستوب ضرب (-1R) — 🧱 امتصاص جدار SHORT @ 4152.99"
+  },
   {
    "t": 1790675028773,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4128.29 · $149k · قوة 0.9"
-  },
-  {
-   "t": 1790673247841,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🎯 السعر بيلمس بيرك بيع ASK @ 4152.96 ($156k) — راقب رد الفعل"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 141,
+  "sent": 142,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790675028933,
+  "lastOk": 1790675086039,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790675035000
+ "fetchedAt": 1790675097000
 }
