@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-29T12:50:02.256Z",
- "uptimeSec": 16455,
+ "uptimeSec": 16697,
  "ws": true,
- "trades": 18673,
+ "trades": 18734,
  "weight1m": 3000,
- "lastEventAt": 1790702651260,
+ "lastEventAt": 1790702887387,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.31,
-   "cover": 56,
-   "cols1": 902,
+   "cover": 55,
+   "cols1": 904,
    "cols60": 105,
    "pools": 6,
-   "mid": 4155.82,
-   "cvd": -102.22,
+   "mid": 4155.91,
+   "cvd": -104.5,
    "liveSince": 1790686204,
    "activeSigs": 0,
    "alerts": 63,
    "signals": 21,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4130.13,
@@ -58,19 +58,19 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.39,
-   "cover": 68,
-   "cols1": 902,
+   "cover": 66,
+   "cols1": 904,
    "cols60": 105,
-   "pools": 5,
-   "mid": 4149.82,
-   "cvd": -295.5,
+   "pools": 4,
+   "mid": 4149.49,
+   "cvd": -297.89,
    "liveSince": 1790686205,
    "activeSigs": 0,
-   "alerts": 130,
+   "alerts": 131,
    "signals": 19,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4111.38,
@@ -94,16 +94,22 @@
      "strength": 1
     },
     {
-     "price": 4175.34,
-     "side": "ask",
-     "usd": 215648,
-     "durSec": 271,
-     "strength": 1
+     "price": 4100.07,
+     "side": "bid",
+     "usd": 139611,
+     "durSec": 406,
+     "strength": 0.93
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790702887387,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧹 بيرك انشالت — بيع ASK @ 4175.34 اتسحبت من الكتاب"
+  },
   {
    "t": 1790702651260,
    "sym": "XAUTUSDT",
@@ -217,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4111.38 · $122k · قوة 0.8"
-  },
-  {
-   "t": 1790700460223,
-   "sym": "PAXGUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4193.99 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
   "queue": 0,
-  "sent": 234,
+  "sent": 235,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790702651520,
+  "lastOk": 1790702887840,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790702657000
+ "fetchedAt": 1790702900000
 }
