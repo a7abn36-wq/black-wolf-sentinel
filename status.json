@@ -2,28 +2,28 @@
  "ok": true,
  "version": "sentinel v1.1",
  "bootAt": "2026-09-29T07:14:43.821Z",
- "uptimeSec": 17620,
+ "uptimeSec": 17817,
  "ws": true,
- "trades": 19687,
+ "trades": 19812,
  "weight1m": 3000,
- "lastEventAt": 1790683704236,
+ "lastEventAt": 1790683889321,
  "symbols": {
   "PAXGUSDT": {
    "symbol": "PAXGUSDT",
    "bucket": 0.32,
    "cover": 49,
-   "cols1": 896,
+   "cols1": 903,
    "cols60": 105,
    "pools": 6,
-   "mid": 4165.02,
-   "cvd": 610.7,
+   "mid": 4163.06,
+   "cvd": 607.08,
    "liveSince": 1790666109,
    "activeSigs": 0,
    "alerts": 99,
    "signals": 16,
    "wins": 0,
    "losses": 1,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4136.32,
@@ -58,24 +58,24 @@
   "XAUTUSDT": {
    "symbol": "XAUTUSDT",
    "bucket": 0.41,
-   "cover": 60,
-   "cols1": 898,
+   "cover": 61,
+   "cols1": 903,
    "cols60": 105,
-   "pools": 3,
-   "mid": 4159.07,
-   "cvd": -690.18,
+   "pools": 4,
+   "mid": 4156.73,
+   "cvd": -710.3,
    "liveSince": 1790666087,
    "activeSigs": 0,
-   "alerts": 155,
+   "alerts": 156,
    "signals": 9,
    "wins": 0,
    "losses": 0,
-   "depthAgeSec": 0,
+   "depthAgeSec": 1,
    "poolsList": [
     {
      "price": 4197.58,
      "side": "ask",
-     "usd": 527877,
+     "usd": 511092,
      "durSec": 600,
      "strength": 1
     },
@@ -92,11 +92,24 @@
      "usd": 210145,
      "durSec": 600,
      "strength": 1
+    },
+    {
+     "price": 4100,
+     "side": "bid",
+     "usd": 171893,
+     "durSec": 598,
+     "strength": 0.95
     }
    ]
   }
  },
  "recent": [
+  {
+   "t": 1790683889321,
+   "sym": "XAUTUSDT",
+   "kind": "alert",
+   "text": "🧱 بيرك سيولة جديدة — شراء BID @ 4100.00 · $169k · قوة 0.9"
+  },
   {
    "t": 1790683704236,
    "sym": "PAXGUSDT",
@@ -210,24 +223,18 @@
    "sym": "XAUTUSDT",
    "kind": "alert",
    "text": "🧱 بيرك سيولة جديدة — بيع ASK @ 4194.71 · $164k · قوة 0.9"
-  },
-  {
-   "t": 1790682942840,
-   "sym": "XAUTUSDT",
-   "kind": "alert",
-   "text": "🧹 بيرك انشالت — بيع ASK @ 4194.71 اتسحبت من الكتاب"
   }
  ],
  "tg": {
   "configured": true,
   "dryRun": false,
-  "queue": 1,
-  "sent": 281,
+  "queue": 0,
+  "sent": 284,
   "failed": 0,
   "dropped": 0,
-  "lastOk": 1790683700683,
+  "lastOk": 1790683889529,
   "lastErr": "",
   "mutedUntil": null
  },
- "fetchedAt": 1790683704000
+ "fetchedAt": 1790683901000
 }
